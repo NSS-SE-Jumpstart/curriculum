@@ -3,6 +3,7 @@ import os
 import random
 
 MAX_INCORRECT = 8
+WORD_FILE = "easy_words.txt"
 
 def main():
     word = pick_word()
@@ -40,19 +41,13 @@ def clear_screen():
 
 
 def pick_word():
-    words = [
-        "apple",
-        "banana",
-        "pear",
-        "orange",
-        "lemon",
-        "monkey",
-        "deer",
-        "buffalo",
-        "eagle",
-        "ant",
-    ]
-    return random.choice(words)
+    with open(WORD_FILE) as word_file:
+        words = word_file.readlines()
+
+    word = random.choice(words)
+    word = word.strip()
+
+    return word
 
 
 def get_letter():
