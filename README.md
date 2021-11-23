@@ -8,3 +8,9 @@ In this course you'll begin your coding journey. It will be a long trip with man
 
 1. [Installing Software](./lessons/installations.md)
 1. [Jumpstart Project - Clothesline](./lessons/clothesline.md)
+1. [What is code, anyway?](./lessons/what_is_code.md)
+1. Exercise - Hello, World!
+1. Exercise - Hello, Name!
+1. 
+
+
