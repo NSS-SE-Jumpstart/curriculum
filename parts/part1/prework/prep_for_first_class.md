@@ -12,6 +12,8 @@ Slack is a text-based, instant messaging application similar to Facebook Messeng
 
 You can download and install Slack from this website: https://slack.com/downloads/
 
+--_**MORE INFO ABOUT HOW TO USE SLACK**_--
+
 ## Install Zoom
 
 Zoom is popular video conferencing software. We use Zoom to host remote classrooms.
