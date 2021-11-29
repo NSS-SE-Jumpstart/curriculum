@@ -2,6 +2,12 @@
 
 # WIP
 
+## Learning objectives
+
+* Printing
+* calling functions
+* strings
+
 As we discussed in [What is code, anyway](../prework/what_is_code.md), software is made by stringing together words and symbols in a particular programming language. In short it's written in code.
 
 Here's the simplest possible Python program:

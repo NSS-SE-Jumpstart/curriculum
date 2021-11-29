@@ -32,11 +32,8 @@ This course is divided into nine parts with one part per class session.
 
 1. [Installing Software](./parts/part1/classroom/installations.md)
 1. [Jumpstart Project - Clothesline](./parts/part1/classroom/clothesline.md)
-1. Introduction to Coding Tools
-1. Exercise - Hello, World!
-    * Printing
-    * calling functions
-    * strings
+1. [Introduction to Coding Tools](./parts/part1/prework/course_intro.md)
+1. [Let's write some code](./parts/part1/classroom/hello_world.md)
 1. Exercise - Hello, Name!
     * variables
     * if
