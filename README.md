@@ -22,7 +22,7 @@ This course is divided into nine parts with one part per class session.
 
 ### Before Class
 
-1. Course Introduction
+1. [Course Introduction](./parts/part1/prework/course_intro.md)
 1. [What is code, anyway?](./parts/part1/prework/what_is_code.md)
 1. [Preparing for class](./parts/part1/prework/prep_for_first_class.md)
 
