@@ -1,5 +1,7 @@
 # Course Introduction
 
+# WIP
+
 * Describe the goals of the course
   * List main learning outcomes
   * Link to list of learning objectives

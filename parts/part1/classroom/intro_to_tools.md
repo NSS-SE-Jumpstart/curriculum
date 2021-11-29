@@ -1,5 +1,7 @@
 # Coding Tools
 
+# WIP
+
 * command line / terminal
   * what is is
   * how to start it on various OSes

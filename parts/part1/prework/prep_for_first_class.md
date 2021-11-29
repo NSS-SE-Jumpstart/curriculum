@@ -1,5 +1,7 @@
 # Preparing for the First Class
 
+# WIP
+
 ## Setting up your computer
 
 Prior to the first class session you will need to do a few things to prepare your computer.
