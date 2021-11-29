@@ -24,7 +24,7 @@ This course is divided into nine parts with one part per class session.
 
 1. Course Introduction
 1. [What is code, anyway?](./parts/part1/prework/what_is_code.md)
-1. Preparing for class
+1. [Preparing for class](./parts/part1/prework/prep_for_first_class.md)
 
 ### During Class (6 Hours)
 
