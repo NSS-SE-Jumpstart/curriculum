@@ -1,5 +1,15 @@
 # Installing Software for the Class
 
+# WIP
+
+## Windows Terminal (Windows PCs Only)
+
+If you are using Windows you'll need to install the Windows Terminal application.
+
+--_**I guess we should use powershell in windows since it has aliases for some simple unit commands and it's the default shell for windows terminal**_--
+
+--_**we need to write instructions for installing it here. I think the official docs are to complex**_--
+
 Instructions for installing the following tools can be found [here](https://docs.microsoft.com/en-us/learn/modules/python-install-vscode/) or you can find direct links below.
 
 ## Python
