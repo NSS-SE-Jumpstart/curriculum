@@ -5,22 +5,23 @@ import random
 MAX_INCORRECT = 8
 WORD_FILE = "easy_words.txt"
 
+
 def main():
     word = pick_word()
-    guess = "_" * len(word)
-    incorect_count = 0
+    guess = "-" * len(word)
+    incorrect_count = 0
 
-    while incorect_count < MAX_INCORRECT and word != guess:
-        print_screen(incorect_count, guess)
+    while incorrect_count < MAX_INCORRECT and word != guess:
+        print_screen(incorrect_count, guess)
 
         letter = get_letter()
 
-        if is_guess_correct(letter, word):
+        if is_letter_in_word(letter, word):
             guess = update_guess(guess, letter, word)
         else:
-            incorect_count += 1
+            incorrect_count += 1
 
-    print_screen(incorect_count, guess)
+    print_screen(incorrect_count, guess)
     print(f"The word was {word}\n")
 
     if word == guess:
@@ -29,14 +30,13 @@ def main():
         print("You Lose!")
 
 
-def print_screen(incorect_count, guess):
+def print_screen(incorrect_count, guess):
     clear_screen()
-    print_clothesline(incorect_count)
+    print_clothesline(incorrect_count)
     print(f"\n{guess}\n")
 
 
 def clear_screen():
-    #os.system("clear")
     print("\033[H\033[J", end="")
 
 
@@ -51,27 +51,28 @@ def pick_word():
 
 
 def get_letter():
+    print("Guess a letter...if you dare!")
     user_input = input("> ")
     return user_input[0]
 
 
-def is_guess_correct(letter, word):
+def is_letter_in_word(letter, word):
     return letter in word
 
 
-def update_guess(guess, letter,  word):
+def update_guess(old_guess, letter,  word):
     new_guess = ""
-    for i in range(len(guess)):
+    for i in range(len(old_guess)):
         if word[i] == letter:
-            new_guess += letter
+            new_guess = new_guess + letter
         else:
-            new_guess += guess[i]
+            new_guess = new_guess + old_guess[i]
 
     return new_guess
 
 
-def print_clothesline(incorect_count):
-    if MAX_INCORRECT - incorect_count == 8:
+def print_clothesline(incorrect_count):
+    if MAX_INCORRECT - incorrect_count == 8:
         clothesline = r"""
 =====!=====!=======!=====!=======!=====!=======!=====!=====
     /'''V'''\     /'''V'''\     /'''V'''\     /'''V'''\
@@ -81,7 +82,7 @@ def print_clothesline(incorect_count):
      |     |       |     |       |     |       |     |
      ```````       ```````       ```````       ```````
 """
-    elif MAX_INCORRECT - incorect_count == 7:
+    elif MAX_INCORRECT - incorrect_count == 7:
         clothesline = r"""
 =====!=====!=======!=====!=======!=====!=======!======
     /'''V'''\     /'''V'''\     /'''V'''\     /'\
@@ -92,7 +93,7 @@ def print_clothesline(incorect_count):
      ```````       ```````       ```````      `-._|
 """
 
-    elif MAX_INCORRECT - incorect_count == 6:
+    elif MAX_INCORRECT - incorrect_count == 6:
         clothesline = r"""
 =====!=====!=======!=====!=======!=====!==============
     /'''V'''\     /'''V'''\     /'''V'''\
@@ -102,7 +103,7 @@ def print_clothesline(incorect_count):
      |     |       |     |       |     |
      ```````       ```````       ```````
 """
-    elif MAX_INCORRECT - incorect_count == 5:
+    elif MAX_INCORRECT - incorrect_count == 5:
         clothesline = r"""
 =====!=====!=======!=====!=======!====================
     /'''V'''\     /'''V'''\     /'\
@@ -112,7 +113,7 @@ def print_clothesline(incorect_count):
      |     |       |     |      |   |
      ```````       ```````      `-._|
 """
-    elif MAX_INCORRECT - incorect_count == 4:
+    elif MAX_INCORRECT - incorrect_count == 4:
         clothesline = r"""
 =====!=====!=======!=====!============================
     /'''V'''\     /'''V'''\
@@ -122,7 +123,7 @@ def print_clothesline(incorect_count):
      |     |       |     |
      ```````       ```````
 """
-    elif MAX_INCORRECT - incorect_count == 3:
+    elif MAX_INCORRECT - incorrect_count == 3:
         clothesline = r"""
 =====!=====!=======!==================================
     /'''V'''\     /'\
@@ -132,7 +133,7 @@ def print_clothesline(incorect_count):
      |     |      |   |
      ```````      `-._|
 """
-    elif MAX_INCORRECT - incorect_count == 2:
+    elif MAX_INCORRECT - incorrect_count == 2:
         clothesline = r"""
 =====!=====!==========================================
     /'''V'''\
@@ -142,7 +143,7 @@ def print_clothesline(incorect_count):
      |     |
      ```````
 """
-    elif MAX_INCORRECT - incorect_count == 1:
+    elif MAX_INCORRECT - incorrect_count == 1:
         clothesline = r"""
 =====!================================================
     /'\
