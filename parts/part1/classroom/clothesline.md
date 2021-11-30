@@ -163,7 +163,7 @@ Use the return value from the `is_letter_in_word` function to print a message in
 
 <details>
 
-<summary>Click here to see an example of calling `is_letter_in_word`</summary>
+<summary><b>Click here to see an example of calling <code>is_letter_in_word</code></b></summary>
 
 ```python
 # ...  other code ...
@@ -192,3 +192,16 @@ Add a `while` loop to the `main` function. The loop should continue as long as `
 In order to make the loop stop you'll need to add `1` to the `incorrect_count` variable each time the user guesses incorrectly. Write the code to do that now. Make sure to test your program.
 
 > **NOTE:** Adding `1` to a number is so common in programming that it has a special name. We call it "incrementing". We also use the word "decrementing" for subtracting `1` .
+
+### Phase Ten
+
+Let's take a step closer to displaying our clothesline ASCII art. We won't draw the beautiful picture just yet, but we'll set the stage.
+
+Create a new function called `print_clothesline` that takes the `incorrect_count` as a parameter. For now this function should just print a message that tells the user how many incorrect guesses they have left. The should start with eight (`8`) changes and lose one for each incorrect guess.
+
+Add a call to `print_clothesline` to the top of the `while` loop so that it is displayed each time the user enters a letter.
+
+### Phase Eleven
+
+Things are getting messy again. Move the call to `clear_screen` so that it will clear the screen before prompting the user to enter a letter. In addition to the prompt, make sure that the number of remaining chances and the row of dashes are visible.
+
