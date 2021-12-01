@@ -405,4 +405,4 @@ def update_guess(old_guess, letter,  word):
     return new_guess
 ```
 
-<details>
+</details>
