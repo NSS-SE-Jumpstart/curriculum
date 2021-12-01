@@ -82,7 +82,7 @@ Print a message that displays the secret word and it's length.
 
 ### Phase Four
 
-In this phase we need to create the "blanks" that the player will fill in when they make a correct guess. We want to display an individual dash character (`-`) for each letter in the `secret_word`.
+In this phase you need to create the "blanks" that the player will fill in when they make a correct guess. You want to display an individual dash character (`-`) for each letter in the `secret_word`.
 
 For example if the secret word is "apple", the program should print five dashes, `-----`. If the word is "pear", the program should print four dashes, `----`.
 
@@ -117,9 +117,9 @@ First, remove all the extraneous `print()` calls. The only things that should be
 
 > **NOTE:** This is a good time to remind you that you can run your program whenever you think it would be helpful. You don't have to wait until the end of a phase.
 
-Next, move your code into a `main` function. We'll be adding several functions as we continue to build Clothesline, but for now we only need one. Create a function called `main` and move your code into it. Don't forget to indent the code inside the new function.
+Next, move your code into a `main` function. You'll be adding several functions as you continue to build Clothesline, but for now you only need one. Create a function called `main` and move your code into it. Don't forget to indent the code inside the new function.
 
-If you run the program now, with the code all neatly nestled inside the `main` function, you might be surprised to find that nothing happens. Why? Well, recall that a function will only run when it's _called_. So in order to make our code run we need to add a line that calls the `main()` function. Add this code to the bottom of the file.
+If you run the program now, with the code all neatly nestled inside the `main` function, you might be surprised to find that nothing happens. Why? Well, recall that a function will only run when it's _called_. So in order to make your code run you need to add a line that calls the `main()` function. Add this code to the bottom of the file.
 
 After you complete the changes, you're `clothesline.py` file should look something like this:
 
@@ -138,7 +138,7 @@ main()
 
 As you run and rerun your program, you've surely noticed how messy your terminal window is becoming. It's distracting to see the output from previous runs. And if it's distracting for us, just imagine how a player will feel. Clothesline is supposed to be a fun game, so it's best not to irritate the player.
 
-What can we do about it? Why not clear the terminal window each time the game starts? That way the user will only see the current iteration of the game.
+What can you do about it? Why not clear the terminal window each time the game starts? That way the user will only see the current iteration of the game.
 
 It turns out that clearing the screen in Python code isn't as straightforward as you might expect it to be, so just this once, we're going to provide you with the code to do it. Copy this function into your `clothesline.py` file.
 
@@ -153,7 +153,7 @@ Add a call to `clear_screen()` to the top of the `main` function. Now every time
 
 ### Phase Eight
 
-In the `main` function, create a variable called `incorrect_count` and assign it to be the number `0`. We'll use this variable to keep track of how many times the user makes a bad guess.
+In the `main` function, create a variable called `incorrect_count` and assign it to be the number `0`. You'll use this variable to keep track of how many times the user makes a bad guess.
 
 To determine if the user's guess is correct or not, create a function called `is_letter_in_word` that should accept two parameters, `letter` and `word`. The function should return `True` if the `letter` is in the `word` and `False` if the `letter` is not in the `word`.
 
@@ -185,7 +185,7 @@ else:
 
 ### Phase Nine
 
-Unless the secret word is very short, letting the user only guess one letter isn't going to work very well. Instead, we need to repeatedly ask the user for guesses. And what do we use when we want to do something more than once in our code? That's right, a loop.
+Unless the secret word is very short, letting the user only guess one letter isn't going to work very well. Instead, you need to repeatedly ask the user for guesses. And what do you use when you want to do something more than once in our code? That's right, a loop.
 
 Add a `while` loop to the `main` function. The loop should continue as long as `incorrect_count < 8`. Move the code that prompts the user, checks the guess and prints the result into the body of the `while` loop, remembering to indent properly.
 
@@ -195,7 +195,7 @@ In order to make the loop stop you'll need to add `1` to the `incorrect_count` v
 
 ### Phase Ten
 
-Let's take a step closer to displaying our clothesline ASCII art. We won't draw the beautiful picture just yet, but we'll set the stage.
+Let's take a step closer to displaying our clothesline ASCII art. Sadly, you won't get to draw the beautiful picture just yet, but you'll set the stage.
 
 Create a new function called `print_clothesline` that takes the `incorrect_count` as a parameter. For now this function should just print a message that tells the user how many incorrect guesses they have left. The should start with eight (`8`) changes and lose one for each incorrect guess.
 
@@ -413,7 +413,7 @@ Take a look at what you've built. You've almost got a working game. In fact, it 
 
 One thing it doesn't (yet) do is end when the player wins. Let's fix that.
 
-How do we know if the player has won? In the previous phase you added code to update the `guess` variable each time the user enters a correct letter. Each correct letter brings the value of the `guess` variable more inline with the value of the `secret_word` variable.  So, when has the user won the game? When the `guess` and `secret_word` variables are equal.
+How do you know if the player has won? In the previous phase you added code to update the `guess` variable each time the user enters a correct letter. Each correct letter brings the value of the `guess` variable more inline with the value of the `secret_word` variable.  So, when has the user won the game? When the `guess` and `secret_word` variables are equal.
 
 Add code to the `while` loop to ensure it loops when the user hasn't run out of chances and the `guess` variable is not equal to the `secret_word` variable. If should stop looping if the user runs out of chances or they guess every letter in the secret word.
 
@@ -457,4 +457,4 @@ clothespin = r"""
 """
 ```
 
-> **NOTE:** It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
+> **NOTE:** It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to have nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
