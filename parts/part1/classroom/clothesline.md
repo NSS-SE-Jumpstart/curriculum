@@ -391,7 +391,7 @@ _But it's ok if it's too much._
 ...
 
 <details>
-<summary><b>Click here to see an implementation of the <code>update_guess</code> function<b></summary>
+<summary><b>Click here to see an implementation of the <code>update_guess</code> function</b></summary>
 
 ```python
 def update_guess(old_guess, letter,  word):
@@ -406,3 +406,55 @@ def update_guess(old_guess, letter,  word):
 ```
 
 </details>
+
+### Phase Thirteen
+
+Take a look at what you've built. You've almost got a working game. In fact, it does nearly everything it needs to do and, even now, it's playable.
+
+One thing it doesn't (yet) do is end when the player wins. Let's fix that.
+
+How do we know if the player has won? In the previous phase you added code to update the `guess` variable each time the user enters a correct letter. Each correct letter brings the value of the `guess` variable more inline with the value of the `secret_word` variable.  So, when has the user won the game? When the `guess` and `secret_word` variables are equal.
+
+Add code to the `while` loop to ensure it loops when the user hasn't run out of chances and the `guess` variable is not equal to the `secret_word` variable. If should stop looping if the user runs out of chances or they guess every letter in the secret word.
+
+### Phase Fourteen
+
+Right now your program prints a message after the user enters a letter. This message lets the user know if they guessed correctly or not. This seems unnecessary now that your are updating the `guess` variable and displaying it's value each time through the `while` loop. Remove the code that displays the message.
+
+In the previous phase you changed your program to end when a player wins or loses, but there is no "You Win" or "You Lose" message being displayed. Add code after the `while` loop that determines whether or not the user won and prints the appropriate message.
+
+### Phase Fifteen
+
+It's finally time to add the clothesline to our `clothesline.py` program.
+
+Update the `print_clothesline` function to print the appropriate clothesline "image".  Your code should use the `incorrect_count` parameter to determine the "image" do display. For example if the value of `incorrect_count` is `0`, you should print a clothesline with four shirts and eight clothespins. If `incorrect_count` is `1`, you should print a clothesline with the last clothespin removed.
+
+Here's a snippet of code that creates a `clothesline` variable with all four shirts and all eight clothespins.
+
+```python
+clothesline = r"""
+=====!=====!=======!=====!=======!=====!=======!=====!=====
+    /'''V'''\     /'''V'''\     /'''V'''\     /'''V'''\
+   /         \   /         \   /         \   /         \
+  '-"|     |"-' '-"|     |"-' '-"|     |"-' '-"|     |"-'
+     |     |       |     |       |     |       |     |
+     |     |       |     |       |     |       |     |
+     ```````       ```````       ```````       ```````
+"""
+```
+
+Here's a snippet of code that creates a `clothesline` variable with the right-most clothespin removed.
+
+```python
+clothespin = r"""
+=====!=====!=======!=====!=======!=====!=======!======
+    /'''V'''\     /'''V'''\     /'''V'''\     /'\
+   /         \   /         \   /         \   /   .\
+  '-"|     |"-' '-"|     |"-' '-"|     |"-'  '|  ='
+     |     |       |     |       |     |      |   |
+     |     |       |     |       |     |      |   |
+     ```````       ```````       ```````      `-._|
+"""
+```
+
+> **NOTE:** It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
