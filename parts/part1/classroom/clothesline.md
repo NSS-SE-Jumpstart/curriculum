@@ -396,11 +396,11 @@ _But it's ok if it's too much._
 ```python
 def update_guess(old_guess, letter,  word):
     new_guess = ""
-    for i in range(len(old_guess)):
-        if word[i] == letter:
+    for index in range(len(old_guess)):
+        if word[index] == letter:
             new_guess = new_guess + letter
         else:
-            new_guess = new_guess + old_guess[i]
+            new_guess = new_guess + old_guess[index]
 
     return new_guess
 ```
