@@ -2,7 +2,7 @@
 
 # WIP
 
-Brainstorming 
+## Brainstorming a plan...
 
 prior to this do an intro the the command line
 
@@ -24,4 +24,24 @@ It's value us the price - integers only
 Print a few individual variables 
 Do addition using variables
 It's so much more clear now what these numbers mean!
+
+Eventually we make a list with the variables
+A shopping list
+Print shopping liat
+Show len() and sum() of shopping list
+
+Switch to strings
+Write code to pick a restaurant for you and your friends
+List of restaurant names
+Print list
+Get a particular restaurant by index
+Choose a random restaurant with random.choice()
+Join restaurant names with a ", "
+
+
+
+## Random thoughts
+
+Is it possible to play sounds from the repl?
+Would have to work cross-platform
 
