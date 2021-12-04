@@ -45,3 +45,8 @@ Join restaurant names with a ", "
 Is it possible to play sounds from the repl?
 Would have to work cross-platform
 
+
+An instult generator - https://www.surrealists.co.uk/insult
+
+We can give them a function to paste into the repl. 
+It should do something fun 
