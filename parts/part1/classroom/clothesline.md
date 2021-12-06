@@ -113,7 +113,7 @@ Finally, print the value of the `letter` variable just to ensure everything is w
 
 At this point our code is a bit messy. Let's clean it up.
 
-First, remove all the extraneous `print()` calls. The only things that should be printed to the screen are the dashes and the prompt that asks the user to enter a letter.
+First, remove all the extraneous `print()` calls. Also remove any variables that you're no longer using, such as the `message` variable. The only things that should be printed to the screen are the dashes and the prompt that asks the user to enter a letter.
 
 > **NOTE:** This is a good time to remind you that you can run your program whenever you think it would be helpful. You don't have to wait until the end of a phase.
 
@@ -161,10 +161,9 @@ Add code to the `main` function to call the `is_letter_in_word` function below t
 
 Use the return value from the `is_letter_in_word` function to print a message informing the user if they guess correctly or not.
 
-<blockquote>
 <details>
 
-<summary><b><em>Click here to see an example of calling <code>is_letter_in_word</code></em></b></summary>
+<summary><b>&#128161; Click here to see an example of calling <code>is_letter_in_word</code> &#128161;</b></summary>
 
 ```python
 # ...other code omitted...
@@ -183,7 +182,6 @@ else:
 ```
 
 </details>
-</blockquote>
 
 ### Phase Nine
 
@@ -392,9 +390,8 @@ _But it's ok if it's too much._
 
 ...
 
-<blockquote>
 <details>
-<summary><b><em>Click here to see an implementation of the <code>update_guess</code> function</em></b></summary>
+<summary><b>&#128273; Click here to see an implementation of the <code>update_guess</code> function &#128273;</b></summary>
 
 ```python
 def update_guess(old_guess, letter,  word):
@@ -409,7 +406,6 @@ def update_guess(old_guess, letter,  word):
 ```
 
 </details>
-</blockquote>
 
 ### Phase Thirteen
 
@@ -485,9 +481,8 @@ Now return to the `main` function and change the code that sets the `secret_word
 
 After making these changes, you should get a new secret word each time you run the program.
 
-<blockquote>
 <details>
-<summary><b><em>Click here to see an implementation of <code>pick_secret_word</code></em></b></summary>
+<summary><b>&#128276 Click here to see an implementation of <code>pick_secret_word</code> &#128276</b></summary>
 
 ```python
 import random
@@ -501,11 +496,9 @@ def pick_secret_word():
 ```
 
 </details>
-</blockquote>
 
-<blockquote>
 <details>
-<summary><b><em>Click here to see an example of calling <code>pick_secret_word()</code></b></em></summary>
+<summary><b>Click here to see an example of calling <code>pick_secret_word()</code></b></summary>
 
 ```python
 def main():
@@ -516,4 +509,3 @@ def main():
     # ...other code omitted...
 ```
 </details>
-</blockquote>
