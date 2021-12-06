@@ -161,12 +161,13 @@ Add code to the `main` function to call the `is_letter_in_word` function below t
 
 Use the return value from the `is_letter_in_word` function to print a message informing the user if they guess correctly or not.
 
+<blockquote>
 <details>
 
-<summary><b>Click here to see an example of calling <code>is_letter_in_word</code></b></summary>
+<summary><b><em>Click here to see an example of calling <code>is_letter_in_word</code></em></b></summary>
 
 ```python
-# ...  other code ...
+# ...other code omitted...
 
 print("Guess a letter...if you dare!")
 letter = input("> ")
@@ -178,10 +179,11 @@ if is_correct == True:
 else:
     print("You're terrible at guessing.")
 
-# ...  other code ...
+# ...other code omitted...
 ```
 
 </details>
+</blockquote>
 
 ### Phase Nine
 
@@ -390,8 +392,9 @@ _But it's ok if it's too much._
 
 ...
 
+<blockquote>
 <details>
-<summary><b>Click here to see an implementation of the <code>update_guess</code> function</b></summary>
+<summary><b><em>Click here to see an implementation of the <code>update_guess</code> function</em></b></summary>
 
 ```python
 def update_guess(old_guess, letter,  word):
@@ -406,6 +409,7 @@ def update_guess(old_guess, letter,  word):
 ```
 
 </details>
+</blockquote>
 
 ### Phase Thirteen
 
@@ -481,8 +485,9 @@ Now return to the `main` function and change the code that sets the `secret_word
 
 After making these changes, you should get a new secret word each time you run the program.
 
+<blockquote>
 <details>
-<summary><b>Click here to see an implementation of <code>pick_secret_word</code></b></summary>
+<summary><b><em>Click here to see an implementation of <code>pick_secret_word</code></em></b></summary>
 
 ```python
 import random
@@ -496,9 +501,11 @@ def pick_secret_word():
 ```
 
 </details>
+</blockquote>
 
+<blockquote>
 <details>
-<summary><b>Click here to see an example of calling <code>pick_secret_word()</code></b></summary>
+<summary><b><em>Click here to see an example of calling <code>pick_secret_word()</code></b></em></summary>
 
 ```python
 def main():
@@ -509,3 +516,4 @@ def main():
     # ...other code omitted...
 ```
 </details>
+</blockquote>
