@@ -469,8 +469,43 @@ Still, though, you should be proud. Seriously.
 
 ### Phase Seventeen
 
-The game works. It works well. It's great. As long as the secret word is "apple"...
+The game works. It's great. As long as the secret word is "apple"...
 
-Way back at the beginning of this project, you created a variable called `secret_word` and set it's value to the string `"apple"`. As you've tested you may have changed the value to another word, but each time you run the program, you know what the word is. Where's the fun in that?
+Way back at the beginning of this project, you created a variable called `secret_word` and set its value to the string `"apple"`. As you've tested you may have changed the value to another word, but each time you run the program, you know what the word is. Where's the fun in that?
 
-Create a new function called `pick_secret_word` that will return a secret word. 
+Create a new function called `pick_secret_word` that will return a secret word. Inside `pick_secret_word` create a new `list` called `secret_word_options`. Set `secret_word_options` to be a list of words. Five or six words is plenty for now. Feel free to come up with your own or you can use these: `["apple", "pear", "banana", "grape", "scorpion", "umbrella"]`.
+
+The next step is to write code to choose a random item from the list to be the secret word. For this you'll use a function that's built into Python called [random.choice](https://www.w3schools.com/python/ref_random_choice.asp). At the top of your Python file import that `random` module. Then, inside the `pick_secret_word` function, call the `random.choice()` function passing the `secret_word_options` list as an argument. Save the result of calling `random.choice()` in a variable called `random_secret_word` and the return `random_secret_word` from the `pick_secret_word` function.
+
+Now return to the `main` function and change the code that sets the `secret_word` variable so that it calls the `pick_secret_word` function and sets `secret_word` to the value that `pick_secret_word` returns.
+
+After making these changes, you should get a new secret word each time you run the program.
+
+<details>
+<summary><b>Click here to see an implementation of <code>pick_secret_word</code></b></summary>
+
+```python
+import random
+
+# ...other code omitted...
+
+def pick_secret_word():
+    secret_word_options = ["apple", "pear", "banana", "grape", "scorpion", "umbrella"]
+    random_secret_word = random.choice(secret_word_options)
+    return random_secret_word
+```
+
+</details>
+
+<details>
+<summary><b>Click here to see an example of calling <code>pick_secret_word()</code></b></summary>
+
+```python
+def main():
+    # ...other code omitted...
+
+    secret_word = pick_secret_word()
+
+    # ...other code omitted...
+```
+</details>
