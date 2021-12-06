@@ -163,7 +163,7 @@ Use the return value from the `is_letter_in_word` function to print a message in
 
 <details>
 
-<summary><b>&#128161; Click here to see an example of calling <code>is_letter_in_word</code> &#128161;</b></summary>
+<summary><b>&#128276; Click here to see an example of calling <code>is_letter_in_word</code> &#128276;</b></summary>
 
 ```python
 # ...other code omitted...
@@ -391,7 +391,7 @@ _But it's ok if it's too much._
 ...
 
 <details>
-<summary><b>&#128273; Click here to see an implementation of the <code>update_guess</code> function &#128273;</b></summary>
+<summary><b>&#128276; Click here to see an implementation of the <code>update_guess</code> function &#128276;</b></summary>
 
 ```python
 def update_guess(old_guess, letter,  word):
@@ -482,7 +482,7 @@ Now return to the `main` function and change the code that sets the `secret_word
 After making these changes, you should get a new secret word each time you run the program.
 
 <details>
-<summary><b>&#128276 Click here to see an implementation of <code>pick_secret_word</code> &#128276</b></summary>
+<summary><b>&#128276; Click here to see an implementation of <code>pick_secret_word</code> &#128276;</b></summary>
 
 ```python
 import random
@@ -498,7 +498,7 @@ def pick_secret_word():
 </details>
 
 <details>
-<summary><b>Click here to see an example of calling <code>pick_secret_word()</code></b></summary>
+<summary><b>&#128276; Click here to see an example of calling <code>pick_secret_word()</code> &#128276;</b></summary>
 
 ```python
 def main():
