@@ -458,3 +458,19 @@ clothespin = r"""
 ```
 
 > **NOTE:** It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to have nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
+
+### Phase Sixteen
+
+Pause a moment. Look back at what you've built. It's a lot. What do you think of it? Are you proud of it? You should be.
+
+We know. We know. We're not supposed to tell you how you _should_ feel. What you feel is, simply, what you feel. Whatever you feel is fine and valid and all that...
+
+Still, though, you should be proud. Seriously.
+
+### Phase Seventeen
+
+The game works. It works well. It's great. As long as the secret word is "apple"...
+
+Way back at the beginning of this project, you created a variable called `secret_word` and set it's value to the string `"apple"`. As you've tested you may have changed the value to another word, but each time you run the program, you know what the word is. Where's the fun in that?
+
+Create a new function called `pick_secret_word` that will return a secret word. 
