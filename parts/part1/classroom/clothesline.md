@@ -207,11 +207,13 @@ Things are getting messy again. Let's fix that.
 
 Move the call to `clear_screen` so that it will clear the screen before prompting the user to enter a letter. In addition to the prompt, make sure that the number of remaining chances and the row of dashes are visible.
 
+> **NOTE:** Remember the "row of dashes" is stored in the `guess` variable. Make sure you are printing the `guess` variable after you call `clear_screen()`
+
 Now a few minutes to add some `print()` calls to display some blank lines around the output. Use your judgement as to what will make the output more readable.
 
 ### Phase Twelve
 
-A few phases back you added code to display a row of dashes that has the same length as `secret_word`. You stored these dashes in a variable called `guess` and printed it to the screen. It's finally time to do something with the `guess` variable.
+A few phases back you added code to display a row of dashes that has the same length as `secret_word`. You stored these dashes in a variable called `guess` and printed it to the screen. Since creating the `guess` variable, you haven't really done all that much with it. It's finally time to change that.
 
 The goal of printing the `guess` variable is to visually indicate how many letters are in the secret word, and to display the location of letters when they are correctly guessed.
 
@@ -498,7 +500,7 @@ def pick_secret_word():
 </details>
 
 <details>
-<summary><b>&#128276; Click here to see an example of calling <code>pick_secret_word()</code> &#128276;</b></summary>
+<summary><b>&#128276; Click here to see an example of calling <code>pick_secret_word</code> &#128276;</b></summary>
 
 ```python
 def main():
@@ -508,4 +510,58 @@ def main():
 
     # ...other code omitted...
 ```
+
+</details>
+
+### Phase Eighteen
+
+It's time to get fancy. Oh, yes...fancy...
+
+Maybe you thought things were already pretty fancy. Maybe they are. It depends on your definition of "fancy". You know the old saying "fancy is in the eye of the beholder"
+
+Anyway, it's time to get fancy.
+
+Having a list of options for the secret word is clearly better than only having a single secret word, but, practically speaking, that list can only get so big before it becomes unmanageable. There's got to be a better way.
+
+So, what's the alternative? What's the better way?
+
+Before we answer that, let's pause and revisit what we're building. _Clothesline_ is a guessing game in which a player tries to guess a secret word. There are a couple of ideas implied in that description. First, we have the _game_ itself. The game is the code. It's the instructions that the computer executes in order to let the player play. Second, we have the _secret word_. The secret word is the _data_ that the game uses. The code that makes up the game **does not care** what the secret word is.
+
+That last sentence is interesting. The code doesn't care about the value of the secret word. It can be "apple" or "aardvark" or "tintinnabulation". All the code expects is that there is some word - _any word_ - stored in the `secret_word` variable.
+
+This separation between _the code_ and _the data_ is a key concept in software development. It influences the way we design and build software. In the _Clothesline_ game, it will lead us to pull the list of secret word options into a separate text file.
+
+We'll do that in the next phase.
+
+### Phase Nineteen
+
+Welcome to the next phase.
+
+In this phase, you'll download a few text files containing several secret word options and you'll update your code to read from one of these files when picking a secret word.
+
+Download each of these files:
+
+* [animals.txt](./animals.txt)
+* [fruits.txt](./fruits.txt)
+* [easy_words.txt](./easy_words.txt)
+* [hard_words.txt](./hard_words.txt)
+
+Modify the `pick_secret_word` function to open the `easy_words.txt` file, read the words into a list and choose a random secret word from the list.
+
+<details>
+<summary><b>&#128276; Click here to see an example implementation of <code>pick_secret_word</code> &#128276;</b></summary>
+
+```python
+def pick_word():
+    word_filename = "easy_words.txt"
+    word_file = open(word_filename)
+    all_text = word_file.read()
+    all_words = all_text.splitlines()
+    word_file.close()
+
+    word = random.choice(all_words)
+    return word
+
+```
+
 </details>

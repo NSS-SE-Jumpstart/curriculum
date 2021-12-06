@@ -7,7 +7,7 @@ WORD_FILE = "easy_words.txt"
 
 
 def main():
-    word = pick_word()
+    word = pick_word(WORD_FILE)
     guess = "-" * len(word)
     incorrect_count = 0
 
@@ -40,13 +40,13 @@ def clear_screen():
     print("\033[H\033[J", end="")
 
 
-def pick_word():
-    with open(WORD_FILE) as word_file:
-        words = word_file.readlines()
+def pick_word(word_filename):
+    word_file = open(word_filename)
+    all_text = word_file.read()
+    all_words = all_text.splitlines()
+    word_file.close()
 
-    word = random.choice(words)
-    word = word.strip()
-
+    word = random.choice(all_words)
     return word
 
 
