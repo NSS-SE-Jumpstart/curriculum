@@ -50,6 +50,12 @@ If all the shirts fall before the secret word is guessed, the player loses.
 
 > **NOTE:** By now many of you have recognized this game as a barely camouflaged version of the classic game, [Hangman](https://en.wikipedia.org/wiki/Hangman_(game)). In fact, when creating the project, we originally created a hangman game, but along the way decided clothes on a line were more fun than repeatedly hanging some random stick-figure dude.
 
+## A Preview of Things to Come
+
+To help you envision what you'll be building, we've created a version of _Clothesline_ for you to download and run. You won't be able to see the code, but you can begin to get a feel for how it should work.
+
+
+
 ## The Project
 
 This project will be broken into several phases. You should complete each phase in order. Many phases - especially the earlier ones - are very short. It may be tempting to work on more than one phase at a time. **Resist this temptation.** Part of being a software engineer is being deliberate and methodical, and sometimes that means moving slowly. **Once a phase is complete do NOT move to the next until you run the program to test it.**

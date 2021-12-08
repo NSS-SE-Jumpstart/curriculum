@@ -31,7 +31,7 @@ This course is divided into nine parts with one part per class session.
 ### During Class (6 Hours)
 
 1. [Installing Software](./parts/part1/classroom/installations.md)
-1. [Jumpstart Project - Clothesline](./parts/part1/classroom/clothesline.md)
+1. [Jumpstart Project - Clothesline](./projects/clothesline/clothesline.md)
 1. [Introduction to Coding Tools](./parts/part1/prework/course_intro.md)
 1. [repl](./parts/part1/classroom/repl.md) 
 1. [Let's write some code](./parts/part1/classroom/hello_world.md)
