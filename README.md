@@ -4,21 +4,17 @@ Welcome to the Nashville Software School Software Engineering Jumpstart Course. 
 
 In this course you'll begin your coding journey. It will be a long trip with many twists and turns along the way that will eventually lead you deep into the mysteries of software engineering. This course won't take you all the way to the end, but it'll set you off in the right direction. And (hopefully) we'll have a little fun doing it.
 
-This course is divided into nine sessions with one session per class session.
+This course is divided into nine sessions over three weeks.
 
-* [Session 1](#session-1) - Getting Started
-* [Session 2](#session-2)
-* [Session 3](#session-3)
-* [Session 4](#session-4)
-* [Session 5](#session-5)
-* [Session 6](#session-6)
-* [Session 7](#session-7)
-* [Session 8](#session-8)
-* [Session 9](#session-9)
+| Week # | Saturday | Tuesday | Wednesday |
+|---|---|---|---|
+| Week 1 | [Session 1](#session-1) | [Session 2](#session-2) | [Session 3](#session-3) |
+| Week 2 | [Session 4](#session-4) | [Session 5](#session-5) | [Session 6](#session-6) |
+| Week 3 | [Session 7](#session-7) | [Session 8](#session-8) | [Session 9](#session-9) |
 
 ---
 
-## Session 1 - Getting Started
+## Session 1
 
 ### Before Class
 
