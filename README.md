@@ -35,7 +35,7 @@ This course is divided into nine sessions with one session per class session.
 
 ### After Class
 
-1. Self Assessment
+1. [Checkpoint](./sessions/session1/wrapup/checkpoint.md)
 
 ---
 
