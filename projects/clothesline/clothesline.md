@@ -1,7 +1,5 @@
 # Jumpstart Project - Clothesline
 
-# WIP
-
 A central tenet of the NSS philosophy is the importance of hands-on learning. We know you learn better by doing than by any other means. Throughout this course you will be writing lots of code. This will include small exercises, as well as a larger project. This document describes that larger project, a game called _Clothesline_.
 
 ## Clothesline
