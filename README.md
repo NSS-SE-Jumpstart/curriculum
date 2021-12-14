@@ -1,7 +1,5 @@
 # Software Engineering Jumpstart
 
-# WIP
-
 Welcome to the Nashville Software School Software Engineering Jumpstart Course. We're glad you're here.
 
 In this course you'll begin your coding journey. It will be a long trip with many twists and turns along the way that will eventually lead you deep into the mysteries of software engineering. This course won't take you all the way to the end, but it'll set you off in the right direction. And (hopefully) we'll have a little fun doing it.
@@ -32,11 +30,8 @@ This course is divided into nine parts with one part per class session.
 
 1. [Installing Software](./parts/part1/classroom/installations.md)
 1. [Jumpstart Project - Clothesline](./projects/clothesline/clothesline.md)
-1. [Introduction to Coding Tools](./parts/part1/prework/course_intro.md)
 1. [Let's write some code](./parts/part1/classroom/hello_world.md)
-1. Exercise - Hello, Name!
-    * variables
-    * if
+1. [Interactivity](./parts/part1/classroom/interactivity.md)
 
 ### After Class
 
