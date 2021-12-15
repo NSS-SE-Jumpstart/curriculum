@@ -40,6 +40,7 @@ This course is divided into nine sessions over three weeks.
 ### Before Class
 
 1. [Code as Communication](./sessions/session2/prework/code_as_communication.md)
+1. [Making Decisions in Code](./sessions/session2/prework/if_statements.md)
 
 ### During Class
 
