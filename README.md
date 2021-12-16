@@ -44,7 +44,7 @@ This course is divided into nine sessions over three weeks.
 
 ### During Class
 
-1. Exercise
+1. [Looping](./sessions/session2/classroom/while_loop.md)
 
 ### After Class
 

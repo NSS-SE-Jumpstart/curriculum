@@ -115,3 +115,16 @@ print("Everything's fine")
 print("Everything's fine")
 print("Everything's fine")
 ```
+
+## Types of Comparisons
+
+We've discussed the `==` operator for determining if two things are equal. Other types of comparisons are possible as well. Here's a chart.
+
+| Operator | Description                          |
+| -------- | ------------------------------------ |
+| `a == b` | Is `a` equal to `b`?                 |
+| `a != b` | Is `a` not equal to `b`?             |
+| `a > b`  | Is `a` greater than `b`?             |
+| `a < b`  | Is `a` less than `b`?                |
+| `a >= b` | Is `a` greater than or equal to `b`? |
+| `a <= b` | Is `a` less than or equal to `b`?    |
