@@ -73,8 +73,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. Review of printing, strings and variables
-1. If/else conditionals
+1. [Variables, Values and Data Types](./sessions/session4/prework/data_types.md)
 
 ### During Class
 

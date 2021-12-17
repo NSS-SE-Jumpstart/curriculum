@@ -12,3 +12,7 @@
   3. Wrapup / self assessment
 
 * Describe the project
+    * _maybe we don't need this???_
+
+* We introduce things slowly and organically. Often you'll encounter a concept before we describe it.
+    
