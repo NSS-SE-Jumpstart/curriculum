@@ -56,8 +56,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. 
-
+1. [Variables, Values and Data Types](./sessions/session3/prework/data_types.md)
 
 ### During Class
 
@@ -73,9 +72,9 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. [Variables, Values and Data Types](./sessions/session4/prework/data_types.md)
 1. [Lists](./sessions/session4/prework/lists.md)
 1. [Looping Over a List](./sessions/session4/prework/for_loop.md)
+1. [Searching and Modifying Lists]
 
 ### During Class
 
