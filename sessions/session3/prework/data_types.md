@@ -45,6 +45,17 @@ Here are some commonly used types.
 | str       | A string. Strings are text surrounded by quotes. Strings may be empty. | `"Hello"`, `""`         |
 | bool      | A boolean. A boolean can only be `True` or `False`                     | `True`, `False`         |
 
+### Type Conversions
+
+There are times when you have a value of one type, but you need it to be of another. Python offers special conversion functions for this purpose.
+
+Here are some common conversion functions
+
+`int()`
+`str()`
+`float()`
+`bool()`
+
 ### Why do types matter?
 
 This is actually a really big and complex question. Don't worry, though, we won't go into all the nitty-gritty details here.
