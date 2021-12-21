@@ -74,7 +74,7 @@ This course is divided into nine sessions over three weeks.
 
 1. [Lists](./sessions/session4/prework/lists.md)
 1. [Looping Over a List](./sessions/session4/prework/for_loop.md)
-1. [Searching and Modifying Lists]
+1. [Searching and Modifying Lists](./sessions/session4/prework/advanced_lists.md)
 
 ### During Class
 
