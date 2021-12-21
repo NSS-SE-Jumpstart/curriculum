@@ -56,8 +56,8 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. Review of printing, strings and variables
-1. If/else conditionals
+1. 
+
 
 ### During Class
 
@@ -75,6 +75,7 @@ This course is divided into nine sessions over three weeks.
 
 1. [Variables, Values and Data Types](./sessions/session4/prework/data_types.md)
 1. [Lists](./sessions/session4/prework/lists.md)
+1. [Looping Over a List](./sessions/session4/prework/for_loop.md)
 
 ### During Class
 
@@ -90,8 +91,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. Review of printing, strings and variables
-1. If/else conditionals
+1. [Functions](./sessions/session5/prework/functions.md)
 
 ### During Class
 
@@ -107,8 +107,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. Review of printing, strings and variables
-1. If/else conditionals
+1. 
 
 ### During Class
 
@@ -124,8 +123,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. Review of printing, strings and variables
-1. If/else conditionals
+1. 
 
 ### During Class
 
@@ -141,8 +139,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. Review of printing, strings and variables
-1. If/else conditionals
+1. 
 
 ### During Class
 
@@ -158,8 +155,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. Review of printing, strings and variables
-1. If/else conditionals
+1. 
 
 ### During Class
 
