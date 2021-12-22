@@ -16,6 +16,8 @@ The number of remaining incorrect guesses is depicted by an [ASCII Art](https://
      |     |       |     |       |     |       |     |
      |     |       |     |       |     |       |     |
      ```````       ```````       ```````       ```````
+
+
 ```
 
 > <sub>_Isn't that art simply breathtaking???_</sub>
@@ -23,25 +25,29 @@ The number of remaining incorrect guesses is depicted by an [ASCII Art](https://
 When the player guesses incorrectly, one of the clothespins is removed.
 
 ```txt
-=====!=====!=======!=====!=======!=====!=======!======
+=====!=====!=======!=====!=======!=====!=======!===========
     /'''V'''\     /'''V'''\     /'''V'''\     /'\
    /         \   /         \   /         \   /   .\
   '-"|     |"-' '-"|     |"-' '-"|     |"-'  '|  ='
      |     |       |     |       |     |      |   |
      |     |       |     |       |     |      |   |
      ```````       ```````       ```````      `-._|
+
+
 ```
 
 When two clothespins are removed the shirt falls off the clothesline.
 
 ```txt
-=====!=====!=======!=====!=======!=====!==============
+=====!=====!=======!=====!=======!=====!===================
     /'''V'''\     /'''V'''\     /'''V'''\
    /         \   /         \   /         \
   '-"|     |"-' '-"|     |"-' '-"|     |"-'
      |     |       |     |       |     |
      |     |       |     |       |     |
      ```````       ```````       ```````
+                                            _.~.,_.._
+                                             ```````
 ```
 
 If all the shirts fall before the secret word is guessed, the player loses.
@@ -50,9 +56,39 @@ If all the shirts fall before the secret word is guessed, the player loses.
 
 ## A Preview of Things to Come
 
-To help you envision what you'll be building, we've created a version of _Clothesline_ for you to download and run. You won't be able to see the code, but you can begin to get a feel for how it should work.
+To help you envision what you'll be building, we've created a version of _Clothesline_ for you to download and run. You won't be able to see the code, but you can begin to get a feel for how it should work. You can think of this as the _reference implementation_ of Clothesline.
+
+To run the reference implementation:
+
+1. In your terminal, create a new directory called `clothesline` in your `workspace` directory.
+1. Download the [program](./clothesline_reference.py). Save it in the newly created `clothesline` directory.
+1. In your terminal, `cd` into the `clothesline` directory and run the program.
+
+    ```sh
+    python3 clothesline_reference.py
+    ```
+1. You should see something that looks like this
+
+    ```txt
+    =====!=====!=======!=====!=======!=====!=======!=====!=====
+        /'''V'''\     /'''V'''\     /'''V'''\     /'''V'''\
+       /         \   /         \   /         \   /         \
+      '-"|     |"-' '-"|     |"-' '-"|     |"-' '-"|     |"-'
+         |     |       |     |       |     |       |     |
+         |     |       |     |       |     |       |     |
+         ```````       ```````       ```````       ```````
 
 
+
+
+    Word:    ---
+    Guesses: 
+
+    Guess a letter...if you dare!
+    > 
+    ```
+
+1. Guess a few letters, you know...if you dare.
 
 ## The Project
 
