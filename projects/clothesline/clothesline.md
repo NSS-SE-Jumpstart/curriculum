@@ -67,6 +67,7 @@ To run the reference implementation:
     ```sh
     python3 clothesline_reference.py
     ```
+
 1. You should see something that looks like this
 
     ```txt
