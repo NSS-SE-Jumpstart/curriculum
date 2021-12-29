@@ -87,15 +87,51 @@ Write code that uses an `if` statement to determine if the human or the computer
 
 ## Phase Eight
 
-Your game is getting closer to actually being fun.
-It's sort of irritating that you can only roll once though.
+Your game is getting closer to actually being fun. It's sort of irritating that you can only roll once though.
 
-Update the code the play the game three times. Don't just copy/paste the code. Use a while loop and a counter variable.
+Update the code the play the game five times. Don't just copy/paste the code. Use a `while` loop and a `counter` variable. Initially `counter` should be set to `0`. On each iteration of the loop add `1` to `counter`. Make the loop stop when `counter == 5`.
+
+Make sure you place the code that calls `random.randint()` and the code the prints the results within the loop. When you run the program, the output should look something like this:
+
+```txt
+Xena rolled: 12
+Computer rolled: 9
+Xena wins!
+
+Xena rolled: 1
+Computer rolled: 20
+Graptor-3000 wins!
+
+Xena rolled: 7
+Computer rolled: 7
+Both Xena and Graptor-3000 win!
+
+Xena rolled: 8
+Computer rolled: 9
+Graptor-3000 wins!
+
+Xena rolled: 4
+Computer rolled: 1
+Xena wins!
+```
 
 ## Phase Nine
 
 It's come to our attention that some humans aren't named Xena.
 
-Update the code to prompt the user to input their name and save that into the human_player variable. 
+Update the code to prompt the user to input their name and save that into the `human_player` variable.
 
-Make sure your code always uses the human_player when it prints the name and doesn't have any "Xena"s still hanging out. 
+Make sure your code always uses the `human_player` variable when it prints the name and doesn't have any "Xena"s hanging out.
+
+## Phase Ten
+
+Update the game to display the number of rounds each player won after the final round.
+
+Use two variables, `human_wins` and `computer_wins` to keep track of the number of wins. Remember a tie means both players win. Print the values of these variables - along with a friendly message to the user - **after** the `while` loop.
+
+## Phase Eleven
+
+Add code to display tha name of the overall winner. The overall winner is the player that wins the most rounds.
+
+## Phase Twelve
+
