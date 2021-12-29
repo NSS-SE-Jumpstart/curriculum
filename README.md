@@ -57,6 +57,7 @@ This course is divided into nine sessions over three weeks.
 ### Before Class
 
 1. [Variables, Values and Data Types](./sessions/session3/prework/data_types.md)
+1. [Import a Little Randomness](./sessions/session3/prework/import_random.md)
 
 ### During Class
 
