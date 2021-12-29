@@ -79,8 +79,23 @@ Update your program to create a `computer_player` variable, set it's value to `"
 
 ## Phase Seven
 
-At this point your program leaves it up to the human player to read the output and determine whether or not they won. The actually have to **compare numbers!** But comparing numbers is computer-work. Let's make the computer do it.
+At this point, your game leaves it up to the human player to read the output and determine whether or not they won. They actually have to **compare numbers!** But comparing numbers is computer-work. Let's make the computer do it.
 
 Write code that uses an `if` statement to determine if the human or the computer has rolled a higher number. If the human player rolls a higher number, the program should print `Xena wins!`. If the computer player wins, the program should print `Graptor-3000 wins!`
 
 ...oh, and it is possible that both players roll the same number. If that happens let's do the hippie thing and say both players win. If there's a tie, your program should **NOT** print either of the winning messages described above. It should print a single message that says: `Both Xena and Graptor-3000 win!`
+
+## Phase Eight
+
+Your game is getting closer to actually being fun.
+It's sort of irritating that you can only roll once though.
+
+Update the code the play the game three times. Don't just copy/paste the code. Use a while loop and a counter variable.
+
+## Phase Nine
+
+It's come to our attention that some humans aren't named Xena.
+
+Update the code to prompt the user to input their name and save that into the human_player variable. 
+
+Make sure your code always uses the human_player when it prints the name and doesn't have any "Xena"s still hanging out. 
