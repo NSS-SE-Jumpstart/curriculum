@@ -76,3 +76,11 @@ Computer rolled: 9
 Now, we're being rude to the computer. It doesn't want to be called "computer" any more than you want to be called "human". It wants to be called "Graptor-3000"...because that's it's name.
 
 Update your program to create a `computer_player` variable, set it's value to `"Graptor-3000"` and display it when displaying the computer's roll.
+
+## Phase Seven
+
+At this point your program leaves it up to the human player to read the output and determine whether or not they won. The actually have to **compare numbers!** But comparing numbers is computer-work. Let's make the computer do it.
+
+Write code that uses an `if` statement to determine if the human or the computer has rolled a higher number. If the human player rolls a higher number, the program should print `Xena wins!`. If the computer player wins, the program should print `Graptor-3000 wins!`
+
+...oh, and it is possible that both players roll the same number. If that happens let's do the hippie thing and say both players win. If there's a tie, your program should **NOT** print either of the winning messages described above. It should print a single message that says: `Both Xena and Graptor-3000 win!`
