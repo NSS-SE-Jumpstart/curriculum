@@ -23,7 +23,7 @@ print("I never forget a face, but in your case I’d be glad to make an exceptio
 Our programs can also get input from the user.
 
 ```python
-favorite_golden_girl = input("Who's your favoriteGolden Girl? ")
+favorite_golden_girl = input("Who's your favorite Golden Girl? ")
 
 print("You said your favorite Golden Girl is " + favorite_golden_girl)
 ```
@@ -85,7 +85,7 @@ You don't want that. Nobody wants that.
 What you want is for the cook to put your grilled cheese sandwich on a plate and send it out to you.
 
 ```python
-favorite_golden_girl = input("Who's your favoriteGolden Girl? ")
+favorite_golden_girl = input("Who's your favorite Golden Girl? ")
 ```
 
 In the code above `favorite_golden_girl` acts like a plate for your grilled cheese sandwich. It is a _variable_. A variable is a container for data. It has a _name_ and a _value_. In this case the name is `favorite_golden_girl` and the value is whatever the user typed into the terminal.

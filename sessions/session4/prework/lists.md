@@ -51,7 +51,7 @@ In Python code a `list` is a collection of values surrounded by square brackets 
 The `months` variable above is an example of creating a `list`. Here are a couple more.
 
 ```python
-tn_high_temps = [45, 50, 70, 23, 23, 22, 80]
+tn_winter_high_temps = [45, 50, 70, 23, 23, 22, 17, 80]
 hs_subjects = ["math", "science", "history", "lunch"]
 ```
 
@@ -62,7 +62,7 @@ Ok, so you can store data in a `list`, what do you do with it then? Well, there'
 > **NOTE:** Although the code below will work to print each element in a `list`, we'll soon show you a better way. The better way requires a new kind of loop, though, and we're not quite ready to introduce it.
 
 ```python
-index = 0bowling_scores = [9, 8, 1, ]
+index = 0
 while index < len(months):
     a_month = months[index]
     print(a_month)
