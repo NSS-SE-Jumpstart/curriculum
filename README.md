@@ -41,10 +41,10 @@ This course is divided into nine sessions over three weeks.
 
 1. [Code as Communication](./sessions/session2/prework/code_as_communication.md)
 1. [Making Decisions in Code](./sessions/session2/prework/if_statements.md)
+1. [Looping](./sessions/session2/prework/while_loop.md)
 
 ### During Class
 
-1. [Looping](./sessions/session2/classroom/while_loop.md)
 
 ### After Class
 
@@ -57,7 +57,9 @@ This course is divided into nine sessions over three weeks.
 ### Before Class
 
 1. [Variables, Values and Data Types](./sessions/session3/prework/data_types.md)
-1. [Import a Little Randomness](./sessions/session3/prework/import_random.md)
+1. [Lists](./sessions/session3/prework/lists.md)
+1. [Searching and Modifying Lists](./sessions/session3/prework/advanced_lists.md)
+1. [Looping Over a List](./sessions/session3/prework/for_loop.md)
 
 ### During Class
 
@@ -73,9 +75,8 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. [Lists](./sessions/session4/prework/lists.md)
-1. [Looping Over a List](./sessions/session4/prework/for_loop.md)
-1. [Searching and Modifying Lists](./sessions/session4/prework/advanced_lists.md)
+1. [Import a Little Randomness](./sessions/session4/prework/import_random.md)
+1. [Functions](./sessions/session4/prework/functions.md)
 
 ### During Class
 
@@ -91,7 +92,6 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. [Functions](./sessions/session5/prework/functions.md)
 
 ### During Class
 

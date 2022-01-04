@@ -19,8 +19,6 @@ else:
     print("Ok...all is well.")
 ```
 
-> **NOTE:** This syntax kinda looks like a `for` loop...but it's not.
-
 To determine if an element is **not** in the list use `not in`.
 
 ```python
