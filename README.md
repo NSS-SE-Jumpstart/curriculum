@@ -25,9 +25,8 @@ This course is divided into nine sessions over three weeks.
 ### During Class
 
 1. [Installing Software](./sessions/session1/classroom/installations.md)
-1. [Jumpstart Project - Clothesline](./projects/clothesline/clothesline.md)
-1. [Let's write some code](./sessions/session1/classroom/hello_world.md)
-1. [Interactivity](./sessions/session1/classroom/interactivity.md)
+2. [Let's write some code](./sessions/session1/classroom/hello_world.md)
+3. [Interactivity](./sessions/session1/classroom/interactivity.md)
 
 ### After Class
 
@@ -108,7 +107,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. 
+1. [Jumpstart Project - Clothesline](./projects/clothesline/clothesline.md)
 
 ### During Class
 
