@@ -6,4 +6,4 @@
 1. Demonstrate Zoom Breakout Rooms
 1. Demonstrate GitHub Discussion Forum
 1. Questions?
-1. On to installing software....
+1. On to [installing software...](./installations.md)
