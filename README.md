@@ -18,9 +18,9 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
+1. [Preparing for class](./sessions/session1/prework/prep_for_first_class.md)
 1. [Course Introduction](./sessions/session1/prework/course_intro.md)
 1. [What is code, anyway?](./sessions/session1/prework/what_is_code.md)
-1. [Preparing for class](./sessions/session1/prework/prep_for_first_class.md)
 
 ### During Class
 
@@ -45,6 +45,7 @@ This course is divided into nine sessions over three weeks.
 
 ### During Class
 
+1. Exercise
 
 ### After Class
 

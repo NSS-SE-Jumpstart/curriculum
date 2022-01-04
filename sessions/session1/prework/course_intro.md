@@ -1,18 +1,71 @@
 # Course Introduction
 
-# WIP
+This course is going to be...
 
-* Describe the goals of the course
-  * List main learning outcomes
-  * Link to list of learning objectives
+...different?
 
-* Describe the regular cadence of the course
-  1. Prework
-  2. Classroom
-  3. Wrapup / self assessment
+...challenging?
 
-* Describe the project
-    * _maybe we don't need this???_
+...fun?
 
-* We introduce things slowly and organically. Often you'll encounter a concept before we describe it.
-    
+Yes. This course will be all of that.
+
+## Different
+
+This course is different from many other schooling experiences you've had. In this course we will be using the [flipped classroom](https://en.wikipedia.org/wiki/Flipped_classroom) model of instruction.
+
+In a traditional classroom approach, teachers use classroom time to introduce new concepts and then assign students homework to practice working with those concepts.
+
+With a flipped classroom approach, students study material before class so that the majority of the class time can be used for active, hands-on learning. This approach maximizes the time a student has to ask for help while working on an assignment.
+
+## Challenging
+
+Learning to code is [hard](https://www.youtube.com/watch?v=jzRuqT9nYXY). It just is. And this course will challenge you. A lot. Many of our students say this is the hardest thing they've ever done.
+
+Why is learning to code so hard? Because learning is hard and because coding is hard. 
+
+> **Hard Thing** + **Hard Thing** = **Very Hard Thing**
+
+If it's so hard, why do it?
+
+Money? It's true that there is money to be made as a software engineer. And there's nothing wrong with making good money. But many people discover another motivator along the way. Coding is fun.
+
+## Fun
+
+Coding is creative problem solving.
+
+The job of a professional software engineer is not to "do what they're told". A software engineer's boss doesn't say "I need you to do these things in this order." A software engineer's boss says "I have this problem, and I don't know how to solve it, so I need you to figure it out."
+
+Does that sound fun?
+
+We promise that there is no feeling in the world quite like finally getting the computer to do what you want it to do. It's satisfying. It's empowering. It's a dopamine rush.
+
+## Let's Get Practical
+
+### Schedule
+
+As you probably already know, this course will meet nine times over three weeks.
+
+Three of those sessions will be Saturdays. Saturday meetings will be six hours from 9am to 2pm. We will not take a lunch break, but there should always be time around noon for you to step away from your computer to grab some food.
+
+The remaining six sessions will be on Tuesday and Wednesday evenings from 6pm to 9pm. There will not be a dinner break, so please try to eat something before class begins.
+
+### Breaks
+
+We may not have time to take lunch or dinner breaks, but we won't go nonstop the whole time either. We'll try not to go more than an hour without taking a 5-10 minute break.
+
+### A Typical Class Session
+
+1. Before each class session you should complete the _prework_ for that session. For the most part this means reading a few lessons, and preparing questions on the material
+1. Also, before class you should submit any questions you have in the class discussion forum. You will also be able to see your classmate's questions and vote for any you would like to discuss.
+
+    > **NOTE:** We'll demonstrate using the discussion forum during the first class session.
+
+1. At the beginning of a class session, your instructor will take some time to answer questions from the discussion forum and to dive deeper into the more complex topics from the prework reading.
+1. Next your instructor will introduce one or more coding exercises for you to work out throughout the rest of the class session.
+
+    > **NOTE:** During exercise time, we will use a feature of Zoom called "breakout rooms" to allow students to congregate into small groups or to work alone while still remaining in the Zoom meeting. We will demonstrate breakout rooms during the first class session.
+
+1. While you are working, instructors will be available to answer questions and offer one-on-one coaching.
+1. At the end of each class session, we'll quickly gather back together to end the day.
+1. Finally, each session has a corresponding "checkpoint" exercise for you to complete after class. Checkpoints are a few multiple choice questions to help reenforce the material.
