@@ -75,8 +75,8 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. [Import a Little Randomness](./sessions/session4/prework/import_random.md)
 1. [Functions](./sessions/session4/prework/functions.md)
+1. [Import a Little Randomness](./sessions/session4/prework/import_random.md)
 
 ### During Class
 

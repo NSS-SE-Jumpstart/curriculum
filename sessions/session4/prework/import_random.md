@@ -1,6 +1,6 @@
 # Import a Little Randomness
 
-So far we've seen some basic features of Python: variables, user interactivity, `if` statements and loops. These are features all Python code can use at any point without requesting permission.
+So far we've seen features of Python: variables, user interactivity, `if` statements, two kinds of loops and functions. These are features all Python code can use at any point without requesting permission.
 
 Some features of Python, however, demand a bit more politeness on the part of the programmer. These features must be requested before the are used. In Python we "request" access to a feature using the `import` keyword.
 

@@ -1,6 +1,6 @@
 # Looping Over Lists
 
-In the [lists topic](./lists.md) you learned that we can loop over the elements in a list with a `while` loop like this.
+In the [lists lesson](./lists.md) you learned that we can loop over the elements in a list with a `while` loop like this.
 
 ```python
 marx_brothers = ["Groucho", "Chico", "Harpo"]
