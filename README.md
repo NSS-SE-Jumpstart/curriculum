@@ -58,7 +58,7 @@ This course is divided into nine sessions over three weeks.
 
 1. [Variables, Values and Data Types](./sessions/session3/prework/data_types.md)
 1. [Lists](./sessions/session3/prework/lists.md)
-1. [Searching and Modifying Lists](./sessions/session3/prework/advanced_lists.md)
+1. [Modifying a List](./sessions/session3/prework/advanced_lists.md)
 1. [Looping Over a List](./sessions/session3/prework/for_loop.md)
 
 ### During Class

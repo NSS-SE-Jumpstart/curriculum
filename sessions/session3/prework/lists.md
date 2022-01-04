@@ -95,19 +95,26 @@ Did those comments help? Maybe a little, but let's dig a little deeper.
 
 ### Getting data from a `list`
 
-Each value in a list is referred to as an _element_ of the list. A particular element in a list is accessed by a numeric _index_. This works (almost) the same way as a numbered list of vocabulary words.
+Each value in a list is referred to as an _element_ of the list. A particular element in a list is accessed by a numeric _index_. This works (almost) the same way as a numbered list in everyday usage.
 
-For example, consider a few vocabulary words for this course are:
+For example, consider the way we normally number the months of the year.
 
-1. Variable
-1. Value
-1. Loop
-1. If statement
-1. Source Code
+1. January
+1. February
+1. March
+1. April
+1. May
+1. June
+1. July
+1. August
+1. September
+1. October
+1. November
+1. December
 
-The numbers give you a way to talk about the words. You might say, "I've got 1-3 figured out. I'm shaky on 4. And 5 is a mystery."
+The numbers give you a way to talk about the month. We use them as a shorthand for writing dates _(e.g. 7-20-1969 is July 20, 1969)_.
 
-The difference between a `list` in Python and a list in every day use is that a Python `list` starts with `0` instead of `1`. Here's the `months` list with each element labeled with its index in a comment.
+The difference between a `list` in Python and a list in everyday use is that a Python `list` starts with `0` instead of `1`. Here's the `months` list with each element labeled with its index in a comment.
 
 ```python
 months = [
@@ -214,4 +221,31 @@ September
 October
 November
 December
+```
+
+## Searching a `list`
+
+You can use the `in` keyword to determine whether a list contains a particular element.
+
+```python
+week_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+
+today = "Tuesday"
+if today in week_days:
+    print("No laying around today!")
+    
+if "Saturday" in week_days:
+    print("What's happened?!?!")
+else:
+    print("Ok...all is well.")
+```
+
+To determine if an element is **not** in the list use `not in`.
+
+```python
+hated_foods = ["onion", "olive", "cabbage"]
+lunch = "hamburger"
+
+if lunch not in hated_foods:
+    print("Let's eat")
 ```
