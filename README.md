@@ -26,8 +26,8 @@ This course is divided into nine sessions over three weeks.
 
 1. [Orientation Checklist](./sessions/session1/classroom/orientation.md)
 1. [Installing Software](./sessions/session1/classroom/installations.md)
-2. [Let's write some code](./sessions/session1/classroom/hello_world.md)
-3. [Interactivity](./sessions/session1/classroom/interactivity.md)
+1. [Let's write some code](./sessions/session1/classroom/hello_world.md)
+1. [Interactivity](./sessions/session1/classroom/interactivity.md)
 
 ### After Class
 
@@ -93,6 +93,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
+1.
 
 ### During Class
 
@@ -124,7 +125,7 @@ This course is divided into nine sessions over three weeks.
 
 ### Before Class
 
-1. 
+1.
 
 ### During Class
 
