@@ -14,7 +14,7 @@ Students are first exposed to material before class
 </summary>
 
 
-:heavy_check_mark: **CORRECT**
+> :heavy_check_mark: **CORRECT**
 
 </details>
 
