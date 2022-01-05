@@ -4,29 +4,24 @@ This is the first course checkpoint. Checkpoints give you a chance to verify you
  
 ## Question 1
 
-Which of the following are aspects of "flipped classroom" learning?
+Which of the following are aspects of "flipped classroom" learning? _(You may select more than one answer)_
 
 <details>
 <summary>
 <b>A.</b>
 Students are first exposed to material before class
-
 </summary>
 
-
-:heavy_check_mark: **CORRECT**
-
+> :heavy_check_mark: **CORRECT**
 </details>
 
 <details>
 <summary>
 <b>B.</b>
 Class time is used for Q&A
-
 </summary>
 
 :heavy_check_mark: **CORRECT**
-
 </details>
 
 <details>
@@ -36,7 +31,6 @@ Class time is used for hands-on practice
 </summary>
 
 :heavy_check_mark: **CORRECT**
-
 </details>
 
 <details>
@@ -46,7 +40,6 @@ Instructors focus more on coaching individuals and small groups than on lecturin
 </summary>
 
 :heavy_check_mark: **CORRECT**
-
 </details>
 
 <details>
@@ -56,11 +49,9 @@ Everyone has to lay upside-down on their couch with their heads hanging over the
 </summary>
 
 :x: **INCORRECT**
-
 </details>
 
-<br/>
-
+---
 
 Which of the following are true about "code"?
 
