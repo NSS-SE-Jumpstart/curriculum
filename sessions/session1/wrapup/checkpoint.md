@@ -22,25 +22,25 @@ Students are first exposed to material before class
 Class time is used for Q&A
 </summary>
 
-:heavy_check_mark: **CORRECT**
+* :heavy_check_mark: **CORRECT**
 </details>
 
 <details>
 <summary>
-<b>C</b>
+<b>C.</b>
 Class time is used for hands-on practice
 </summary>
 
-:heavy_check_mark: **CORRECT**
+&ensp; :heavy_check_mark: **CORRECT**
 </details>
 
 <details>
 <summary>
-<b>D</b>
+<b>D.</b>
 Instructors focus more on coaching individuals and small groups than on lecturing
 </summary>
 
-:heavy_check_mark: **CORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 </details>
 
 <details>
