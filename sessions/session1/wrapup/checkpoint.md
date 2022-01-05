@@ -56,7 +56,7 @@ Everyone has to lay upside-down on their couch with their heads hanging over the
 
 Which of the following are true about "code"?
 
-* It's text
+> * It's text
 * It's written in a programming language
 * It's mostly `1`s and `0`s
 * It's also known sas "source code"
