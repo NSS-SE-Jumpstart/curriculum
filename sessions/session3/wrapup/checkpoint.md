@@ -284,50 +284,295 @@ for name in pythons:
     if name != "John Cleese":
         print("bye!")
 ```
+### Question 7
 
 What does the code labeled "Part 1" display?
 
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
+<details>
+<summary>
+<b>A. </b>
+0
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+1
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+2
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+3
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>E. </b>
+4
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>F. </b>
+5
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>G. </b>
+6
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>H. </b>
+7
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 8
 
 What does the code labeled "Part 2" display?
 
-* Graham Chapman
-* John Cleese
-* Terry Gilliam
-* Eric Idle
-* Terry Jones
-* Michael Palin
+<details>
+<summary>
+<b>A. </b>
+Graham Chapman
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+John Cleese
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+Terry Gilliam
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+Eric Idle
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>E. </b>
+Terry Jones
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>F. </b>
+Michael Palin
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 9
 
 In the code labeled "Part 3", how many times is `Hi!` printed?
 
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
+<details>
+<summary>
+<b>A. </b>
+0
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+1
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+2
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+3
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>E. </b>
+4
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>F. </b>
+5
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>G. </b>
+6
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>H. </b>
+7
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 10
 
 In the code labeled "Part 3", how many times is `Bye!` printed?
 
-* 0
-* 1
-* 2
-* 3
-* 4
-* 5
-* 6
-* 7
+<details>
+<summary>
+<b>A. </b>
+0
+</summary>
 
-### Question 7
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+1
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+2
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+3
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>E. </b>
+4
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>F. </b>
+5
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>G. </b>
+6
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>H. </b>
+7
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
 
 When this Python code is run, what is displayed to the terminal?
 
@@ -343,44 +588,10 @@ warning.insert(0, "you")
 print(warning)
 ```
 
-<details>
-<summary>
-<b>A. </b>
-<code>['for', 'monsters' 'check', 'under', 'the', 'bed', 'you', 'should']</code>
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>B. </b>
-<code>['for', 'monsters' 'check', 'under', 'the', 'bed', 'should', 'you']</code>
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>C. </b>
-<code>['you', 'should', 'check', 'under', 'the', 'bed', 'for', 'monsters']</code>
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>D. </b>
-<code>['should', 'you', 'check', 'under', 'the', 'bed', 'for', 'monsters']</code>
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-
-### Question 8
+* `['for', 'monsters' 'check', 'under', 'the', 'bed', 'you', 'should']`
+* `['for', 'monsters' 'check', 'under', 'the', 'bed', 'should', 'you']`
+* `['you', 'should', 'check', 'under', 'the', 'bed', 'for', 'monsters']`
+* `['should', 'you', 'check', 'under', 'the', 'bed', 'for', 'monsters']`
 
 What would the following Python code print?
 
@@ -391,39 +602,9 @@ numbers[2] = 6
 print(numbers)
 ```
 
-<details>
-<summary>
-<b>A. </b>
-<code>[2, 4, 100, 8]</code>
-</summary>
+* `[2, 4, 100, 8]`
+* `[2, 4, 6, 8]`
+* `[2, 6, 100, 8]`
+* `[2, 6]`
+### Question 11
 
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>B. </b>
-<code>[2, 4, 6, 8]</code>
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>C. </b>
-<code>[2, 6, 100, 8]</code>
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>D. </b>
-<code>[2, 6]</code>
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
