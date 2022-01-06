@@ -14,7 +14,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 1 - Saturday
+## Session 1
 
 ### Before Class
 
@@ -35,7 +35,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 2 - Tuesday
+## Session 2
 
 ### Before Class
 
@@ -53,7 +53,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 3 - Wednesday
+## Session 3
 
 ### Before Class
 
@@ -72,7 +72,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 4 - Saturday
+## Session 4
 
 ### Before Class
 
@@ -89,7 +89,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 5 - Tuesday
+## Session 5
 
 ### Before Class
 
@@ -105,11 +105,11 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 6 - Wednesday
+## Session 6
 
 ### Before Class
 
-1. [Jumpstart Project - Clothesline](./projects/clothesline/clothesline.md)
+1. [Jumpstart Project: Clothesline](./projects/clothesline/clothesline.md)
 
 ### During Class
 
@@ -121,7 +121,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 7 - Saturday
+## Session 7
 
 ### Before Class
 
@@ -137,7 +137,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 8 - Tuesday
+## Session 8
 
 ### Before Class
 
@@ -153,7 +153,7 @@ This course is divided into nine sessions over three weeks.
 
 ---
 
-## Session 9 - Wednesday
+## Session 9
 
 ### Before Class
 
