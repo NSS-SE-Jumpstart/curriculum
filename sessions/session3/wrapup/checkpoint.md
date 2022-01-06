@@ -265,9 +265,7 @@ The length of a list can be less than <code>0</code>
 
 </details>
 
-### Question 7
-
-The next few questions refer to the code below:
+#### The next few questions refer to the code below:
 
 ```python
 pythons = ["Graham Chapman", "John Cleese", "Terry Gilliam", "Eric Idle", "Terry Jones", "Michael Palin"]
@@ -289,293 +287,47 @@ for name in pythons:
 
 What does the code labeled "Part 1" display?
 
-<details>
-<summary>
-<b>A. </b>
-0
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>B. </b>
-1
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>C. </b>
-2
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>D. </b>
-3
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>E. </b>
-4
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>F. </b>
-5
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>G. </b>
-6
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>H. </b>
-7
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-
-### Question 8
+* 0
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
 
 What does the code labeled "Part 2" display?
 
-<details>
-<summary>
-<b>A. </b>
-Graham Chapman
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>B. </b>
-John Cleese
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>C. </b>
-Terry Gilliam
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>D. </b>
-Eric Idle
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>E. </b>
-Terry Jones
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>F. </b>
-Michael Palin
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-
-### Question 9
+* Graham Chapman
+* John Cleese
+* Terry Gilliam
+* Eric Idle
+* Terry Jones
+* Michael Palin
 
 In the code labeled "Part 3", how many times is `Hi!` printed?
 
-<details>
-<summary>
-<b>A. </b>
-0
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>B. </b>
-1
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>C. </b>
-2
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>D. </b>
-3
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>E. </b>
-4
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>F. </b>
-5
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>G. </b>
-6
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>H. </b>
-7
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-
-### Question 10
+* 0
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
 
 In the code labeled "Part 3", how many times is `Bye!` printed?
 
-<details>
-<summary>
-<b>A. </b>
-0
-</summary>
+* 0
+* 1
+* 2
+* 3
+* 4
+* 5
+* 6
+* 7
 
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>B. </b>
-1
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>C. </b>
-2
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>D. </b>
-3
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>E. </b>
-4
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>F. </b>
-5
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>G. </b>
-6
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-<details>
-<summary>
-<b>H. </b>
-7
-</summary>
-
-&emsp; :x: **INCORRECT**
-
-</details>
-
-### Question 11
+### Question 7
 
 When this Python code is run, what is displayed to the terminal?
 
@@ -628,7 +380,7 @@ print(warning)
 
 </details>
 
-### Question 12
+### Question 8
 
 What would the following Python code print?
 
