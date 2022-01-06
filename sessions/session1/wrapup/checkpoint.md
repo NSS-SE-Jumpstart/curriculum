@@ -58,7 +58,7 @@ Which of the following are true about "code"?
 
 > * It's text
 * * It's written in a programming language
-* It's mostly `1`s and `0`s
+* > It's mostly `1`s and `0`s
 * It's also known sas "source code"
 * It's magic that no human can understand
 * It's used to create "software programs"
