@@ -38,7 +38,7 @@ Which of the following is a way to gain access to the `random` library in Python
 <code>import random</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 
@@ -98,6 +98,6 @@ A random number
 Either <code>heads</code> or <code>tails</code>, but there is no way to know which one until you run the code
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>

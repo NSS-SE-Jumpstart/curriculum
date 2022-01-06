@@ -365,7 +365,7 @@ In "Part 1" How many `Woof!`s are printed?
 4
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -397,7 +397,7 @@ What does the code labeled "Part 2" display?
 <code>SuperDog is a dog of regular intelligence</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>

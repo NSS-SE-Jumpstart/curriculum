@@ -56,7 +56,7 @@ Everyone has to lay upside-down on their couch with their heads hanging over the
 
 ### Question 2
 
-Which of the following are true about "code"?
+Which of the following are true about "code"? _(You may select more than one answer)_
 
 <details>
 <summary>
@@ -115,7 +115,7 @@ It's used to create "software programs"
 
 ### Question 3
 
-Which of the following are computers that execute code?
+Which of the following are computers that execute code? _(You may select more than one answer)_
 
 <details>
 <summary>

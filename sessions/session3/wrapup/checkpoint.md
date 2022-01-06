@@ -20,7 +20,7 @@ What is the Python data type of `"The only thing to fear is fear itself"`?
 <code>str</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -52,7 +52,7 @@ What is the Python data type of `451`?
 <code>int</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -111,7 +111,7 @@ What is the Python data type of `3.14`?
 <code>float</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -161,7 +161,7 @@ What is the Python data type of `False`?
 <code>bool</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 
@@ -175,7 +175,7 @@ Which of the following is the way to convert the string `"64"` to an integer?
 <code>int("64")</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -208,7 +208,7 @@ Which of the following is the way to convert the string `"64"` to an integer?
 
 ### Question 6
 
-Which of the following are true about Python `list`s
+Which of the following are true about Python `list`s? _(You may select more than one answer.)_
 
 <details>
 <summary>
@@ -216,7 +216,7 @@ Which of the following are true about Python `list`s
 <code>len()</code> will return the length of a list
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -225,7 +225,7 @@ Which of the following are true about Python `list`s
 Lists elements are accessed via a numeric index
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -243,7 +243,7 @@ List indexes start at <code>1</code>
 A list can be empty
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -252,7 +252,7 @@ A list can be empty
 List indexes start at <code>0</code>
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -348,7 +348,7 @@ What does the code labeled "Part 1" display?
 6
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -389,7 +389,7 @@ John Cleese
 Terry Gilliam
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -484,7 +484,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 6
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -552,7 +552,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 5
 </summary>
 
-&emsp; :x: **INCORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
 <details>
@@ -590,7 +590,7 @@ print(warning)
 
 * `['for', 'monsters' 'check', 'under', 'the', 'bed', 'you', 'should']`
 * `['for', 'monsters' 'check', 'under', 'the', 'bed', 'should', 'you']`
-* `['you', 'should', 'check', 'under', 'the', 'bed', 'for', 'monsters']`
+* * `['you', 'should', 'check', 'under', 'the', 'bed', 'for', 'monsters']`
 * `['should', 'you', 'check', 'under', 'the', 'bed', 'for', 'monsters']`
 
 What would the following Python code print?
@@ -603,7 +603,7 @@ print(numbers)
 ```
 
 * `[2, 4, 100, 8]`
-* `[2, 4, 6, 8]`
+* * `[2, 4, 6, 8]`
 * `[2, 6, 100, 8]`
 * `[2, 6]`
 ### Question 11
