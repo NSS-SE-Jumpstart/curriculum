@@ -1,140 +1,556 @@
+
 # Checkpoint
 
 This is the first course checkpoint. Checkpoints give you a chance to verify your understanding of the material we've covered so far. They are purely for your benefit. Your instructors cannot see results or, for that matter, even verify that you went through the exercise.
- 
-## Question 1
+
+---
+### Question 1
 
 Which of the following are aspects of "flipped classroom" learning? _(You may select more than one answer)_
 
 <details>
 <summary>
-<b>A.</b>
+<b>A. </b>
 Students are first exposed to material before class
 </summary>
 
-> :heavy_check_mark: **CORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
-
 <details>
 <summary>
-<b>B.</b>
+<b>B. </b>
 Class time is used for Q&A
 </summary>
 
-* :heavy_check_mark: **CORRECT**
-</details>
+&emsp; :heavy_check_mark: **CORRECT**
 
+</details>
 <details>
 <summary>
-<b>C.</b>
+<b>C. </b>
 Class time is used for hands-on practice
 </summary>
 
-&ensp; :heavy_check_mark: **CORRECT**
-</details>
+&emsp; :heavy_check_mark: **CORRECT**
 
+</details>
 <details>
 <summary>
-<b>D.</b>
+<b>D. </b>
 Instructors focus more on coaching individuals and small groups than on lecturing
 </summary>
 
 &emsp; :heavy_check_mark: **CORRECT**
-</details>
 
+</details>
 <details>
 <summary>
-<b>E.</b>
+<b>E. </b>
 Everyone has to lay upside-down on their couch with their heads hanging over the edge and all the blood flowing into their brains
 </summary>
 
-:x: **INCORRECT**
+&emsp; :x: **INCORRECT**
+
 </details>
 
----
+### Question 2
 
 Which of the following are true about "code"?
 
-> * It's text
-* * It's written in a programming language
-* > It's mostly `1`s and `0`s
-* It's also known sas "source code"
-* It's magic that no human can understand
-* It's used to create "software programs"
+<details>
+<summary>
+<b>A. </b>
+It's text
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+It's written in a programming language
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+It's mostly <code>1</code>s and <code>0</code>s
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+It's also known sas "source code"
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>E. </b>
+It's magic that no human can understand
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>F. </b>
+It's used to create "software programs"
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+
+### Question 3
 
 Which of the following are computers that execute code?
 
-* Laptop
-* Desktop
-* Smartphone
-* Tablet
-* Smartwatch
-* Car
-* The human brain
+<details>
+<summary>
+<b>A. </b>
+Laptop
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+Desktop
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+Smartphone
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+Tablet
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>E. </b>
+Smartwatch
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>F. </b>
+Car
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>G. </b>
+The human brain
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 4
 
 What is the generic name for a single document, image or container of source code in a computer?
 
-* Module
-* File
-* Directory
-* Unit
+<details>
+<summary>
+<b>A. </b>
+Module
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+File
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+Directory
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+Unit
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 5
 
 What is another name for "folder"?
 
-* Module
-* File
-* Directory
-* Unit
+<details>
+<summary>
+<b>A. </b>
+Module
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+File
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+Directory
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+Unit
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 6
 
 What is the name of a computer's text-driven, command line interface?
 
-* GUI
-* Backdoor
-* Program
-* Terminal
+<details>
+<summary>
+<b>A. </b>
+GUI
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+Backdoor
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+Program
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+Terminal
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+
+### Question 7
 
 What does the `mkdir` command do?
 
-* Marks a dictionary
-* Makes a directory
-* Makes a delimiter
-* Marks a delimiter
+<details>
+<summary>
+<b>A. </b>
+Marks a dictionary
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+Makes a directory
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+Makes a delimiter
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+Marks a delimiter
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 8
 
 What does the `cd` command do?
 
-* Change to a directory
-* Counter a division
-* Marks a conflicting definition
-* Completes a directory
+<details>
+<summary>
+<b>A. </b>
+Change to a directory
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+Counter a division
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+Marks a conflicting definition
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+Completes a directory
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 9
 
 If you have a Python file called `hello_world.py`, what command would you type to run it?
 
-* `run hello_world.py`
-* `invoke hello_world.py`
-* `execute hello_world.py`
-* `python3 hello_world.py`
+<details>
+<summary>
+<b>A. </b>
+<code>run hello_world.py</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+<code>invoke hello_world.py</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+<code>execute hello_world.py</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+<code>python3 hello_world.py</code>
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+
+### Question 10
 
 What Python function is used to display text in the terminal?
 
-* `display()`
-* `show()`
-* `print()`
-* 'write()`
+<details>
+<summary>
+<b>A. </b>
+<code>display()</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+<code>show()</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+<code>print()</code>
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+<code>write()</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 11
 
 What Python function is used to get text from the user?
 
-* `get()`
-* `input()`
-* `read()`
-* `get_text()`
+<details>
+<summary>
+<b>A. </b>
+<code>get()</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+<code>input()</code>
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+<code>read()</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+<code>get_text()</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 12
 
 What construct do we use to store data in code?
 
-* a data block
-* a variable
-* a string
-* binary
+<details>
+<summary>
+<b>A. </b>
+a data block
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>B. </b>
+a variable
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+</details>
+<details>
+<summary>
+<b>C. </b>
+a string
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+<details>
+<summary>
+<b>D. </b>
+binary
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+</details>
+
+### Question 13
 
 When the Python code below runs, what is displayed to the terminal?
 
@@ -145,61 +561,39 @@ hobby = "sword swallowing"
 print(name + " really enjoys " + hobby + "...for some reason.")
 ```
 
-* `Rudy`
-* `name + " really enjoys " + hobby + "...for some reason."`
-* `Rudy + " really enjoys " + sword swallowing + "...for some reason."`
-* `Rudy really enjoys sword swallowing...for some reason.`
- 
-## Question 1
-
 <details>
 <summary>
-<b>Choice A</b>
-
-
+<b>A. </b>
+<code>Rudy</code>
 </summary>
 
-:x: **INCORRECT**
+&emsp; :x: **INCORRECT**
 
 </details>
-
 <details>
 <summary>
-<b>Choice B</b>
-
-
+<b>B. </b>
+<code>name + " really enjoys " + hobby + "...for some reason."</code>
 </summary>
 
-:x: **INCORRECT**
+&emsp; :x: **INCORRECT**
 
 </details>
-
 <details>
 <summary>
-<b>Choice C</b>
-
+<b>C. </b>
+<code>Rudy + " really enjoys " + sword swallowing + "...for some reason."</code>
 </summary>
 
-:x: **INCORRECT**
+&emsp; :x: **INCORRECT**
 
 </details>
-
 <details>
 <summary>
-<b>Choice D</b>
-
+<b>D. </b>
+<code>Rudy really enjoys sword swallowing...for some reason.</code>
 </summary>
 
-:heavy_check_mark: **CORRECT**
+&emsp; :heavy_check_mark: **CORRECT**
 
 </details>
-
-<details>
-<summary>
-<b>Click here for further explanation</b>
-</summary>
-
-</details>
-
-<br/>
-
