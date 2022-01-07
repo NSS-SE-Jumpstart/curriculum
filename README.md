@@ -43,10 +43,11 @@ This course is divided into nine sessions over three weeks.
 1. [Code as Communication](./sessions/session2/prework/code_as_communication.md)
 1. [Making Decisions in Code](./sessions/session2/prework/if_statements.md)
 1. [Looping](./sessions/session2/prework/while_loop.md)
+1. [Strings to Integers](./sessions/session2/prework/str_to_int.md)
 
 ### During Class
 
-1. Exercise
+1. [Lightning Exercises](./sessions/session2/classroom/lightning_exercises.md)
 
 ### After Class
 
