@@ -44,6 +44,7 @@ This course is divided into nine sessions over three weeks.
 1. [Making Decisions in Code](./sessions/session2/prework/if_statements.md)
 1. [Looping](./sessions/session2/prework/while_loop.md)
 1. [Strings to Integers](./sessions/session2/prework/str_to_int.md)
+1. [Example Code](./sessions/session2/prework/example.md)
 
 ### During Class
 
