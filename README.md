@@ -53,7 +53,7 @@ Tuesday (3 hours)
 ### During Class
 
 1. [Lightning Exercises](./sessions/session2/classroom/lightning_exercises.md)
-1. [Exercise - Bouncing Ball](./sessions/session2/classroom/bouncing_ball.gif)
+1. [Exercise - Bouncing Ball](./sessions/session2/classroom/exercise_ball.md)
 ### After Class
 
 1. [Checkpoint](./sessions/session2/wrapup/checkpoint.md)
