@@ -16,6 +16,8 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 1
 
+Saturday (6 hours)
+
 ### Before Class
 
 1. [Preparing for class](./sessions/session1/prework/prep_for_first_class.md)
@@ -38,6 +40,8 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 2
 
+Tuesday (3 hous)
+
 ### Before Class
 
 1. [Code as Communication](./sessions/session2/prework/code_as_communication.md)
@@ -58,12 +62,11 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 3
 
+Wednesday (3 hours)
+
 ### Before Class
 
-1. [Variables, Values and Data Types](./sessions/session3/prework/data_types.md)
-1. [Lists](./sessions/session3/prework/lists.md)
-1. [Modifying a List](./sessions/session3/prework/advanced_lists.md)
-1. [Looping Over a List](./sessions/session3/prework/for_loop.md)
+1.
 
 ### During Class
 
@@ -77,10 +80,14 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 4
 
+Saturday (6 hours)
+
 ### Before Class
 
-1. [Functions](./sessions/session4/prework/functions.md)
-1. [Import a Little Randomness](./sessions/session4/prework/import_random.md)
+1. [Variables, Values and Data Types](./sessions/session4/prework/data_types.md)
+1. [Lists](./sessions/session4/prework/lists.md)
+1. [Modifying a List](./sessions/session4/prework/advanced_lists.md)
+1. [Looping Over a List](./sessions/session4/prework/for_loop.md)
 
 ### During Class
 
@@ -94,9 +101,12 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 5
 
+Tuesday (3 hours)
+
 ### Before Class
 
-1.
+1. [Functions](./sessions/session5/prework/functions.md)
+1. [Import a Little Randomness](./sessions/session5/prework/import_random.md)
 
 ### During Class
 
@@ -109,6 +119,8 @@ This course is divided into nine sessions over three weeks.
 ---
 
 ## Session 6
+
+Wednesday (6 hours)
 
 ### Before Class
 
@@ -126,6 +138,8 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 7
 
+Saturday (6 hours)
+
 ### Before Class
 
 1.
@@ -142,6 +156,8 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 8
 
+Tuesday (3 hous)
+
 ### Before Class
 
 1. 
@@ -157,6 +173,8 @@ This course is divided into nine sessions over three weeks.
 ---
 
 ## Session 9
+
+Wednesday (3 hous)
 
 ### Before Class
 
