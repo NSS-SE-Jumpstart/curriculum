@@ -41,7 +41,7 @@ Saturday (6 hours)
 
 ## Session 2
 
-Tuesday (3 hous)
+Tuesday (3 hours)
 
 ### Before Class
 
@@ -53,8 +53,7 @@ Tuesday (3 hous)
 ### During Class
 
 1. [Lightning Exercises](./sessions/session2/classroom/lightning_exercises.md)
-1. **NEED ANOTHER EXERCISE**
-
+1. [Exercise - Bouncing Ball](./sessions/session2/classroom/bouncing_ball.gif)
 ### After Class
 
 1. [Checkpoint](./sessions/session2/wrapup/checkpoint.md)
@@ -71,7 +70,7 @@ Wednesday (3 hours)
 
 ### During Class
 
-1. Exercise
+1. **NEED INDIVIDUAL EXERCISE**
 
 ### After Class
 
@@ -92,7 +91,7 @@ Saturday (6 hours)
 
 ### During Class
 
-1. Exercise
+1. **NEED INDIVIDUAL EXERCISE**
 
 ### After Class
 
@@ -111,7 +110,8 @@ Tuesday (3 hours)
 
 ### During Class
 
-1. Exercise
+1. **NEED LIGHTNING EXERCISE**
+1. **NEED INDIVIDUAL EXERCISE**
 
 ### After Class
 
@@ -157,7 +157,7 @@ Saturday (6 hours)
 
 ## Session 8
 
-Tuesday (3 hous)
+Tuesday (3 hours)
 
 ### Before Class
 
@@ -175,7 +175,7 @@ Tuesday (3 hous)
 
 ## Session 9
 
-Wednesday (3 hous)
+Wednesday (3 hours)
 
 ### Before Class
 
