@@ -31,6 +31,7 @@ Saturday (6 hours)
 1. [Let's write some code](./sessions/session1/classroom/hello_world.md)
 1. [Interactivity](./sessions/session1/classroom/interactivity.md)
 1. [Lightning Exercises](./sessions/session1/classroom/lightning_exercises.md)
+1. [Exercise - Madlibs](./sessions/session1/classroom/exercise_madlibs.md)
 
 ### After Class
 
