@@ -53,6 +53,7 @@ Tuesday (3 hous)
 ### During Class
 
 1. [Lightning Exercises](./sessions/session2/classroom/lightning_exercises.md)
+1. **NEED ANOTHER EXERCISE**
 
 ### After Class
 
@@ -66,7 +67,7 @@ Wednesday (3 hours)
 
 ### Before Class
 
-1.
+1. N/A
 
 ### During Class
 
