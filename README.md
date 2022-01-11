@@ -70,7 +70,7 @@ Wednesday (3 hours)
 
 ### During Class
 
-1. **NEED INDIVIDUAL EXERCISE**
+1. [Exercise - Flash Cards](./sessions/session3/classroom/exercise_flashcard.md)
 
 ### After Class
 
