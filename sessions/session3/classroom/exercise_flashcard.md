@@ -31,6 +31,19 @@ As you go through this exercise, you'll sometimes be asked to add code in one ph
 
 1. After the user enters four words, display all the words and definitions. Separate each word/definition pair with a blank line.
 
+    > **NOTE:** In order to display a blank line, use `print()` without putting anything between the parentheses. For example this Python code
+    > ```python
+    > print("Hello")
+    > print()
+    > print("World")
+    > ```
+    > will print
+    > ```text
+    > Hello
+    >
+    > World
+    > ```
+
 1. Make sure to run your program a few times to test it. Remember, for testing purposes, you don't need to take the time to type out full definitions. A word or two will do.
 
 ## Phase Two
