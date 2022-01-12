@@ -54,18 +54,36 @@ The remaining six sessions will be on Tuesday and Wednesday evenings from 6pm to
 
 We may not have time to take lunch or dinner breaks, but we won't go nonstop the whole time either. We'll try not to go more than an hour without taking a 5-10 minute break.
 
-### A Typical Class Session
+### Overall Course Structure
 
-1. Before each class session you should complete the _prework_ for that session. For the most part this means reading a few lessons, and preparing questions on the material
+The course is divided into two phases, we call **learning** and **practice**.
+
+The first five(-ish) class sessions will be devoted to actively learning the Python programming language as well as related topics. The final four class sessions will be devoted to intensely practicing what you've learned by building a text-based game in Python.
+
+#### Structure of a "Learning" Class Session 
+
+##### Before Class
+
+1. Before each class session you should complete the _prework_ for that session. For the most part this means reading a few lessons, studying some example code, and preparing questions on the material
 1. Also, before class you should submit any questions you have in the class discussion forum. You will also be able to see your classmate's questions and vote for any you would like to discuss.
 
     > **NOTE:** We'll demonstrate using the discussion forum during the first class session.
 
-1. At the beginning of a class session, your instructor will take some time to answer questions from the discussion forum and to dive deeper into the more complex topics from the prework reading.
-1. Next your instructor will introduce one or more coding exercises for you to work out throughout the rest of the class session.
+##### During Class
 
-    > **NOTE:** During exercise time, we will use a feature of Zoom called "breakout rooms" to allow students to congregate into small groups or to work alone while still remaining in the Zoom meeting. We will demonstrate breakout rooms during the first class session.
+1. At the beginning of a class session, your instructor will take some time to answer questions from the discussion forum and to dive deeper into the more complex topics from the prework reading.
+1. Next your instructor will introduce one or more coding exercises for you to work out throughout the rest of the class session. Some of these exercises will be instructor-led, while others will be worked independently.
+
+    > **NOTE:** During "independent" exercise time, we will use a feature of Zoom called "breakout rooms" to allow you to congregate into small groups or to work alone while still remaining in the Zoom meeting. We will demonstrate breakout rooms during the first class session.
 
 1. While you are working, instructors will be available to answer questions and offer one-on-one coaching.
 1. At the end of each class session, we'll quickly gather back together to end the day.
-1. Finally, each session has a corresponding "checkpoint" exercise for you to complete after class. Checkpoints are a few multiple choice questions to help reenforce the material.
+
+##### After Class
+
+1. Finally, each session has a corresponding "checkpoint" exercise for you to complete after class. Checkpoints are multiple-choice/short-answer questions to help reinforce the material. They are not graded or monitored by instructors. They are solely for self-assessment.
+
+#### Structure of a "Practice" Class Session
+
+Practice sessions have a much looser structure. We will start each session with Q&A time, but after that you'll be free to work on the project and get one-on-one help from instructors.
+
