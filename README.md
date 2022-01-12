@@ -92,7 +92,8 @@ Saturday (6 hours)
 
 ### During Class
 
-1. **NEED INDIVIDUAL EXERCISE**
+1. **NEED LIGHTNING EXERCISE**
+1. [Exercise - Alien Investigators](./sessions/session4/classroom/exercise_alien_investigators.md)
 
 ### After Class
 
