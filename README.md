@@ -88,6 +88,7 @@ Saturday (6 hours)
 1. [Lists](./sessions/session4/prework/lists.md)
 1. [Modifying a List](./sessions/session4/prework/advanced_lists.md)
 1. [Looping Over a List](./sessions/session4/prework/for_loop.md)
+1. [Example Code](./sessions/session4/prework/example.md)
 
 ### During Class
 
