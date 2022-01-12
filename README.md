@@ -125,15 +125,11 @@ Wednesday (6 hours)
 
 ### Before Class
 
-1. [Jumpstart Project: Clothesline](./projects/clothesline/clothesline.md)
+1. [Clothesline](./projects/clothesline/clothesline.md)
 
 ### During Class
 
-1. Exercise
-
-### After Class
-
-1. [Checkpoint](./sessions/session6/wrapup/checkpoint.md)
+1. **Clothesline Project**
 
 ---
 
@@ -141,17 +137,9 @@ Wednesday (6 hours)
 
 Saturday (6 hours)
 
-### Before Class
-
-1.
-
 ### During Class
 
-1. Exercise
-
-### After Class
-
-1. [Checkpoint](./sessions/session7/wrapup/checkpoint.md)
+1. **Clothesline Project**
 
 ---
 
@@ -159,17 +147,9 @@ Saturday (6 hours)
 
 Tuesday (3 hours)
 
-### Before Class
-
-1. 
-
 ### During Class
 
-1. Exercise
-
-### After Class
-
-1. [Checkpoint](./sessions/session8/wrapup/checkpoint.md)
+1. **Clothesline Project**
 
 ---
 
@@ -177,14 +157,7 @@ Tuesday (3 hours)
 
 Wednesday (3 hours)
 
-### Before Class
-
-1. 
-
 ### During Class
 
-1. Exercise
+1. Course Wrapup
 
-### After Class
-
-1. [Checkpoint](./sessions/session9/wrapup/checkpoint.md)
