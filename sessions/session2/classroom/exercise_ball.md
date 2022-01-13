@@ -15,9 +15,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     # This section contains the "frames" for the animation
     ############################################################
 
-    ball_0 = r"""
+    frame_0 = r"""
     +---------------------+
-    |                     |
     |O                    |
     |                     |
     |                     |
@@ -26,9 +25,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_1 = r"""
+    frame_1 = r"""
     +---------------------+
-    |                     |
     |                     |
     | O                   |
     |                     |
@@ -37,9 +35,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_2 = r"""
+    frame_2 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |  O                  |
@@ -48,9 +45,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_3 = r"""
+    frame_3 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -59,9 +55,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_4 = r"""
+    frame_4 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -70,9 +65,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_5 = r"""
+    frame_5 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -81,9 +75,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_6 = r"""
+    frame_6 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |      O              |
@@ -92,9 +85,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_7 = r"""
+    frame_7 = r"""
     +---------------------+
-    |                     |
     |                     |
     |       O             |
     |                     |
@@ -103,9 +95,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_8 = r"""
+    frame_8 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |        O            |
@@ -114,9 +105,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_9 = r"""
+    frame_9 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -125,9 +115,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_10 = r"""
+    frame_10 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -136,9 +125,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_11 = r"""
+    frame_11 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -147,9 +135,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_12 = r"""
+    frame_12 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |            O        |
@@ -158,9 +145,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_13 = r"""
+    frame_13 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -169,9 +155,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_14 = r"""
+    frame_14 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -180,9 +165,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_15 = r"""
+    frame_15 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -191,9 +175,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_16 = r"""
+    frame_16 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -202,9 +185,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_17 = r"""
+    frame_17 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -213,9 +195,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_18 = r"""
+    frame_18 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -224,9 +205,8 @@ The code below is a partially working bouncing ball "animation" that runs in the
     +---------------------+
     """
 
-    ball_19 = r"""
+    frame_19 = r"""
     +---------------------+
-    |                     |
     |                     |
     |                     |
     |                     |
@@ -248,45 +228,45 @@ The code below is a partially working bouncing ball "animation" that runs in the
         print("\033[H\033[J")
 
         if counter == 0:
-            print(ball_0)
+            print(frame_0)
         elif counter == 1:
-            print(ball_1)
+            print(frame_1)
         elif counter == 2:
-            print(ball_2)
+            print(frame_2)
         elif counter == 3:
-            print(ball_3)
+            print(frame_3)
         elif counter == 4:
-            print(ball_4)
+            print(frame_4)
         elif 5 == counter:
-            print(ball_5)
+            print(frame_5)
         elif counter == 6:
-            print(ball_6)
+            print(frame_6)
         elif counter == 7:
-            print(ball_7)
+            print(frame_7)
         elif counter == 9:
-            print(ball_8)
+            print(frame_8)
         elif counter == 9:
-            print(ball_9)
+            print(frame_9)
         elif counter == 9:
-            print(ball_10)
+            print(frame_10)
         elif counter == 9:
-            print(ball_11)
+            print(frame_11)
         elif counter == 12:
-            print(ball_12)
+            print(frame_12)
         elif counter == 13:
-            print(ball_13)
+            print(frame_13)
         elif counter == 14:
-            print(ball_14)
+            print(frame_14)
         elif counter == 15:
-            print(ball_15)
+            print(frame_15)
         elif counter == 16:
-            print(ball_16)
+            print(frame_16)
         elif counter == 17:
-            print(ball_17)
+            print(frame_17)
         elif counter == 18:
-            print(ball_18)
+            print(frame_18)
         elif counter == 19:
-            print(ball_20)
+            print(frame_20)
 
         counter = counter + 1
 
@@ -298,19 +278,19 @@ The code below is a partially working bouncing ball "animation" that runs in the
 1. Run the code in your terminal.
 
     ```txt
-    python3 bouncing_bally.py
+    python3 bouncing_ball.py
     ```
 
     Everything should work...until it doesn't.
 
-    ![bouncing ball](./bouncing_ball.gif)
+    ![bouncing ball](./bouncing_ball_broken.svg)
 
 ## Bug Fixes
 
-1. The first thing to fix is that nasty error message. The message itself is a bit hard to decipher, but the important part seems to be `name 'ball_20' is not defined`.
+1. The first thing to fix is that nasty error message. The message itself is a bit hard to decipher, but the important part seems to be `name 'frame_20' is not defined`.
 
     * What does this error mean?
-    * Where does `ball_20` appear in the code?
+    * Where does `frame_20` appear in the code?
     * Should it be there?
 
     Fix the code so the error goes away.
@@ -345,4 +325,4 @@ The code below is a partially working bouncing ball "animation" that runs in the
 
 After completing this exercise, your output should look something like this:
 
-![bouncing ball final](./bouncing_ball_final.gif)
+![bouncing ball final](./bouncing_ball_final.svg)
