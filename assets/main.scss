@@ -1,0 +1,16 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+# Making a few small style tweaks here to more closely match the default Github rendering
+---
+
+@import "minima";
+
+blockquote {
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-style: normal;
+
+b, strong {
+    font-weight: 600;
+}

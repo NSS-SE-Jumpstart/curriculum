@@ -33,7 +33,7 @@ If you can run commands with `sudo` you should be ok.
 
 Slack is a text-based, instant messaging application similar to Facebook Messenger, WhatsApp or any number of other messaging tools you may have used. Slack is popular amongst development teams and it's free, which is why we use it at NSS.
 
-You should download and install Slack from this website: https://slack.com/downloads/
+You should download and install Slack from this website: <https://slack.com/downloads/>
 
 You might also want to check out Slack's [Quick Start Guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide).
 
@@ -43,7 +43,7 @@ You might also want to check out Slack's [Quick Start Guide](https://slack.com/h
 
 Zoom is popular video conferencing software. We use Zoom to host remote classrooms.
 
-You should download and install Zoom from this website: https://zoom.us/download#client_4meeting
+You should download and install Zoom from this website: <https://zoom.us/download#client_4meeting>
 
 You might also want to check out Zooms's [Getting Started Guide](https://support.zoom.us/hc/en-us/categories/200101697).
 
@@ -53,9 +53,9 @@ You might also want to check out Zooms's [Getting Started Guide](https://support
 
 The course material is hosted on a platform called GitHub _(the website you are on right now)_. GitHub is commonly known a service used by developers to store their code. However, most GitHub functionality is beyond the scope of this course. We'll use it as a place to host course content and to have online discussions.
 
-You will need to create a free GitHub account for this course. Follow this link to create your account: https://github.com/signup
+You will need to create a free GitHub account for this course. Follow this link to create your account: <https://github.com/signup>
 
-The course material is located here: https://github.com/NSS-Software-Engineering/Jumpstart
+The course material is located here: <https://github.com/NSS-Software-Engineering/Jumpstart>
 
 ### Additional Installations
 
