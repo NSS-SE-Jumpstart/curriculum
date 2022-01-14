@@ -1,0 +1,10 @@
+title: NSS SWE Jumpstart
+
+theme: minima
+
+# empty list otherwise every. single. page. is listed in the header
+header_pages:
+  - 
+
+plugins:
+  - jemoji
