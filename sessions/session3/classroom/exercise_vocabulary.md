@@ -1,8 +1,8 @@
-# Exercise - Flash Cards
+# Exercise - Vocabulary Words
 
 ## Overview
 
-In this exercise you'll build a terminal-based flash card program for studying vocabulary words.
+In this exercise you'll build a terminal-based program for studying vocabulary words.
 
 When the program is complete it will do the following:
 
@@ -84,9 +84,11 @@ You'll be updating the code after you ask the user to enter the words and defini
 
 You may have noticed that your program allows users to enter blank words and definitions. In this phase you'll handle the situation in which a word or definition is blank.
 
-1. Before prompting the user to define each word, use an `if` statement to determine if the word is **not** blank. You should only prompt the user to define the word if it is **not** blank.
+> **NOTE:** The following changes should be within the `while` loop. You should **not** change the code that inputs the values for the `word_XX` and `definition_XX` variables.
 
-1. If the word is not blank, but the definition **is** blank, you should prompt the user to define the word, but instead of showing the correct definition, your code should print `-- No definition found --`
+1. Within the `while` loop, before prompting the user to define each word, use an `if` statement to ensure the string in the `word_XX` variable is **not** blank. You should only prompt the user to define the word if it is **not** blank.
+
+1. If the word is not blank, but the value of the corresponding `definition_XX` variable **is** blank, you should prompt the user to define the word, but instead of showing the correct definition, your code should print `-- No definition found --`
 
 ## Phase Five
 
@@ -94,9 +96,19 @@ You may have noticed that your program allows users to enter blank words and def
 
 1. Update your code to only print word/definition pairs if the word is not blank.
 
+## Example
+
+When your program is complete, it should behave something like this:
+
+> **NOTE:** In this example, the third word's definition is blank and the fourth word is blank.
+
+![Vocabulary Example](./vocabulary.svg)
+
 ## Challenge 
 
 Change your code to disallow blank words and definitions. If a user enters a blank word, you should prompt them to reenter it until they enter something other than a blank.
 
 Do the same with definitions. Do not make them reenter the word, only the definition.
+
+
 
