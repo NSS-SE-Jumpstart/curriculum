@@ -6,7 +6,7 @@ This sort of sequential code is powerful, but it's not sufficient to do all we n
 
 ## `if/else`
 
-Here's some code tha makes a decision based on some user input.
+Here's some code that makes a decision based on some user input.
 
 ```python
 best_color = input("What is the best color? ")
@@ -14,7 +14,7 @@ best_color = input("What is the best color? ")
 if best_color == "green":
     print("Green is the right answer. Good job.")
 else:
-    print("What? Why didn't you sey 'green'? You need help.")
+    print("What? Why didn't you say 'green'? You need help.")
 ```
 
 When this code runs, one of two things will happen.
@@ -30,20 +30,20 @@ Or this...
 
 ```txt
 What is the best color? hotdog
-What? Why didn't you sey 'green'? You need help.
+What? Why didn't you say 'green'? You need help.
 ```
 
 The code that runs depends on the value that the user enters. If the user enters `green`, they are praised for their good work. If they enter **anything else**, they are condemned for their poor life choices.
 
 ### Conditionals
 
-Take another look at this line. This is where the magic happens.
+Take another look at this line - this is where the magic happens.
 
 ```python
 if best_color == "green":
 ```
 
-This is an `if` statement. An `if` statement let your code ask a question about some data and make a decision about what to do next.
+This is an `if` statement. An `if` statement lets your code ask a question about some data and make a decision about what to do next.
 
 This code asks the question, _Is the value stored in the `best_color` variable equal to the string `"green"`?_
 
@@ -55,6 +55,8 @@ best_color == "green" # this may be True or False
 
 The code above is called the _condition_ of the `if` statement. When the condition is `True` the code immediately below the `if` runs. When the condition is `False`, the code below the `else` runs.
 
+Putting that all together, here is the same block of code with some comments to illustrate what we've just discussed.
+
 ```python
 best_color = input("What is the best color? ")
 
@@ -64,17 +66,17 @@ if best_color == "green":
     print("Green is the right answer. Good job.")
 else:
     # False block - when best_color is not equal to "green"
-    print("What? Why didn't you sey 'green'? You need help.")
+    print("What? Why didn't you say 'green'? You need help.")
 ```
 
-Notice that the code beneath the `if` and the `else` is indented. This is required and very important. You'll see similar code indention throughout Python code.
+Notice that the code beneath the `if` and the `else` lines is indented. This is required and very important. You'll see similar code indention throughout Python code.
 
 ## `if/elif/else`
 
 Sometimes a simple yes or no decision is not enough. For these situations Python provides us with the `elif` keyword.
 
 ```python
-the_boss = input("Who's the boss? The cat or the human ")
+the_boss = input("Who's the boss - the cat or the human? ")
 
 if the_boss == "cat":
     print("Your honesty is commendable.")
@@ -87,7 +89,7 @@ else:
 You can have as many `elif`s as you need.
 
 ```python
-the_boss = input("Who's the boss? The cat, the human or the baby ")
+the_boss = input("Who's the boss - the cat, the human, or the baby? ")
 
 if the_boss == "cat":
     print("Your honesty is commendable.")
@@ -96,12 +98,14 @@ elif the_boss == "human":
 elif the_boss == "baby":
     print("Even the cat is no match for the baby!")
 else:
-    print("You gotta say 'cat', 'human' or 'baby'.")
+    print("You gotta say 'cat', 'human', or 'baby'.")
 ```
 
 ## Just an `if`
 
-Finally, Python allows you to have just an `if` without an `else` or `elif`. When you have have only an `if`, the code below it will run when the condition is `True`, but when the condition is `False` nothing happens.
+Finally, Python allows you to have just an `if` without an `else` or `elif`. When you have have only an `if`, the code within it will run when the condition is `True`, but when the condition is `False` nothing happens.
+
+In this example, the text "The world has gone crazy!!!!" will only be printed if by some strange circumstance `1` is equal to `2`.
 
 ```python
 print("Everything's fine")
