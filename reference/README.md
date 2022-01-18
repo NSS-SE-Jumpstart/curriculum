@@ -368,7 +368,7 @@ A text-based interface for interacting with a computer.
 
 Also called _(too many things)_:
 
-* Command Line Interface
+* Command Line Interface (the abbreviation CLI is often used as well)
 * Command Prompt
 * Shell
 * Console

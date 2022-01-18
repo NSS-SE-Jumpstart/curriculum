@@ -55,8 +55,6 @@ best_color == "green" # this may be True or False
 
 The code above is called the _condition_ of the `if` statement. When the condition is `True` the code immediately below the `if` runs. When the condition is `False`, the code below the `else` runs.
 
-Putting that all together, here is the same block of code with some comments to illustrate what we've just discussed.
-
 ```python
 best_color = input("What is the best color? ")
 
