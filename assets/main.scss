@@ -5,6 +5,18 @@
 
 @import "minima";
 
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h1 {
+      @include relative-font-size(2.625);
+
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.75);
+      }
+    }
+}
+
 blockquote {
     color: #777;
     font-size: 16px;
