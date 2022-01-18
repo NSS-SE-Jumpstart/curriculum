@@ -115,7 +115,7 @@ Tuesday (3 hours)
 ### During Class
 
 1. **NEED LIGHTNING EXERCISE**
-1. [Exeericse - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
+1. [Exercise - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
 
 ### After Class
 

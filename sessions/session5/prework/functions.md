@@ -1,8 +1,8 @@
 # Functions
 
-In some of the previous lessons, we've used the word _function_ a few times without defining it. An understanding of the word wasn't as important as an understanding of whatever other material we were covering. But now that the lesson is called _"functions"_ we should probably define the term.
+In some of the previous lessons, we've used the word _function_ a few times without defining it. An understanding of the word wasn't as important as an understanding of whatever other material we were covering. But now that the lesson is called _"Functions"_ we should probably define the term.
 
-A _function_ is a named container of code. In a sense a function contains code like a variable contains data. The code in a function can be executed by _calling_ the function.
+A _function_ is a named container of code. In a sense a function contains code in the same way that a variable contains data. The code in a function can be executed by _calling_ the function.
 
 Python has a LOT of functions built right into the language. We've already seen a handful of them.
 
@@ -27,7 +27,7 @@ print("Look, Ma, I'm calling a function!")
 
 Some functions take in data as input. The data passed into a function are known as the function's _parameters_. Parameters are _passed into_ a function inside the parentheses.
 
-The `len()` function, for example, takes a list or a string as a parameter and returns it's length.
+The `len()` function for example, takes a list or a string as a parameter and returns its length.
 
 ```python
 foods = ["cheese", "bacon", "eggs", "more cheese"]
@@ -59,7 +59,7 @@ After the above code runs, the `opinion` variable contains the text that the use
 
 ## Defining Functions
 
-This is where things get really good. The functions that Python gives us are great, but the real power of programming is writing your own functions. In Python we use the `def` keyword to define a function. Here's an example of a function that discourages someone from talking during the movie.
+This is where things get really good. The functions that Python gives us are great, but the real power of programming is writing your own functions. In Python we use the `def` keyword to define a function. Here's an example of a function that discourages someone from talking during a movie.
 
 ```python
 def no_talking(name):
