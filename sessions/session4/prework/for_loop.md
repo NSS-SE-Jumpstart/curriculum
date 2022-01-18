@@ -11,7 +11,7 @@ while index < len(marx_brothers):
     index = index + 1
 ```
 
-This approach works well enough, Python offers us an easier way, the `for` loop.
+This approach works well enough, but Python offers us an easier way with the `for` loop.
 
 ## The `for` Loop
 

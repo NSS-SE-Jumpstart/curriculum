@@ -1,8 +1,8 @@
 # Lists
 
-We've talked about a few of Python's data types already - i.e. `str`, `int`, `float`, `bool`. But Python has a much richer system of types than just those four. There's a lot more to explore. In this course, however, we're going to introduce just one more of Python's types: the `list` type.
+We've talked about a few of Python's data types already - i.e. `str`, `int`, `float`, `bool`. But Python has a much richer system of types than just those four. There's a lot more to explore. In this course however, we're going to introduce just one more of Python's types: the `list` type.
 
-A `list` in Python is a way to group data together. A single, `list` variable keeps track of several pieces of data in one place instead of needing to use multiple variables.
+A `list` in Python is a way to group data together. A single `list` variable keeps track of several pieces of data in one place instead of needing to use multiple variables.
 
 Imagine we wanted our program to work with the months of the year. We could do something like this:
 
@@ -46,7 +46,7 @@ Now we only have one variable, `months`, to keep track of.
 
 ## Creating a `list`
 
-In Python code a `list` is a collection of values surrounded by square brackets `[]` with each separated by a comma `,`.
+In Python code a `list` is a collection of values surrounded by square brackets `[]` with each value separated by a comma `,`.
 
 The `months` variable above is an example of creating a `list`. Here are a couple more.
 
