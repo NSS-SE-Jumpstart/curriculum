@@ -63,7 +63,7 @@ You'll start out with some existing code, but it isn't complete and has a few bu
 
     > **NOTE:** The message should disappear after the user responds to the first `input()` prompt.
 
-1. In the event that the user does not select any of the available options, they see a nasty error message.
+1. In the event that the user does not select any team members, they see a nasty error message.
 
     ```text
     Traceback (most recent call last):
@@ -72,12 +72,20 @@ You'll start out with some existing code, but it isn't complete and has a few bu
     IndexError: list index out of range
     ```
 
-    Prevent this error message from being displayed.
+    **Your task is to prevent this error message from being displayed.** Instead of an error in the event that the user doesn't select any team members, the program should end without printing anything.
+
+    That's easy enough to say, but how do you go about doing it? The first step to fixing the bug is understanding it. If you look closely at the error message, you'll see that it's telling you the problem is on `line 38` in the code, `leader = team[0]`. What is wrong with this code? What does the `team` list contain if the user didn't select any team members?
+
+    Once you understand the cause of the bug, the next step is to think about how the program should behave. This is easy since the instructions say the program should just end without displaying anything.
+
+    Finally, it's time to change the code. In this case there's a condition in which the code should print information about the team and another condition in which the program should print nothing. What coding construct do we use when we need to conditionally execute code?
 
 ## New Features
 
-1. If the user does not select anyone to be on the team, display a message indicating they should re-run the program to create a team.
 1. Update the code to prevent the display of the `Team so far:` message if the `team` list is empty.
+
 1. Right now the code assumes the first person who is chosen is the team leader, but this isn't very flexible.
 
     Update the code so that if, _and only if,_ a person is chosen to be on the team, the user is asked if that person should be the leader. If the user enters a `y`, insert the person into the first element of the list, otherwise append them to the end of the list.
+
+1. If the user does not select anyone to be on the team, display a message indicating they should re-run the program to create a team.
