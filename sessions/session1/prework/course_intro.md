@@ -62,14 +62,14 @@ The first five(-ish) class sessions will be devoted to actively learning the Pyt
 
 #### Structure of a "Learning" Class Session 
 
-**Before Class**
+##### Before Class
 
 1. Before each class session you should complete the _prework_ for that session. For the most part this means reading a few lessons, studying some example code, and preparing questions on the material.
 1. Also, before class you should submit any questions you have in the class discussion forum. You will also be able to see your classmate's questions and vote for any you would like to discuss.
 
     > **NOTE:** We'll demonstrate using the discussion forum during the first class session.
 
-**During Class**
+##### During Class
 
 1. At the beginning of a class session, your instructor will take some time to answer questions from the discussion forum and to dive deeper into the more complex topics from the prework reading.
 1. Next your instructor will introduce one or more coding exercises for you to work on throughout the rest of the class session. Some of these exercises will be instructor-led, while others will be worked independently.
@@ -79,7 +79,7 @@ The first five(-ish) class sessions will be devoted to actively learning the Pyt
 1. While you are working, instructors will be available to answer questions and offer one-on-one coaching.
 1. At the end of each class session, we'll quickly gather back together to end the day.
 
-**After Class**
+##### After Class
 
 1. Finally, each session has a corresponding "checkpoint" exercise for you to complete after class. Checkpoints are multiple-choice/short-answer questions to help reinforce the material. They are not graded or monitored by instructors. They are solely for self-assessment.
 
