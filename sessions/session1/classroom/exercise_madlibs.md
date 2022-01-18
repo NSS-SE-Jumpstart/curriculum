@@ -4,11 +4,11 @@ It's practice time.
 
 > **NOTE:** This is the first of many practice exercises you'll encounter throughout the course. In general, when working on practice exercises we'll open the Zoom breakout rooms so that you can move into smaller "rooms" to work. Some students find working solo be more natural whereas others prefer working with classmates. Whichever you prefer, we **strongly encourage** you to do some of each. In the real world, software developers spend lots of time doing heads-down, individual work, but generally **more** time working directly with other developers.
 
-You're going to make a [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs) game! Mad Libs that prompts a user to enter words of a particular part of speech and uses those words to complete a small (funny?) story.
+You're going to make a [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs) game! Mad Libs prompt a user to enter words of a particular part of speech, and uses those words to complete a small (funny?) story.
 
 1. Create a new directory within your `workspace` directory, and a Python file for the exercise. Remember to name things in such a way that you'll know what they are in a few weeks.
 
-1. To start things off, write the code to print a the message, "Welcome to Mad Libs!" followed by a blank line.
+1. To start things off, write the code to print the message, "Welcome to Mad Libs!" followed by a blank line.
 
 1. Run the program and confirm that the message is displayed.
 

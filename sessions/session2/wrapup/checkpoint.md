@@ -72,7 +72,7 @@ message
 
 ### Question 3
 
-What construct to we use to conditionally execute code?
+What construct do we use to conditionally execute code?
 
 <details>
 <summary>

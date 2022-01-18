@@ -1,5 +1,7 @@
 # Checkpoint
 
+For this checkpoint, refer to the [reference](../../../../reference) to check your answers.
+
 1. In your own words, define the following terms:
 
     > **NOTE:** You don't need to use dictionary definitions. It's perfectly fine to be informal and/or give examples.

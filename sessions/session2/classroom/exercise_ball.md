@@ -1,6 +1,6 @@
 # Exercise - Bouncing Ball
 
-In the real world it is very rare to start coding from scratch. In most cases, you'll be given existing code and you'll have to make changes to it. There may be bugs in the code that need to be fixed or the customer my be requesting new features. In either case, you'll have to work with code that someone else wrote. This exercise is your first taste of what it's like to add to existing code.
+In the real world it is very rare to start coding from scratch. In most cases, you'll be given existing code and you'll have to make changes to it. There may be bugs in the code that need to be fixed or the customer may be requesting new features. In either case, you'll have to work with code that someone else wrote. This exercise is your first taste of what it's like to add to existing code.
 
 The code below is a partially working bouncing ball "animation" that runs in the terminal. Your task is to fix it and then to add a feature.
 

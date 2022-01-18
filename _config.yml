@@ -1,10 +1,22 @@
-title: NSS SWE Jumpstart
+title: Software Engineering Jumpstart
 
 theme: minima
 
-# empty list otherwise every. single. page. is listed in the header
 header_pages:
-  - 
+  - " "
 
-plugins:
-  - jemoji
+# We only want to publish session1 prework to Github Pages
+include: [index.md, sessions/session1/prework]
+exclude: [
+  README.md, Gemfile, Gemfile.lock,
+  sessions/session1/classroom,
+  sessions/session1/wrapup,
+  sessions/session2,
+  sessions/session3,
+  sessions/session4,
+  sessions/session5,
+  sessions/session6,
+  sessions/session7,
+  sessions/session8,
+  sessions/session9,
+  reference, projects]

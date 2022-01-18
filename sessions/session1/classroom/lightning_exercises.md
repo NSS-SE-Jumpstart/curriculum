@@ -23,10 +23,10 @@ For these exercises, you'll keep adding code to the bottom of the same Python fi
 
 ## Exercise 4
 
-1. Add new code to print the text, `Roger do not like soup! Not even __name-of-soup__!. Roger has no taste!`.
+1. Add new code to print the text, `Roger does not like soup! Not even __name-of-soup__! Roger has no taste!`.
 
 For example, if your favorite soup is `tomato`, your code should print: 
-`Roger does not like soup! Not even tomato!. Roger has no taste!`.
+`Roger does not like soup! Not even tomato! Roger has no taste!`.
 
 ## Exercise 5
 

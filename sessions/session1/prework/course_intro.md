@@ -28,7 +28,7 @@ Why is learning to code so hard? Because learning is hard and because coding is 
 
 If it's so hard, why do it?
 
-Money? It's true that there is money to be made as a software engineer. And there's nothing wrong with making good money. But many people discover another motivator along the way. Coding is fun.
+Money? It's true that there is money to be made as a software engineer. And there's nothing wrong with making good money. But many people discover another motivator along the way: coding is fun!
 
 ## Fun
 
@@ -46,7 +46,7 @@ We promise that there is no feeling in the world quite like finally getting the 
 
 As you probably already know, this course will meet nine times over three weeks.
 
-Three of those sessions will be Saturdays. Saturday meetings will be six hours from 9am to 2pm. We will not take a lunch break, but there should always be time around noon for you to step away from your computer to grab some food.
+Three of those sessions will be Saturdays. Saturday sessions will be six hours from 9am to 2pm. We will not take a lunch break, but there should always be time around noon for you to step away from your computer to grab some food.
 
 The remaining six sessions will be on Tuesday and Wednesday evenings from 6pm to 9pm. There will not be a dinner break, so please try to eat something before class begins.
 
@@ -64,7 +64,7 @@ The first five(-ish) class sessions will be devoted to actively learning the Pyt
 
 ##### Before Class
 
-1. Before each class session you should complete the _prework_ for that session. For the most part this means reading a few lessons, studying some example code, and preparing questions on the material
+1. Before each class session you should complete the _prework_ for that session. For the most part this means reading a few lessons, studying some example code, and preparing questions on the material.
 1. Also, before class you should submit any questions you have in the class discussion forum. You will also be able to see your classmate's questions and vote for any you would like to discuss.
 
     > **NOTE:** We'll demonstrate using the discussion forum during the first class session.
@@ -72,7 +72,7 @@ The first five(-ish) class sessions will be devoted to actively learning the Pyt
 ##### During Class
 
 1. At the beginning of a class session, your instructor will take some time to answer questions from the discussion forum and to dive deeper into the more complex topics from the prework reading.
-1. Next your instructor will introduce one or more coding exercises for you to work out throughout the rest of the class session. Some of these exercises will be instructor-led, while others will be worked independently.
+1. Next your instructor will introduce one or more coding exercises for you to work on throughout the rest of the class session. Some of these exercises will be instructor-led, while others will be worked independently.
 
     > **NOTE:** During "independent" exercise time, we will use a feature of Zoom called "breakout rooms" to allow you to congregate into small groups or to work alone while still remaining in the Zoom meeting. We will demonstrate breakout rooms during the first class session.
 
@@ -86,4 +86,3 @@ The first five(-ish) class sessions will be devoted to actively learning the Pyt
 #### Structure of a "Practice" Class Session
 
 Practice sessions have a much looser structure. We will start each session with Q&A time, but after that you'll be free to work on the project and get one-on-one help from instructors.
-
