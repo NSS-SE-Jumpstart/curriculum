@@ -85,11 +85,11 @@ You'll be updating the code after you ask the user to enter the words and defini
 
 You may have noticed that your program allows users to enter blank words and definitions. In this phase you'll handle the situation in which a word or definition is blank.
 
-> **NOTE:** The following changes should be within the `while` loop. You should **not** change the code that inputs the values for the `word_XX` and `definition_XX` variables.
+> **NOTE:** The following changes should be within the `while` loop. You should **not** change the code that inputs the values for the `word_X` and `definition_X` variables.
 
-1. Within the `while` loop, before prompting the user to define each word, use an `if` statement to ensure the string in the `word_XX` variable is **not** blank. You should only prompt the user to define the word if it is **not** blank.
+1. Within the `while` loop, before prompting the user to define each word, use an `if` statement to ensure the string in the `word_X` variable is **not** blank. You should only prompt the user to define the word if it is **not** blank.
 
-1. If the word is not blank, but the value of the corresponding `definition_XX` variable **is** blank, you should prompt the user to define the word, but instead of showing the correct definition, your code should print `-- No definition found --`
+1. If the word is not blank, but the value of the corresponding `definition_X` variable **is** blank, you should prompt the user to define the word, but instead of showing the correct definition, your code should print `-- No definition found --`
 
 ## Phase Five
 
