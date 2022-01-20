@@ -29,7 +29,7 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 
 ## Exercise 5
 
-1. Our coffee shop might be small, but our customers should be able to order more than one drink at a time. We're going to modify the code from the prior step to enable them to do this. Start by adding an empty _list_ variable called `customer_order` before your `drink_order` in the prior step. 
+1. Our coffee shop might be small, but our customers should be able to order more than one drink at a time. We're going to modify the code from the prior step to enable them to do this. Start by adding an empty _list_ variable called `customer_order` before your `drink_order` in the prior step.
 1. Modify the _while_ loop from the prior step so that it continues to loop if the provided `drink_order` _is in_ the `available_drinks` list. Inside the loop, add each `drink_order` to the `customer_order` list using the `append()` function. You should also update the prompt in the `input()` function to indicate that more drinks can be added to the order.
 1. To validate that your code is working correctly, replace the message that you printed at the end of the prior step with a message that prints the contents of the `customer_order` list (remember that you'll have to convert it to text). We'll do a better job of printing the order in the next step.
 
@@ -40,4 +40,4 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 1. Print a message that says "Number of Drinks: __number_of_drinks__".
 1. Using a `for` loop, iterate over the `customer_order` list and print a message that says "Drink: __drink_order__" for each drink order in the list. _(You can also remove the last `print()` statement from_ ___Exercise 5___ _now that we have a nicer order summary printing.)_
 
-*Whew - you did it - you deserve a coffee after all that after all that! You've likely noticed that drinks are free at this coffee shop, we'll revisit this in an upcoming session to start charging money for these drinks, and make some other improvements to our little coffee shop.*
+*Whew - you did it - you deserve a coffee after all that after all that! We'll revisit this code and make a few more changes to it in our next session.*
