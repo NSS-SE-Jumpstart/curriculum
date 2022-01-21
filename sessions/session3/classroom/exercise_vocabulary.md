@@ -1,8 +1,8 @@
-# Exercise - Flash Cards
+# Exercise - Vocabulary Words
 
 ## Overview
 
-In this exercise you'll build a terminal-based flash card program for studying vocabulary words.
+In this exercise you'll build a terminal-based program for studying vocabulary words.
 
 When the program is complete it will do the following:
 
@@ -19,7 +19,6 @@ This exercise will be broken into several phases. You should complete each phase
 > **NOTE:** Remember, you may need to run the program multiple times in order to fully test a single phase.
 
 As you go through this exercise, you'll sometimes be asked to add code in one phase that is then removed in a later phase. This is a standard part of the software development process and isn't just us messing with you.
-
 
 ## Phase One
 
@@ -49,6 +48,7 @@ As you go through this exercise, you'll sometimes be asked to add code in one ph
 ## Phase Two
 
 1. Comment out the code at the bottom of your program that prints the words and definitions. You'll come back to this later, but for now it's just distracting.
+
 > **NOTE:** To comment out multiple lines at a time in VS Code you can select the lines you'd like to comment out, then click the Edit menu, then click "Toggle Line Comment". This works to remove the comments as well.
 
 1. Add code to clear the screen after the user has entered all their words and definitions. You should copy and paste this code from the [Bouncing Ball](../../session2/classroom/exercise_ball.md) exercise.
@@ -85,9 +85,11 @@ You'll be updating the code after you ask the user to enter the words and defini
 
 You may have noticed that your program allows users to enter blank words and definitions. In this phase you'll handle the situation in which a word or definition is blank.
 
-1. Before prompting the user to define each word, use an `if` statement to determine if the word is **not** blank. You should only prompt the user to define the word if it is **not** blank.
+> **NOTE:** The following changes should be within the `while` loop. You should **not** change the code that inputs the values for the `word_X` and `definition_X` variables.
 
-1. If the word is not blank, but the definition **is** blank, you should prompt the user to define the word, but instead of showing the correct definition, your code should print `-- No definition found --`
+1. Within the `while` loop, before prompting the user to define each word, use an `if` statement to ensure the string in the `word_X` variable is **not** blank. You should only prompt the user to define the word if it is **not** blank.
+
+1. If the word is not blank, but the value of the corresponding `definition_X` variable **is** blank, you should prompt the user to define the word, but instead of showing the correct definition, your code should print `-- No definition found --`
 
 ## Phase Five
 
@@ -95,7 +97,15 @@ You may have noticed that your program allows users to enter blank words and def
 
 1. Update your code to only print word/definition pairs if the word is not blank.
 
-## Challenge 
+## Example
+
+When your program is complete, it should behave something like this:
+
+> **NOTE:** In this example, the third word's definition is blank and the fourth word is blank.
+
+![Vocabulary Example](./vocabulary.svg)
+
+## Challenge
 
 Change your code to disallow blank words and definitions. If a user enters a blank word, you should prompt them to reenter it until they enter something other than a blank.
 

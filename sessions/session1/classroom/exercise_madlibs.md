@@ -1,4 +1,4 @@
-## Exercise - Mad Libs
+# Exercise - Mad Libs
 
 It's practice time.
 
@@ -33,3 +33,9 @@ You're going to make a [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs) game! 
     > <u>main_character</u>, the <u>lovable-thing</u>-lover, went to the <u>store_type</u> store to buy a <u>purchase</u>. However, before reaching the <u>store_type</u> store, <u>main_character</u> encountered a large <u>threatening_creature</u> that threatened to <u>harm_verb</u> the world with a <u>harm_noun</u>. Fortunately, <u>main_character</u> defeated the large <u>threatening_creature</u> with a <u>defense_adjective</u> <u>defense_noun</u>.
 
     > **NOTE:** In the above story, we've labeled each blank to (hopefully) make things more clear. Also, note that some of the labels are used more than once. For example <u>main_character</u> is used three times.
+
+## Example
+
+When your program is complete, it should behave something like this:
+
+![Mad Libs Example](./mad_libs.svg)
