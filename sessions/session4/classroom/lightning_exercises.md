@@ -1,6 +1,8 @@
 # Lightning Exercises
 
-These lightning exercises are centered around taking an order at our favorite coffee shop. They use a combination of things we've done in previous exercises, as well as incorporating some features of Python that we've just learned about.
+These lightning exercises are centered around taking an order at our favorite coffee shop. They use a combination of things we've done in previous exercises, as well as incorporating some features of Python that we've just learned about. After we've worked through all of these, we should have a simple ordering system that gets a customer name, gets 
+
+These lightning exercises continue to build on things we've been learning, and folds in use of _lists_ to create a simple ordering service for our favorite coffee shop.
 
 ---
 
@@ -13,19 +15,37 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 
 ## Exercise 2
 
-1. Customer service is important at our coffee shop, we need to know who is ordering drinks. Add some code that asks for the customer name and saves it in a variable called `customer_name`. Use a _while_ loop to make sure that something is entered (a blank customer name doesn't do us any good!).
+1. Customer service is important at our coffee shop, we need to know who is ordering drinks. Add some code that asks for the customer name and saves it in a variable called `customer_name`. 
+1. Using a _while_ loop, write code to force the user to enter something for their name (a blank customer name doesn't do us any good).
+> **NOTE:** You can refer back to what you did in the [Session 2 Lightning Exercise](../../session2/classroom/lightning_exercises.md) for a refresher on how you've done this before.
 1. Print a message like "Order is for __customer_name__".
 
 ## Exercise 3
 
-1. While we aim to please, we only have a limited number of drinks available at our coffee shop. Create a _list_ variable called `available_drinks` with a list of the drinks that we can make. Whether you get creative or keep it simple, make sure there are at least 4 drinks available.
-1. We want to display a menu so that the customer knows what they can order. Print a message that says "Drink Menu". Then using a _for_ loop, iterate over the `available_drinks` list, print out each drink name.
+1. It's time to take an order from our uncaffeinated customer. Print a message that says "Taking Order".
+1. Add some code that asks what drink the customer would like to order and saves it in a variable called `drink_order`. 
+1. Print a message that says "__customer_name__ has ordered a __drink_order__".
 
 ## Exercise 4
 
-1. It's time to take an order from our uncaffeinated customer. Print a message that says "Taking Order".
-1. Add some code that asks what drink the customer would like to order and saves it in a variable called `drink_order`. Using a _while_ loop, make sure that `drink_order` is something that's in the `available_drinks` list.
-1. Print a message that says "__customer_name__ has ordered a __drink_order__".
+1. Whoops - we've let the customer order something without telling them what's on the menu! Let's create a _list_ variable called `drink_menu` with a list of the drinks that we can make. Whether you get creative or keep it simple, make sure there are at least 4 drinks on the menu.
+1. We want to display this menu so we can tell the customer what they can order. Print a message that says "Drink Menu". Then using a _for_ loop, iterate over the `drink_menu` list, and print out each drink name.
+
+> **NOTE:** We _could_ add this after the last step, but it'll make more sense to our barista if we show them the menu before they take the customer order. Be sure to add this code in the right spot. 
+
+## Exercise 5
+
+1. Customers are sometimes more creative than our menu planners, if a "half-caff caramel macchiato with extra whip" is not part our `drink_menu`, we shouldn't let a customer order it. Add a _while_ loop that makes sure that `drink_order` is something that's in the `drink_menu` list. 
+1. Move the message that prints what the customer ordered (from [Exercise 3](#-exercise-3)) to be after this code.
+
+*Whew - you did it - you deserve a coffee after all that after all that! We'll revisit this code and make a few more changes to it in our next session.*
+
+<details>
+<summary>
+<b>Click here to see what our coffee shop ordering looks like...</b>
+</summary>
+<img src="final_example.svg">
+</details>
 
 ## Exercise 5
 
