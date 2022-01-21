@@ -8,7 +8,7 @@ A program that just prints messages isn't particularly interesting or useful. So
 
 Let's write some code that lets a user do something.
 
-> **NOTE:** Whether or not our code will be _useful_ is up for debate, but, hopefully, when we're done, you'll be able to begin to imagine how to use these tools to build something more real.
+> **NOTE:** Whether or not our code will be _useful_ is up for debate, but, hopefully, when we're done, you'll be able to begin to imagine how to use these tools to build something more realistic.
 
 ## Accepting User Input
 
@@ -70,7 +70,7 @@ The `input()` function is the counterpart to the `print()` function. `input()` a
 input("Who's your favorite Golden Girl? ")
 ```
 
-Notice the extra space after the question mark. This space will be displayed to the terminal just like the rest of the prompt. It will add some visual buffer between the prompt and the text that the user types. Try removing the space and rerunning your program. It will still work, but it'll be just a bit harder to use.
+Notice the extra space after the question mark. This space will be displayed in the terminal just like the rest of the prompt. It will add some visual buffer between the prompt and the text that the user types. Try removing the space and rerunning your program. It will still work, but it'll be just a bit harder to use.
 
 ### Variables
 
@@ -135,7 +135,9 @@ else:
     print("That seems about right.")
 ```
 
-Notice that instead of `input("Promp text ")`, the code above uses `int(input("Prompt text "))`. The `int()` converts the text into a number, specifically an integer.
+Notice that instead of `input("Prompt text ")`, the code above uses `int(input("Prompt text "))`. The `int()` converts the text into a number, specifically an integer.
+
+> **NOTE:** This code assumes that our user will provide the correct input. If they type something other than digits like "1" or "2", let's just say it won't work as expected. Making code resilient to unexpected input is something that you'll learn more about as you continue learning how to be a software developer, but for now we'll trust our user to provide the correct input.
 
 ### Printing a number
 

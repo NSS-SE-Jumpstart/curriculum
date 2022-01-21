@@ -31,7 +31,7 @@ die_roll = random.randint(1, 6)
 print("You rolled: " + str(die_roll))
 ```
 
-Save and run the new program. You should run it a few times to ensure you get various numbers.
+Save and run the new program. You should run it a few times to ensure you get different numbers each time.
 
 ## Phase Three
 
@@ -95,23 +95,23 @@ Make sure you place the code that calls `random.randint()` and the code the prin
 
 ```txt
 Xena rolled: 12
-Computer rolled: 9
+Graptor-3000 rolled: 9
 Xena wins!
 
 Xena rolled: 1
-Computer rolled: 20
+Graptor-3000 rolled: 20
 Graptor-3000 wins!
 
 Xena rolled: 7
-Computer rolled: 7
+Graptor-3000 rolled: 7
 Both Xena and Graptor-3000 win!
 
 Xena rolled: 8
-Computer rolled: 9
+Graptor-3000 rolled: 9
 Graptor-3000 wins!
 
 Xena rolled: 4
-Computer rolled: 1
+Graptor-3000 rolled: 1
 Xena wins!
 ```
 
@@ -131,7 +131,7 @@ Use two variables, `human_wins` and `computer_wins` to keep track of the number 
 
 ## Phase Eleven
 
-Add code to display tha name of the overall winner. The overall winner is the player that wins the most rounds.
+Add code to display the name of the overall winner. The overall winner is the player that wins the most rounds.
 
 ## Phase Twelve
 

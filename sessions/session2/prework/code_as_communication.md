@@ -1,6 +1,6 @@
 # Code as Communication
 
-Writing _readable code_ is important concept in software development. You should strive to write code in such a way that another programmer can easily understand it. After all, code, like other forms of writing, is a means of communication. Code is unique in that it should effectively communicate with a computer, but it should also effectively communicate with a human reader.
+Writing _readable code_ is an important concept in software development. You should strive to write code in such a way that another programmer can easily understand it. After all, code, like other forms of writing, is a means of communication. Code is unique in that it should effectively communicate with a computer, but it should also effectively communicate with a human reader.
 
 > **NOTE:** Remember that "human reader" may very well be you in the future.
 
@@ -24,15 +24,15 @@ print(favorite_breed_announcement)
 
 The second snippet is (at least, a little) more readable because it uses _meaningful_ variable names. Names that convey the type of data storied within the variables.
 
-The above example is, admittedly, pretty trivial, but as your programs get larger and larger, we promise you'll find it **very** important to choose good names for your variables.
+The above example is admittedly pretty trivial, but as your programs get larger and larger, we promise you'll find it **very** important to choose good names for your variables.
 
 ## Comments
 
-Sometimes names aren't quite enough to adequately describe what the code is doing. At times like that programmers tern to writing _comments_.
+Sometimes names aren't quite enough to adequately describe what the code is doing. At times like that programmers turn to writing _comments_.
 
 A comment is a bit of text written within source code that is only meant for a human reader. The computer completely ignores comments.
 
-In Python a comment starts with a hash (`#`) character.
+In Python a comment starts with a pound sign/hash (`#`) character.
 
 ```python
 # This is a comment
@@ -48,7 +48,7 @@ print("2 + 2 is " + four) # display the result of the addition
 
 When are comments helpful and when do they detract from readability?
 
-This is a longstanding debate, but, particularly for beginners, the general advice is to err on the side of writing more comments. It's easy to understand code immediately after you've written it, but a day or two (or thirty) later you will have forgotten a lot. You'll thank your past self for leaving informative comments behind.
+This is a longstanding debate, but particularly for beginners, the general advice is to err on the side of writing more comments. It's easy to understand code immediately after you've written it, but a day or two (or thirty) later you will have forgotten a lot. You'll thank your past self for leaving informative comments behind.
 
 ### "Commenting Out"
 

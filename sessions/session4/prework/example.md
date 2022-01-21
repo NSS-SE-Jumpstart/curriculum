@@ -17,7 +17,7 @@ quantities = []
 
 print("Let's finalize our shopping list.")
 for ingredient in ingredients:
-    str_quantity = input("How many " + ingredient + " do you need? ")
+    str_quantity = input("What quantity of " + ingredient + " do you need? ")
 
     quantity = int(str_quantity)
     quantities.append(quantity)
@@ -38,4 +38,3 @@ for index in range(len(quantities)):
 1. Compare the output to the code. Can you find the line(s) of code that lead to each part of the output?
 1. How many elements does the `quantities` list contain?
 1. If you were commenting this code, what would you write? Which parts need clarification, and which parts are already clear?
-

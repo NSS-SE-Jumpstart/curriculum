@@ -24,7 +24,7 @@ Write code to print `"CAR SALE!"` and  run it to test that it works.
 
 In this exercise, you'll force the user to enter at least something for their name, and you won't except an empty string.
 
-1. Use an `if` statement to determine if the name is equal to (`==`) an empty string (`""`). If it is, prompt the user to enter their name again.
+1. Use an `if` statement to determine if the name is equal to (`==`) an empty string (`""`). If it is, prompt the user to enter their name again (one time).
 1. Display a message that greets the user by their name.
 1. You'll have to run the code multiple times to properly test it.
     1. Test that it works properly if the user enters a name.
@@ -40,7 +40,6 @@ An `if` statement isn't enough to prevent the user from entering a blank string.
 1. Convert the user's response into an `int` and save it to a variable.
 1. Create an `if/elif/else` statement that does the following:
 
-    * if the user enters a number greater than or equal to `100000`, print `"SOLD!"`
+    * If the user enters a number greater than or equal to `100000`, print `"SOLD!"`
     * If you user enters a number less than or equal to `5000`, print `"Don't you see the majesty of this vehicle???"`
     * Else print `"I'll have to think about it."`
-

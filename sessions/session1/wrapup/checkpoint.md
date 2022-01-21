@@ -88,7 +88,7 @@ It's mostly <code>1</code>s and <code>0</code>s
 <details>
 <summary>
 <b>D. </b>
-It's also known sas "source code"
+It's also known as "source code"
 </summary>
 
 &emsp; :heavy_check_mark: **CORRECT**
@@ -183,7 +183,7 @@ The human brain
 
 ### Question 4
 
-What is the generic name for a single document, image or container of source code in a computer?
+What is the generic name for a single document, image, or container of source code in a computer?
 
 <details>
 <summary>

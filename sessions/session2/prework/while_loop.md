@@ -37,7 +37,7 @@ else:
         print("Please enter 'y' or 'n'.")
 ```
 
-Hmm...that code is pretty hard to read, but once you do decipher it, you'll see that it gives the user two chances to enter `y` or `n`. You could argue that's better, but what's to stop the user from entering the wrong thing the second time?
+Hmm ... that code is pretty hard to read, but once you do decipher it, you'll see that it gives the user two chances to enter `y` or `n`. You could argue that's better, but what's to stop the user from entering the wrong thing the second time?
 
 How about this?
 
@@ -149,9 +149,9 @@ elif y_or_n == "n":
     print("You're WRONG! You ARE a programmer!")
 ```
 
-This code uses a _loop_. You may not be surprised to learn that a _loop_ is the way we do something more than cone in code. There are a couple of different kinds of loops in Python. This is an example of a `while` loop.
+This code uses a _loop_. You may not be surprised to learn that a _loop_ is the way we do something more than once in code. There are a couple of different kinds of loops in Python. This is an example of a `while` loop.
 
-Let's focus in on the `while` loop.
+Let's dig in to understand how it works.
 
 ```python
 while y_or_n != "y" and y_or_n != "n":
@@ -159,7 +159,7 @@ while y_or_n != "y" and y_or_n != "n":
     y_or_n = input("Are you a programmer? (y/n) ")
 ```
 
-Much like an `if` statement a `while` loop has a _condition_.
+Much like an `if` statement a `while` loop has a _condition_:
 
 ```python
 y_or_n != "y" and y_or_n != "n"
@@ -171,14 +171,14 @@ In this case we're asking the question, Is `y_or_n` something other than `"y"` *
 
 If the user enters anything other than a `y` or `n`, the loop will run. It will inform the user that they should enter a `y` or `n` and then prompt them to try again.
 
-If, on their next attempt, the user enters a `y`, then the loop will not run again.
+If, on their next attempt, the user enters a `y` or `n`, then the loop will not run again.
 
 ## Run the Code
 
-Reading the code and the explanation above is almost certainly not enough to trigger an understanding. You should run the code.
+Reading the code and the explanation above is almost certainly not enough to fully understand what's happening. You should run the code.
 
 1. Create a new Python file and open it in Visual Studio Code.
-1. Copy and paste the code into your file. (Yes, it's ok to copy/paste this time)
+1. Copy and paste the code into your file. (Yes, it's ok to copy/paste this time!)
 
     ```python
     y_or_n = input("Are you a programmer? (y/n) ")
@@ -199,9 +199,11 @@ Reading the code and the explanation above is almost certainly not enough to tri
     1. Finally try responding with `y`.
 1. Arrange your screen so that you can see the terminal and the code at the same time. Run the program again. Try to visualize the code running as you use the program.
 
+> **NOTE:** Curiosity may kill the cat, but it really helps the programmer! As you run the code you're writing, don't be afraid to try entering different values as shown here to see what happens.
+
 ## What's that `and` all about?
 
-We tried to slip this one by you, but, alas, you're just to clever for us. Oh well...we'll get you next time.
+We tried to slip this one by you, but alas, you're just too clever for us. Oh well ... we'll get you next time.
 
 Let's revisit the condition of the `while` loop.
 
@@ -209,9 +211,9 @@ Let's revisit the condition of the `while` loop.
 while y_or_n != "y" and y_or_n != "n":
 ```
 
-The use of the keyword `and` is something you haven't seen, but you may be able to imagine what it does. We use the `and` keyword when we need to ask more than one question in our code. When using an `and`, but the left side and the right side must be `True`.
+The use of the keyword `and` is something you haven't seen, but you may be able to imagine what it does. We use the `and` keyword when we need to ask more than one question in our code. When using an `and`, the left side and the right side must both be `True`.
 
-Here's another example
+Here's another example.
 
 ```python
 if 1 == 1 and 2 == 2:

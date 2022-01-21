@@ -22,7 +22,7 @@ In the old days when humans needed to remember something, they would write it do
 
 A computer file is much the same as a paper file. It's a mechanism for storing information.
 
-In a computer a file has both _content_ and a name. The content is the information stored within the file. The name is a way to identify the file. Often these names contain a word followed by a `.` followed by a two, three or four character _extension_. These file extensions give you a clue as to what kind of file it is. Here are a few examples.
+In a computer a file has both _content_ and a _name_. The content is the information stored within the file. The name is a way to identify the file. Often these names contain a word followed by a `.` followed by a two, three or four character _extension_. These file extensions give you a clue as to what kind of content is in the file. Here are a few examples.
 
 | File Name    | Type                           |
 | ------------ | ------------------------------ |
@@ -35,7 +35,7 @@ In a computer a file has both _content_ and a name. The content is the informati
 
 ## Folders
 
-Ok, so code lives in a file. Where doe files live?
+Ok, so code lives in a file. Where do files live?
 
 In a computer files live in a _folder_.
 
@@ -49,7 +49,7 @@ In the physical world a folder can contain other folders. This is true in comput
 workspace
 ├── clothesline
 │   ├── clothesline.py
-│   └── clothesline_refernce.py
+│   └── clothesline_reference.py
 ├── exercises
 │   └── exercise1.py
 ├── notes
@@ -70,19 +70,20 @@ Code lives in files. Files live in folders. Good. Good to know. Yep.
 
 What should we do with this information? How do we interact with files and folders on our computers?
 
-You may have used _File Explorer_ in Windows or _Finder_ in macOS. These are graphical tools for working with files and folders. Nothing wrong with them.  They'r great. We won't be using them.
+You may have used _File Explorer_ in Windows or _Finder_ in macOS. These are graphical tools for working with files and folders. Nothing wrong with them.  They're great. We won't be using them.
 
-Instead of using fancy, graphical tools, we're going to peek behind the curtain to see what's hiding back there. In this class you're going to get a closer look at what's actually happening in your computer. In the class you'll be using the _terminal_.
+Instead of using fancy, graphical tools, we're going to peek behind the curtain to see what's hiding back there. In this class you're going to get a closer look at what's actually happening in your computer. In this class you'll be using the _terminal_.
 
-> **NOTE:** There are significant differences between Windows and macOS terminals. Fortunately, there is some commonality between them and - since we're only scratching the surface - in this course wi'll _mostly_ be able to ignore the differences.
+> **NOTE:** There are significant differences between Windows and macOS terminals. Fortunately, there is some commonality between them and - since we're only scratching the surface - in this course we'll _mostly_ be able to ignore the differences.
 
 Though the name _"the terminal"_ may sound a bit ominous, it's really nothing to be afraid of. The terminal is your computer's _command line interface_ (CLI). It's a tool that lets you type commands instead of using a mouse. It does take some getting used to, but mastering it will make you a very efficient, powerful computer user.
 
 ---
+---
 
 _The remainder of this document outlines instructions for creating your first Python program. Your instructor will walk you through these instructions. If you'd like to read ahead, feel free, but you do not have to._
 
-## `workspace`: A folder forour code
+## `workspace`: A folder for our code
 
 Enough talk. (Probably too much talk, to be honest). Let's do something.
 
@@ -90,10 +91,10 @@ Let's create a folder to contain our Python files.
 
 1. Open your terminal.
 
-   * In Windows, hit the `Start` button and start typing "terminal". Once you see _Windows Terminal_ appear. Hit `<enter>` to open it.
-   * In macOS, hit the command key and space at the same time to open _Spotlight_ and start typing "terminal". Hit `<enter>` when the Terminal app appears to open it.
+   * In Windows, click the `Start` button and start typing "terminal". Once you see _Windows Terminal_ appear, press `<enter>` to open it.
+   * In macOS, press the Command (⌘) key and Space bar at the same time to open _Spotlight_ and start typing "terminal". Press `<enter>` when the Terminal app appears to open it.
 
-1. Type the following command into the terminal and hit `<enter>` to run it. This will make a new directory _(aka folder)_ called `workspace`.
+1. Type the following command into the terminal and press `<enter>` to run it. This will make a new directory _(aka folder)_ called `workspace`.
 
    ```sh
    mkdir ~/workspace
@@ -129,7 +130,7 @@ But before we write any code, we have to have a file to write it in.
       touch hello_world.py
       ```
 
-1. To confirm that you successfully created the file, use the `ls` command to list the files in the current folder. Type the following command into the terminal and hit `<enter>`. You should see a listing the contains the file `hello_world.py`.
+1. To confirm that you successfully created the file, use the `ls` command to list the files in the current folder. Type the following command into the terminal and press `<enter>`. You should see a listing that contains the file `hello_world.py`.
 
    ```sh
    ls
@@ -155,7 +156,7 @@ Finally, it's time to write some code. For real.
    print("Hello, World!")
    ```
 
-1. Save the file by using the `File` menu or by typing `ctrl+s` in Windows or `cmd+s` in macOS.
+1. Save the file by using the `File` menu or by typing `Ctrl+s` in Windows or `Cmd-s` in macOS.
 
 1. Return to your terminal and type the following command.
 

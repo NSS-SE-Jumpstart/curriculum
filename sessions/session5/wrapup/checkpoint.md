@@ -44,7 +44,7 @@ Which of the following is a way to gain access to the `random` library in Python
 
 ### Question 2
 
-What will the following Python code print the terminal?
+What will the following Python code print to the terminal?
 
 ```python
 import random

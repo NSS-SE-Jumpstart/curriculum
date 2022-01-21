@@ -54,6 +54,7 @@ Tuesday (3 hours)
 
 1. [Lightning Exercises](./sessions/session2/classroom/lightning_exercises.md)
 1. [Exercise - Bouncing Ball](./sessions/session2/classroom/exercise_ball.md)
+
 ### After Class
 
 1. [Checkpoint](./sessions/session2/wrapup/checkpoint.md)
@@ -114,7 +115,7 @@ Tuesday (3 hours)
 ### During Class
 
 1. **NEED LIGHTNING EXERCISE**
-1. [Exeericse - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
+1. [Exercise - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
 
 ### After Class
 
@@ -163,4 +164,3 @@ Wednesday (3 hours)
 ### During Class
 
 1. Course Wrapup
-

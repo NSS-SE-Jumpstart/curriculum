@@ -8,9 +8,9 @@ When the program is complete it will do the following:
 
 1. Ask the user to enter a list of words and definitions
 1. Prompt the user with each word and ask them to type in the definition
-1. Show the actual definition after the user hits `Enter`
+1. Show the actual definition after the user presses `Enter`
 1. Offer the user a chance to repeat the words
-1. When the user decides to stop, the list of words and definitions will be displayed before the program ends.
+1. When the user decides to stop, the list of words and definitions will be displayed before the program ends
 
 ## The Exercise
 
@@ -23,11 +23,11 @@ As you go through this exercise, you'll sometimes be asked to add code in one ph
 
 ## Phase One
 
-1. Prompt the user for four word/definition pairs. First have the user enter a word, and when they hit `Enter`, prompt them to enter a definition.
+1. Prompt the user for four word/definition pairs. First have the user enter a word, and when they press `Enter`, prompt them to enter a definition.
 
-    * You should save each word in it's own variable called `word_XX` where `XX` is a number starting with `0`. For example, the first word should be saved in a variable called `word_0` and the second should be saved in a variable called `word_1`.
+    * You should save each word in it's own variable called `word_X` where `X` is a number starting with `0`. For example, the first word should be saved in a variable called `word_0` and the second should be saved in a variable called `word_1`.
 
-    * Similarly, definitions should be saved in variables called `definition_XX`. The definition for `word_0` should be saved in `definition_0`.
+    * Similarly, definitions should be saved in variables called `definition_X`. The definition for `word_0` should be saved in `definition_0`.
 
 1. After the user enters four words, display all the words and definitions. Separate each word/definition pair with a blank line.
 
@@ -49,6 +49,7 @@ As you go through this exercise, you'll sometimes be asked to add code in one ph
 ## Phase Two
 
 1. Comment out the code at the bottom of your program that prints the words and definitions. You'll come back to this later, but for now it's just distracting.
+> **NOTE:** To comment out multiple lines at a time in VS Code you can select the lines you'd like to comment out, then click the Edit menu, then click "Toggle Line Comment". This works to remove the comments as well.
 
 1. Add code to clear the screen after the user has entered all their words and definitions. You should copy and paste this code from the [Bouncing Ball](../../session2/classroom/exercise_ball.md) exercise.
 
@@ -60,7 +61,7 @@ As you go through this exercise, you'll sometimes be asked to add code in one ph
 
     For now, do not save the text that the user types in.
 
-1. After the user types in a definition and hits `Enter`, display the correct definition.
+1. After the user types in a definition and presses `Enter`, display the correct definition.
 
 1. Display a few blank lines after the correct definition and prompt the user to define the next word.
 
@@ -78,7 +79,7 @@ You'll be updating the code after you ask the user to enter the words and defini
 
 1. Move all the code that prompts the user with words into the loop. This is the code you wrote in Phase Two.
 
-1. At the end of the loop, as the user if they'd like to continue. Save their answer into the `keep_going` variable. If the user types `yes`, that should trigger the `while` loop to run again, if they type anything else, the loop should not run again.
+1. At the end of the loop, ask the user if they'd like to continue. Save their answer into the `keep_going` variable. If the user types `yes`, that should trigger the `while` loop to run again, but if they type anything else the loop should not run again.
 
 ## Phase Four
 
@@ -99,4 +100,3 @@ You may have noticed that your program allows users to enter blank words and def
 Change your code to disallow blank words and definitions. If a user enters a blank word, you should prompt them to reenter it until they enter something other than a blank.
 
 Do the same with definitions. Do not make them reenter the word, only the definition.
-

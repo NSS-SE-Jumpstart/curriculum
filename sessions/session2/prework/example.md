@@ -2,7 +2,7 @@
 
 It's time to see some code in action.
 
-1. Create a new directory called 'examples' within your `workspace` directory, and `cd` into it.
+1. Create a new directory called `examples` within your `workspace` directory, and `cd` into it.
 
     ```txt
     cd ~/workspace
@@ -89,6 +89,7 @@ It's time to see some code in action.
         print("LOOP-DA-LOOP")
         counter = counter + 1
     ```
+
 1. Use the _File_ -> _Save_ option to save the new file as `session2_examples.py`.
 1. Read through the code. See if you can imagine what it will do when it runs.
 1. In your terminal, run the program.
@@ -97,4 +98,4 @@ It's time to see some code in action.
     python3 session2_examples.py
     ```
 1. After you answer the questions the program asks and examine the output, spend a few moments comparing the program output with the code. Try to spot which lines of code lead to each printed message.
-1. Take a little time to _play_ with the code. Make changes to the code and run it to see what happens. Does it do what you expected? Does it do something surprising? Does it blow up?
+1. Take a little time to _play_ with the code. Make changes to the code and run it to see what happens. Does it do what you expected? Does it do something surprising? Does it blow up? Lean into that curiosity we mentioned earlier!
