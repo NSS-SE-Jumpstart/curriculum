@@ -135,4 +135,4 @@ Add code to display tha name of the overall winner. The overall winner is the pl
 
 ## Phase Twelve
 
-Add code to check for if you would like to play again.  Hint: Try to think about what variable we need to change to get the while loop to start over.  Also remember ties are possible with playing again so be sure to check for ties for the final winner. 
+Now we need to ask if our human friend would like to play again.  Hint: We can use another while loop on the outside with a boolean.  Also remember ties are possible with playing again, so be sure to check for ties for the final winner. 
