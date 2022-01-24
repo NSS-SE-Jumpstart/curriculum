@@ -11,24 +11,24 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 ## Exercise 1
 
 1. Create a new directory within your `workspace` directory, and a Python file for the exercise. Remember to name things in such a way that you'll know what they are in a few weeks.
-1. Write some code in the Python file that sets the name of the coffee shop in a variable called `shop_name` and prints a message like "__coffee shop name__ Ordering System".
+1. Write some code in the Python file that sets the name of the coffee shop in a variable called `shop_name` and prints a message like "__Coffee Shop Name__ Ordering System".
 
 ## Exercise 2
 
-1. Customer service is important at our coffee shop, we need to know who is ordering drinks. Add some code that asks for the customer name and saves it in a variable called `customer_name`. 
+1. Customer service is important at our coffee shop, we need to know who is placing an order. Add some code that asks for the customer name and saves it in a variable called `customer_name`.
 1. Using a _while_ loop, write code to force the user to enter something for their name (a blank customer name doesn't do us any good).
 > **NOTE:** You can refer back to what you did in the [Session 2 Lightning Exercise](../../session2/classroom/lightning_exercises.md) for a refresher on how you've done this before.
-1. Print a message like "Order is for __customer_name__".
+1. Print a message like "Order is for __Customer__".
 
 ## Exercise 3
 
-1. We can't make everything at our shop, and we want to make sure the barista remembers what's on the menu. Let's create a _list_ variable called `drink_menu` with a list of the drinks that we can make. Whether you get creative or keep it simple, make sure there are at least 4 drinks on the menu.
+1. We can't make every type of coffee drink here, and we want to make sure the barista remembers what's actually on the menu. Create a _list_ variable called `drink_menu` with a list of the drinks that we can make. Whether you get creative or keep it simple, make sure there are at least 4 drinks on the menu.
 1. We want to display this menu so we can tell the customer what they can order. Print a message that says "Drink Menu". Then using a _for_ loop, iterate over the `drink_menu` list, and print out each drink name.
 
 ## Exercise 4
 
 1. It's time to take an order from our uncaffeinated customer. Print a message that says "Taking Order".
-1. Add some code that asks what drink the customer would like to order and saves it in a variable called `drink_order`. 
+1. Add some code that asks what drink the customer would like to order and saves it in a variable called `drink_order`.
 1. Print a message that says "__customer_name__ has ordered a __drink_order__".
 
 ## Exercise 5
