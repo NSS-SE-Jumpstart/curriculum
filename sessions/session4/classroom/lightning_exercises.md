@@ -39,7 +39,7 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 
 <details>
 <summary>
-<b>Click here to see what our coffee shop ordering looks like...</b>
+<b>Click here to see what our coffee shop ordering might look like...</b>
 </summary>
 <img src="final_example.svg">
 <em>An example run through of what this code might look like.</em>
