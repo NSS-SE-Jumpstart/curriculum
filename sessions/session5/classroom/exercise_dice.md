@@ -134,3 +134,5 @@ Use two variables, `human_wins` and `computer_wins` to keep track of the number 
 Add code to display the name of the overall winner. The overall winner is the player that wins the most rounds.
 
 ## Phase Twelve
+
+Now we need to ask if our human friend would like to play again by taking an input for (Y/n).  If they put in Y, our human friend can play again, otherwise we want to ignore the input. Hint: We can use another while loop on the outside with a boolean for playing again.  Also remember ties are possible with playing again, so be sure to check for ties for the final winner. 
