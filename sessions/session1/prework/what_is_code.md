@@ -1,3 +1,7 @@
+---
+nav_order: 40
+---
+
 # What is code, anyway?
 
 You've heard people talk about "coding", "writing code" and "learning to code". Code, code, _code_. People love to talk about it. People love to sing it's praises. People love to make a big deal about how important it is. But it might seem like they never get around to actually saying _what_ it is.

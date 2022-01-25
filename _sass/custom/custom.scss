@@ -1,0 +1,110 @@
+/*
+ * This file is where we should put CSS overrides
+ * But color scheme customizations should probably happen in the 
+ * `_sass/color_schemes/nss.scss` custom color scheme file.
+ *
+ * Reference: https://pmarsceill.github.io/just-the-docs/docs/customization/
+ */
+
+/******************************************************************************** 
+ * Remove space from main-header if it's empty
+ * Normally this is where the search and aux link goes, but if they don't exist,
+ *   it's just empty space
+ */
+
+// .main-header {
+//     display: inline;
+// }
+// .search:parent {
+//     display: flex;
+// }
+// .main-header > .aux-nav {
+//     display: flex;
+// }
+
+/******************************************************************************** 
+ * These styles are all about making the logo look good on various size screens.
+ * And showing sensible header text on mobile
+ *   - it looked empty without something there
+ *   - in desktop size, the search box acts as a kind of header 
+ */
+
+// This is extra small and below
+.site-logo::before {
+    content: "SE Jumpstart";
+    margin-left: 80px;
+    white-space: nowrap;
+}
+.site-logo {
+    padding: 20px 0;
+}
+
+
+// Change header text for small
+@include mq(sm) {
+    .site-logo::before {
+        content: "Software Engineering Jumpstart";
+    }
+}
+
+
+// For medium and above Make the logo larger and centered.
+// No header text
+@include mq(md) {
+  .site-header {
+    max-height: 180px;
+    height: 180px;
+  }
+  .site-logo::before {
+    content: "";
+  }
+  .site-logo {
+      background-position: center center;
+  }
+}
+
+
+/******************************************************************************** 
+ * This madness is used to change the way the table on contents is displayed at the
+ *   bottom of a page.
+ * It will hide the text "Table of contents" and the <hr> immediately above the TOC.
+ *
+ * To use it drop the "no_toc_title" class on the last element of the page.
+ *
+ * It's used on the "course4.md" page in order to show the links to each lesson 
+ *   without the regular TOC chrome getting in the way.
+ */
+
+.no_toc_title ~ h2.text-delta {
+    display: none;
+}
+
+.no_toc_title ~ hr:first-of-type {
+    display: none;
+}
+
+
+
+/******************************************************************************** 
+ * Make h4 stick out a bit more
+ */
+
+h4 {
+    font-weight: bolder;
+    font-size: 1.1em !important;
+}
+
+h4,
+.text-delta {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+
+/******************************************************************************** 
+ * Used in the no_nav layout to remove space set asside for the side bar
+ */
+
+.main.no_nav {
+    margin: 0 auto;
+}

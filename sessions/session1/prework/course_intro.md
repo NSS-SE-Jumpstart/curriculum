@@ -1,3 +1,7 @@
+---
+nav_order: 30
+---
+
 # Course Introduction
 
 This course is going to be...

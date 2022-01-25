@@ -1,22 +1,54 @@
-title: Software Engineering Jumpstart
+title: NSS Software Engineering Jumpstart
+description: NSS Software Engineering Jumpstart
 
-theme: minima
+remote_theme: pmarsceill/just-the-docs
 
 header_pages:
   - " "
+
+aux_links_new_tab: true
+
+heading_anchors: true
+
+back_to_top: false
+# back_to_top_text: "Back to Top"
+
+aux_links:
+  "NSS Software Engineering":
+    - "https://se.nashss.com"
+
+footer_content: "&copy; 2022 <a href='https://nashvillesoftwareschool.com'>Nashville Software School</a>"
+
+gh_edit_link: false
+
+permalink: pretty
+
+color_scheme: nss
+
+logo: "/assets/images/logo.png"
+
+plugins:
+  - jemoji
+
+kramdown:
+  entity_output: "as_input"
+
+url: "https://se.nashss.com"
+
+search_enabled: true
 
 # We only want to publish session1 prework to Github Pages
 include: [index.md, sessions/session1/prework]
 exclude: [
   README.md, Gemfile, Gemfile.lock,
-  sessions/session1/classroom,
-  sessions/session1/wrapup,
-  sessions/session2,
-  sessions/session3,
-  sessions/session4,
-  sessions/session5,
-  sessions/session6,
-  sessions/session7,
-  sessions/session8,
-  sessions/session9,
-  reference, projects]
+  sessions/session1/classroom/*,
+  sessions/session1/wrapup/*,
+  sessions/session2/**,
+  sessions/session3/**,
+  sessions/session4/**,
+  sessions/session5/**,
+  sessions/session6/**,
+  sessions/session7/**,
+  sessions/session8/**,
+  sessions/session9/**,
+  reference/*, projects/*]

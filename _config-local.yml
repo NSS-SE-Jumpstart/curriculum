@@ -1,9 +1,9 @@
-title: Software Engineering Jumpstart
+# when running locally we don't need to use the remote theme
+remote_theme: none
+theme: just-the-docs
+footer_content: "LOCAL CONFIG -- <a href='https://nashvillesoftwareschool.com'>Nashville Software School</a>"
 
-theme: minima
-
-header_pages:
-  - " "
+url: "http://127.0.0.1:4000/"
 
 # use this config file to render the full site locally
-exclude: [ index.md ]
+#exclude: [ index.md ]
