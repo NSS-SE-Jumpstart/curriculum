@@ -93,7 +93,7 @@ Saturday (6 hours)
 
 ### During Class
 
-1. **NEED LIGHTNING EXERCISE**
+1. [Lightning Exercise](./sessions/session4/classroom/lightning_exercises.md)
 1. [Exercise - Bouncing Ball Revisited](./sessions/session4/classroom/exercise_ball_revisited.md)
 1. [Exercise - Alien Investigators](./sessions/session4/classroom/exercise_alien_investigators.md)
 
@@ -114,7 +114,7 @@ Tuesday (3 hours)
 
 ### During Class
 
-1. **NEED LIGHTNING EXERCISE**
+1. [Lightning Exercise](./sessions/session5/classroom/lightning_exercises.md)
 1. [Exercise - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
 
 ### After Class
