@@ -1,7 +1,8 @@
 title: NSS Software Engineering Jumpstart
 description: NSS Software Engineering Jumpstart
 
-remote_theme: pmarsceill/just-the-docs
+remote_theme: NSS-Software-Engineering/nss-just-the-docs
+# pmarsceill/just-the-docs
 
 header_pages:
   - " "
