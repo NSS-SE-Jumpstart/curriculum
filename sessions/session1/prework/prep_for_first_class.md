@@ -16,9 +16,9 @@ nav_order: 20
 
 1. Even if you are going to acquire a computer it need not be a brand-new machine. Many students acquire used or refurbished machines.
 
-    However, if you do need to acquire a computer, and you plan to continue to the NSS Software Engineering course, you should make sure it meets the [Software Engineering Program hardware requirements](https://learn.nashvillesoftwareschool.com/blog/2022/01/14/hardware-requirements-software-engineering-program).
+    However, if you do need to acquire a computer, and you plan to continue to the [NSS Software Engineering course](https://nashvillesoftwareschool.com/programs/software-engineering), you should make sure it meets the [Software Engineering Program hardware requirements](https://learn.nashvillesoftwareschool.com/blog/2022/01/14/hardware-requirements-software-engineering-program).
 
-    The hardware requirements for the Jumpstart course are not as demanding a those for the main Software Engineering course, so if you have an existing Mac, Windows or Linux computer that does not meet the Software Engineering Program hardware requirements, you should be able to use it for the jumpstart.
+    The hardware requirements for the Jumpstart course are not as demanding a those for the NSS Software Engineering course, so if you have an existing Mac, Windows or Linux computer that does not meet the Software Engineering Program hardware requirements, you should be able to use it for the Jumpstart. You will need to acquire a different computer if/when you take the Software Engineering course.
 
 _Feel free to contact us if you have any questions regarding your computer hardware._
 
