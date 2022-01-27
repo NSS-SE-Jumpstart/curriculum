@@ -8,13 +8,12 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "just-the-docs"
-gem "jemoji" # needed to render github emoji
 gem "webrick", "~> 1.7"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "github-pages"
+  gem "jemoji" # needed to render github emoji
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
