@@ -1,6 +1,9 @@
 ---
 title: Welcome
+nav_order: 10
 ---
+
+# Nashville Software School Software Engineering Jumpstart Course
 
 Welcome to the Nashville Software School Software Engineering Jumpstart Course. We’re glad you’re here!
 

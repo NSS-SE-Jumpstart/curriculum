@@ -1,3 +1,7 @@
+---
+nav_order: 20
+---
+
 # Preparing for the First Class
 
 ## Preparing your computer

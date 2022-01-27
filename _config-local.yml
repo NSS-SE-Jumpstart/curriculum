@@ -1,9 +1,0 @@
-title: Software Engineering Jumpstart
-
-theme: minima
-
-header_pages:
-  - " "
-
-# use this config file to render the full site locally
-exclude: [ index.md ]

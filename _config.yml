@@ -1,22 +1,30 @@
-title: Software Engineering Jumpstart
+title: NSS Software Engineering Jumpstart
+description: NSS Software Engineering Jumpstart
 
-theme: minima
+remote_theme: NSS-Software-Engineering/nss-just-the-docs
 
-header_pages:
-  - " "
+# These settings are in the nss-just-the-docs _config.yml file, but seem to be ingored.
+#  NOTE: The logo.png file IS in the theme, we just have to reference it in the site config
+logo: "/assets/images/logo.png"
+color_scheme: nss
+aux_links_new_tab: true
+url: "https://se.nashss.com"
+aux_links:
+  "NSS Software Engineering":
+    - "https://se.nashss.com"
 
 # We only want to publish session1 prework to Github Pages
 include: [index.md, sessions/session1/prework]
 exclude: [
   README.md, Gemfile, Gemfile.lock,
-  sessions/session1/classroom,
-  sessions/session1/wrapup,
-  sessions/session2,
-  sessions/session3,
-  sessions/session4,
-  sessions/session5,
-  sessions/session6,
-  sessions/session7,
-  sessions/session8,
-  sessions/session9,
-  reference, projects]
+  sessions/session1/classroom/*,
+  sessions/session1/wrapup/*,
+  sessions/session2/**,
+  sessions/session3/**,
+  sessions/session4/**,
+  sessions/session5/**,
+  sessions/session6/**,
+  sessions/session7/**,
+  sessions/session8/**,
+  sessions/session9/**,
+  reference/*, projects/*]
