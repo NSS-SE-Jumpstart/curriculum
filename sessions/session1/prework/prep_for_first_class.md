@@ -4,6 +4,24 @@ nav_order: 20
 
 # Preparing for the First Class
 
+## Computers
+
+1. You can use a desktop computer or a laptop.
+
+1. You can use either a Mac, Windows, or Linux _(advanced users only)_ computer that meets our requirements as outlined below. 
+
+1. You may NOT use a Chromebook, tablet (such as an iPad), a phone, or any device other than a Mac, Windows or Linux desktop or laptop. The reason for this requirement is simple. The software we will use in the course will not work on those other devices.
+
+1. You do not need a new computer for the Jumpstart course - many machines manufactured since 2015 will work just fine although some may benefit from upgrades (in particular upgrades to RAM).
+
+1. Even if you are going to acquire a computer it need not be a brand-new machine. Many students acquire used or refurbished machines.
+
+    However, if you do need to acquire a computer, and you plan to continue to the [NSS Software Engineering course](https://nashvillesoftwareschool.com/programs/software-engineering), you should make sure it meets the [Software Engineering Program hardware requirements](https://learn.nashvillesoftwareschool.com/blog/2022/01/14/hardware-requirements-software-engineering-program).
+
+    The hardware requirements for the Jumpstart course are not as demanding as those for the NSS Software Engineering course, so if you have an existing Mac, Windows or Linux computer that does not meet the Software Engineering Program hardware requirements, you should still be able to use it for the Jumpstart. You **will** need to acquire a different computer if/when you take the Software Engineering course.
+
+_Feel free to contact us if you have any questions regarding your computer hardware._
+
 ## Preparing your computer
 
 Prior to the first class session you will need to do a few things to prepare your computer.
