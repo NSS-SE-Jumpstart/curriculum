@@ -12,6 +12,7 @@ url: "https://se.nashss.com"
 aux_links:
   "NSS Software Engineering":
     - "https://se.nashss.com"
+permalink: pretty
 
 # We only want to publish session1 prework to Github Pages
 include: [index.md, sessions/session1/prework]
