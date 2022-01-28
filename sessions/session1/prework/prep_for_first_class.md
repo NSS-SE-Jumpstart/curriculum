@@ -12,7 +12,7 @@ nav_order: 20
 
 1. You may NOT use a Chromebook, tablet (such as an iPad), a phone, or any device other than a Mac, Windows or Linux desktop or laptop. The reason for this requirement is simple. The software we will use in the course will not work on those other devices.
 
-1. You do not need a new computer for NSS - many machines manufactured since 2015 will work just fine although some may benefit from upgrades (in particular upgrades to RAM).
+1. You do not need a new computer for the Jumpstart course - many machines manufactured since 2015 will work just fine although some may benefit from upgrades (in particular upgrades to RAM).
 
 1. Even if you are going to acquire a computer it need not be a brand-new machine. Many students acquire used or refurbished machines.
 

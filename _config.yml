@@ -8,10 +8,11 @@ remote_theme: NSS-Software-Engineering/nss-just-the-docs
 logo: "/assets/images/logo.png"
 color_scheme: nss
 aux_links_new_tab: true
-url: "https://se.nashss.com"
 aux_links:
   "NSS Software Engineering":
     - "https://se.nashss.com"
+footer_content: "<a href='https://nashvillesoftwareschool.com'>Nashville Software School</a>"
+url: "https://se.nashss.com"
 permalink: pretty
 
 # We only want to publish session1 prework to Github Pages
