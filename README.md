@@ -20,9 +20,9 @@ Saturday (6 hours)
 
 ### Before Class
 
-1. [Preparing for class](./sessions/session1/prework/prep_for_first_class.md)
-1. [Course Introduction](./sessions/session1/prework/course_intro.md)
-1. [What is code, anyway?](./sessions/session1/prework/what_is_code.md)
+1. [Preparing for class](https://se.nashss.com/jumpstart/sessions/session1/prework/prep_for_first_class/)
+1. [Course Introduction](https://se.nashss.com/jumpstart/sessions/session1/prework/course_intro/)
+1. [What is code, anyway?](https://se.nashss.com/jumpstart/sessions/session1/prework/what_is_code/)
 
 ### During Class
 
@@ -32,6 +32,7 @@ Saturday (6 hours)
 1. [Interactivity](./sessions/session1/classroom/interactivity.md)
 1. [Lightning Exercises](./sessions/session1/classroom/lightning_exercises.md)
 1. [Exercise - Madlibs](./sessions/session1/classroom/exercise_madlibs.md)
+1. Session Wrap-up
 
 ### After Class
 
@@ -52,8 +53,10 @@ Tuesday (3 hours)
 
 ### During Class
 
+1. Q&A / Review
 1. [Lightning Exercises](./sessions/session2/classroom/lightning_exercises.md)
 1. [Exercise - Bouncing Ball](./sessions/session2/classroom/exercise_ball.md)
+1. Session Wrap-up
 
 ### After Class
 
@@ -71,6 +74,7 @@ Wednesday (3 hours)
 
 ### During Class
 
+1. Q&A / Review
 1. [Exercise - Vocabulary Words](./sessions/session3/classroom/exercise_vocabulary.md)
 
 ### After Class
@@ -93,9 +97,11 @@ Saturday (6 hours)
 
 ### During Class
 
+1. Q&A / Review
 1. [Lightning Exercise](./sessions/session4/classroom/lightning_exercises.md)
 1. [Exercise - Bouncing Ball Revisited](./sessions/session4/classroom/exercise_ball_revisited.md)
 1. [Exercise - Alien Investigators](./sessions/session4/classroom/exercise_alien_investigators.md)
+1. Session Wrap-up
 
 ### After Class
 
@@ -114,8 +120,10 @@ Tuesday (3 hours)
 
 ### During Class
 
+1. Q&A / Review
 1. [Lightning Exercise](./sessions/session5/classroom/lightning_exercises.md)
 1. [Exercise - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
+1. Session Wrap-up
 
 ### After Class
 
@@ -133,7 +141,9 @@ Wednesday (6 hours)
 
 ### During Class
 
+1. Q&A / Review
 1. **Clothesline Project**
+1. Session Wrap-up
 
 ---
 
@@ -143,7 +153,9 @@ Saturday (6 hours)
 
 ### During Class
 
+1. Q&A / Review
 1. **Clothesline Project**
+1. Session Wrap-up
 
 ---
 
@@ -153,7 +165,9 @@ Tuesday (3 hours)
 
 ### During Class
 
+1. Q&A / Review
 1. **Clothesline Project**
+1. Session Wrap-up
 
 ---
 
@@ -163,4 +177,4 @@ Wednesday (3 hours)
 
 ### During Class
 
-1. Course Wrapup
+1. Course Wrap-up
