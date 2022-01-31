@@ -35,8 +35,6 @@ $ python3 golden_girls.py
 Who's your favorite Golden Girl? Sophia
 You said your favorite Golden Girl is Sophia
 ```
-# ANIMATION
-
 Let's go ahead and create this program.
 
 1. Create a new `goldengirls` folder in your `workspace` folder.
@@ -62,6 +60,10 @@ Let's go ahead and create this program.
 1. Open the `golden_girls.py` file in Visual Studio Code and **type in the code** from above. We know you may be tempted to copy and paste, but for now it's best to type it in.
 
 1. Run the program.
+
+#### Example
+
+![Golden Girls Program](./golden_girls.gif)
 
 ### `input()`
 
