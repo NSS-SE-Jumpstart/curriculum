@@ -8,7 +8,8 @@ For these exercises, you'll keep adding code to the bottom of the same Python fi
 
 ## Exercise 1
 
-1. Create a new Python file called `lightning.py`
+1. Create a new directory called `lightning` within your `workspace` directory.
+1. Inside the `lightning` directory, create a new Python file called `session1.py`
 1. Add code to print `Lightnin' Time!`
 1. Run the program
 
@@ -44,3 +45,9 @@ If your favorite soup is `tomato`, your terminal should look something like this
 Do you like tomato soup? yes, of course
 You said: yes, of course
 ```
+
+## Demo
+
+Here's a demonstration of the final program.
+
+![Session 1 Lightning](./session1_lightning.svg)
