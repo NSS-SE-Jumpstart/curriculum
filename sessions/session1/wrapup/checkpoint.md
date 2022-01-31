@@ -16,6 +16,7 @@ Students are first exposed to material before class
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -25,6 +26,7 @@ Class time is used for Q&A
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -34,6 +36,7 @@ Class time is used for hands-on practice
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -43,6 +46,7 @@ Instructors focus more on coaching individuals and small groups than on lecturin
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -52,6 +56,7 @@ Everyone has to lay upside-down on their couch with their heads hanging over the
 
 &emsp; :x: **INCORRECT**
 
+> We're not saying it's **INCORRECT** to do this, just that it's not part of "flipped classroom" learning
 </details>
 
 ### Question 2
@@ -66,6 +71,7 @@ It's text
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Just like a recipe is just text that tells you how to cook something, code is just text that tells a computer how to do something
 </details>
 <details>
 <summary>
@@ -75,6 +81,7 @@ It's written in a programming language
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Computes cannot understand human language (yet), so we must use a specialized language they can understand
 </details>
 <details>
 <summary>
@@ -84,6 +91,7 @@ It's mostly <code>1</code>s and <code>0</code>s
 
 &emsp; :x: **INCORRECT**
 
+> It's true that at some very _low-level_ computers only understand `1`s and `0`s, but, fortunately, we don't usually have to worry about that. In particular, code is a much _higher level_ way to communicate with a computer
 </details>
 <details>
 <summary>
@@ -93,6 +101,7 @@ It's also known as "source code"
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> The word "source" refers to the fact that the code is the _source_ of the instructions we give the computer
 </details>
 <details>
 <summary>
@@ -102,6 +111,7 @@ It's magic that no human can understand
 
 &emsp; :x: **INCORRECT**
 
+> It's **NOT** magic and you **CAN** understand it!
 </details>
 <details>
 <summary>
@@ -111,6 +121,7 @@ It's used to create "software programs"
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Sometimes "programs" are called "applications" or "apps". No matter what you call them, they're build with code
 </details>
 
 ### Question 3
@@ -125,6 +136,7 @@ Laptop
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -134,6 +146,7 @@ Desktop
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -143,6 +156,7 @@ Smartphone
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -152,6 +166,7 @@ Tablet
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -161,6 +176,7 @@ Smartwatch
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -170,6 +186,7 @@ Car
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -179,11 +196,12 @@ The human brain
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 4
 
-What is the generic name for a single document, image, or container of source code in a computer?
+What is the generic name for a single document, image or container of source code in a computer?
 
 <details>
 <summary>
@@ -193,6 +211,7 @@ Module
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -202,6 +221,7 @@ File
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -211,6 +231,7 @@ Directory
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -220,6 +241,7 @@ Unit
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 5
@@ -234,6 +256,7 @@ Module
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -243,6 +266,7 @@ File
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -252,6 +276,7 @@ Directory
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -261,6 +286,7 @@ Unit
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 6
@@ -275,6 +301,7 @@ GUI
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -284,6 +311,7 @@ Backdoor
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -293,6 +321,7 @@ Program
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -302,6 +331,7 @@ Terminal
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 
 ### Question 7
@@ -316,6 +346,7 @@ Marks a dictionary
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -325,6 +356,7 @@ Makes a directory
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -334,6 +366,7 @@ Makes a delimiter
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -343,6 +376,7 @@ Marks a delimiter
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 8
@@ -357,6 +391,7 @@ Change to a directory
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -366,6 +401,7 @@ Counter a division
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -375,6 +411,7 @@ Marks a conflicting definition
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -384,6 +421,7 @@ Completes a directory
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 9
@@ -398,6 +436,7 @@ If you have a Python file called `hello_world.py`, what command would you type t
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -407,6 +446,7 @@ If you have a Python file called `hello_world.py`, what command would you type t
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -416,6 +456,7 @@ If you have a Python file called `hello_world.py`, what command would you type t
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -425,6 +466,7 @@ If you have a Python file called `hello_world.py`, what command would you type t
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 
 ### Question 10
@@ -439,6 +481,7 @@ What Python function is used to display text in the terminal?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -448,6 +491,7 @@ What Python function is used to display text in the terminal?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -457,6 +501,7 @@ What Python function is used to display text in the terminal?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -466,6 +511,7 @@ What Python function is used to display text in the terminal?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 11
@@ -480,6 +526,7 @@ What Python function is used to get text from the user?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -489,6 +536,7 @@ What Python function is used to get text from the user?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -498,6 +546,7 @@ What Python function is used to get text from the user?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -507,6 +556,7 @@ What Python function is used to get text from the user?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 12
@@ -521,6 +571,7 @@ a data block
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -530,6 +581,7 @@ a variable
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -539,6 +591,7 @@ a string
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -548,6 +601,7 @@ binary
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 13
@@ -569,6 +623,7 @@ print(name + " really enjoys " + hobby + "...for some reason.")
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -578,6 +633,7 @@ print(name + " really enjoys " + hobby + "...for some reason.")
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -587,6 +643,7 @@ print(name + " really enjoys " + hobby + "...for some reason.")
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -596,4 +653,5 @@ print(name + " really enjoys " + hobby + "...for some reason.")
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
