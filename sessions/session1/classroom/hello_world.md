@@ -166,13 +166,16 @@ Finally, it's time to write some code. For real.
 
 1. Save the file by using the `File` menu or by typing `Ctrl+s` in Windows or `Cmd-s` in macOS.
 
-# ANIMATION
-
 1. Return to your terminal and type the following command.
 
    ```sh
    python3 hello_world.py
    ```
-# ANIMATION
 
 1. Be amazed at your coding prowess!
+
+### Example
+
+Here's a visualization of the process described above.
+
+![Finishing Hello World Program](./end_hello_world.gif)
