@@ -42,6 +42,8 @@ After you've spent some time reading the code, take a few moments and write down
 <b>Click here to read about the code</b>
 </summary>
 
+# ANIMATION
+
 The code does the following:
 
 1. Prints a message to the user to ask what their favorite ice cream flavor is.

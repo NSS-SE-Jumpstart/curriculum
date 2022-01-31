@@ -44,3 +44,5 @@ If your favorite soup is `tomato`, your terminal should look something like this
 Do you like tomato soup? yes, of course
 You said: yes, of course
 ```
+
+# ANIMATION

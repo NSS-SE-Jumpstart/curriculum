@@ -35,6 +35,7 @@ $ python3 golden_girls.py
 Who's your favorite Golden Girl? Sophia
 You said your favorite Golden Girl is Sophia
 ```
+# ANIMATION
 
 Let's go ahead and create this program.
 

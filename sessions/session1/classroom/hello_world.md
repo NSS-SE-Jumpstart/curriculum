@@ -144,6 +144,14 @@ But before we write any code, we have to have a file to write it in.
 
    > **NOTE:** Notice the `.` after the word `code`
 
+1. If Visual Studio Code prompts you to trust the files in this folder, you should say "yes". _See the animation below for a demonstration_.
+
+### Example
+
+Here's a visualization of the process described above.
+
+![Beginning Hello World Program](./begin_hello_world.gif)
+
 ## Your first Python program
 
 Finally, it's time to write some code. For real.
@@ -158,10 +166,13 @@ Finally, it's time to write some code. For real.
 
 1. Save the file by using the `File` menu or by typing `Ctrl+s` in Windows or `Cmd-s` in macOS.
 
+# ANIMATION
+
 1. Return to your terminal and type the following command.
 
    ```sh
    python3 hello_world.py
    ```
+# ANIMATION
 
 1. Be amazed at your coding prowess!
