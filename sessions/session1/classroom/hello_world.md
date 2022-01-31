@@ -146,7 +146,7 @@ But before we write any code, we have to have a file to write it in.
 
 1. If Visual Studio Code prompts you to trust the files in this folder, you should say "yes". _See the animation below for a demonstration_.
 
-### Example
+### Demo
 
 Here's a visualization of the process described above.
 
@@ -174,7 +174,7 @@ Finally, it's time to write some code. For real.
 
 1. Be amazed at your coding prowess!
 
-### Example
+### Demo
 
 Here's a visualization of the process described above.
 

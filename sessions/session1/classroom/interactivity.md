@@ -61,7 +61,7 @@ Let's go ahead and create this program.
 
 1. Run the program.
 
-#### Example
+#### Demo
 
 ![Golden Girls Program](./golden_girls.gif)
 
