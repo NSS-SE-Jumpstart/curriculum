@@ -42,7 +42,7 @@ After you've spent some time reading the code, take a few moments and write down
 <b>Click here to read about the code</b>
 </summary>
 
-# ANIMATION
+### Explanation 
 
 The code does the following:
 
@@ -54,6 +54,14 @@ The code does the following:
 
    * If the flavor is vanilla, the code prints a message telling the user they chose correctly.
    * Otherwise, the code tells the user they are wrong about their favorite ice cream flavor.
+
+### Demo
+
+Here's a demonstration of the `favorite_ice_cream` program running. In this demo, the program is run twice.
+
+![Favorite Ice Cream Program](./favorite_ice_cream.svg)
+
+> **NOTE:** Do not worry if none of this makes sense to you. We'll get there.
 
 </details>
 
