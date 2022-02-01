@@ -33,7 +33,15 @@ What is the best color? hotdog
 What? Why didn't you say 'green'? You need help.
 ```
 
-# DEMO
+### Demo
+
+Here's what it looks like when the user types "green":
+
+![Favorite Color Green](./favorite_color_green.svg)
+
+And when they type "red":
+
+![Favorite Color Red](./favorite_color_red.svg)
 
 The code that runs depends on the value that the user enters. If the user enters `green`, they are praised for their good work. If they enter **anything else**, they are condemned for their poor life choices.
 
@@ -101,7 +109,9 @@ else:
     print("You gotta say 'cat', 'human', or 'baby'.")
 ```
 
-# DEMO
+### Demo
+
+![Who's the boss](./whos_the_boss.svg)
 
 ## Just an `if`
 
