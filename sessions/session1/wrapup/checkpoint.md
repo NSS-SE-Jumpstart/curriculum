@@ -311,7 +311,11 @@ Backdoor
 
 &emsp; :x: **INCORRECT**
 
+<<<<<<< Updated upstream
 > Sometimes it's fun to pretend that the command line interface is a secret "backdoor" known only to a select few ... but it's not.
+=======
+> Sometimes it's fun to pretend that the command line interface is a secret, "backdoor" known only to a select few ... but it's not.
+>>>>>>> Stashed changes
 </details>
 <details>
 <summary>
