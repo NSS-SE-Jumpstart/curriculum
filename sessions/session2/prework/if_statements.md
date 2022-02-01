@@ -33,6 +33,8 @@ What is the best color? hotdog
 What? Why didn't you say 'green'? You need help.
 ```
 
+# DEMO
+
 The code that runs depends on the value that the user enters. If the user enters `green`, they are praised for their good work. If they enter **anything else**, they are condemned for their poor life choices.
 
 ### Conditionals
@@ -98,6 +100,8 @@ elif the_boss == "baby":
 else:
     print("You gotta say 'cat', 'human', or 'baby'.")
 ```
+
+# DEMO
 
 ## Just an `if`
 

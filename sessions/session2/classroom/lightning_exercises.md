@@ -43,3 +43,5 @@ An `if` statement isn't enough to prevent the user from entering a blank string.
     * If the user enters a number greater than or equal to `100000`, print `"SOLD!"`
     * If you user enters a number less than or equal to `5000`, print `"Don't you see the majesty of this vehicle???"`
     * Else print `"I'll have to think about it."`
+
+# DEMO

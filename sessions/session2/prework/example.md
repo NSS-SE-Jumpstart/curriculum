@@ -99,3 +99,5 @@ It's time to see some code in action.
     ```
 1. After you answer the questions the program asks and examine the output, spend a few moments comparing the program output with the code. Try to spot which lines of code lead to each printed message.
 1. Take a little time to _play_ with the code. Make changes to the code and run it to see what happens. Does it do what you expected? Does it do something surprising? Does it blow up? Lean into that curiosity we mentioned earlier!
+
+# DEMO
