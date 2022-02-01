@@ -44,4 +44,6 @@ An `if` statement isn't enough to prevent the user from entering a blank string.
     * If you user enters a number less than or equal to `5000`, print `"Don't you see the majesty of this vehicle???"`
     * Else print `"I'll have to think about it."`
 
-# DEMO
+## Demo
+
+![Demo](./lightning.svg)
