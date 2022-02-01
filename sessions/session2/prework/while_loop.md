@@ -201,6 +201,10 @@ Reading the code and the explanation above is almost certainly not enough to ful
 
 > **NOTE:** Curiosity may kill the cat, but it really helps the programmer! As you run the code you're writing, don't be afraid to try entering different values as shown here to see what happens.
 
+### Demo
+
+![Are you a programmer?](./programmer.svg)
+
 ## What's that `and` all about?
 
 We tried to slip this one by you, but alas, you're just too clever for us. Oh well ... we'll get you next time.
