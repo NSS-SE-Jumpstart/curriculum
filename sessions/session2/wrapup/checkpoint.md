@@ -13,6 +13,7 @@ True
 
 &emsp; :x: **INCORRECT**
 
+> Unfortunately, some people think this is true.
 </details>
 <details>
 <summary>
@@ -22,9 +23,11 @@ False
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 
 ### Question 2
+
 
 In the Python code below, what do we call the text that starts with a `#`?
 
@@ -41,6 +44,7 @@ text
 
 &emsp; :x: **INCORRECT**
 
+> Because it's code it's all text, but we're looking for something more specific.
 </details>
 <details>
 <summary>
@@ -50,6 +54,7 @@ comment
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Comments can document code or be used to temporarily prevent some code from running.
 </details>
 <details>
 <summary>
@@ -59,6 +64,7 @@ hashcode
 
 &emsp; :x: **INCORRECT**
 
+> This is a fancy word that you'll learn about _after_ this Jumpstart course.
 </details>
 <details>
 <summary>
@@ -68,11 +74,12 @@ message
 
 &emsp; :x: **INCORRECT**
 
+> In a way it's a message to the person reading the code, but that's not what we call it.
 </details>
 
 ### Question 3
 
-What construct do we use to conditionally execute code?
+What construct to we use to conditionally execute code?
 
 <details>
 <summary>
@@ -82,6 +89,7 @@ What construct do we use to conditionally execute code?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Remember we used `if` statements to "ask questions" in code.
 </details>
 <details>
 <summary>
@@ -91,6 +99,7 @@ What construct do we use to conditionally execute code?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -100,6 +109,7 @@ What construct do we use to conditionally execute code?
 
 &emsp; :x: **INCORRECT**
 
+> We use the term "condition" a lot when talking about code, but it's not a keyword in Python.
 </details>
 <details>
 <summary>
@@ -109,6 +119,7 @@ Code cannot be conditionally executed
 
 &emsp; :x: **INCORRECT**
 
+> Your programs wouldn't be able to do a lot if this were true.
 </details>
 
 #### The next few questions refer to the code below:
@@ -157,6 +168,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Because the _value_ of the `name` variable is `"Kim"`, the `if` condition is `True`, therefore the code immediately below the `if` runs and the `else` code does not run.
 </details>
 <details>
 <summary>
@@ -166,6 +178,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> Because the _value_ of the `name` variable is `"Kim"`, the `if` condition is `True`, therefore the code immediately below the `if` runs and the `else` code does not run.
 </details>
 <details>
 <summary>
@@ -175,6 +188,7 @@ It doesn't display anything
 
 &emsp; :x: **INCORRECT**
 
+> It would be impossible for the code not to display anything. When you have an `if/else` block of code, one or the other **MUST** run, and in this case, both `print()` something.
 </details>
 
 ### Question 5
@@ -189,6 +203,7 @@ What does the code labeled "Part 2" display?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Because the value of the `age` variable is `20` and `20` is greater than or equal to `16`, the `if` condition is `True`, therefore the code immediately below the `if` runs and the `else` code does not run.
 </details>
 <details>
 <summary>
@@ -198,6 +213,7 @@ What does the code labeled "Part 2" display?
 
 &emsp; :x: **INCORRECT**
 
+> Because the value of the `age` variable is `20` and `20` is greater than or equal to `16`, the `if` condition is `True`, therefore the code immediately below the `if` runs and the `else` code does not run.
 </details>
 <details>
 <summary>
@@ -207,6 +223,7 @@ It doesn't display anything
 
 &emsp; :x: **INCORRECT**
 
+> It would be impossible for the code not to display anything. When you have an `if/else` block of code, one or the other **MUST** run, and in this case, both `print()` something.
 </details>
 
 ### Question 6
@@ -221,6 +238,7 @@ What does the code labeled "Part 3" display?
 
 &emsp; :x: **INCORRECT**
 
+> Because the value of the `age` variable is `20` and `20` is **NOT** greater than or equal to `16`, the `if` condition is `False`, therefore the code immediately below the `if` **WILL NOT RUN**, and since there is no `else`, this code will do nothing at all.
 </details>
 <details>
 <summary>
@@ -230,6 +248,7 @@ What does the code labeled "Part 3" display?
 
 &emsp; :x: **INCORRECT**
 
+> This string is not in the Python code, so it would be impossible for it to be printed.
 </details>
 <details>
 <summary>
@@ -239,6 +258,7 @@ It doesn't display anything
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Because the value of the `age` variable is `20` and `20` is **NOT** greater than or equal to `16`, the `if` condition is `False`, therefore the code immediately below the `if` **WILL NOT RUN**, and since there is no `else`, this code will do nothing at all.
 </details>
 
 ### Question 7
@@ -253,6 +273,7 @@ What does the code labeled "Part 4" display?
 
 &emsp; :x: **INCORRECT**
 
+> Because the value of the `age` variable is `20` and `20` is not less than `10`, this message will not be displayed.
 </details>
 <details>
 <summary>
@@ -262,6 +283,7 @@ What does the code labeled "Part 4" display?
 
 &emsp; :x: **INCORRECT**
 
+> Because the above `if` condition was `False` and the value of the `age` variable is `20`, and `20` is not less than `20` (`20` is equal to `20`), this message will not be displayed.
 </details>
 <details>
 <summary>
@@ -271,6 +293,7 @@ What does the code labeled "Part 4" display?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Because the above `if` conditions were `False` and the value of the `age` variable is `20`, and `20` **is** less than `30`, this message will be displayed.
 </details>
 <details>
 <summary>
@@ -280,6 +303,7 @@ What does the code labeled "Part 4" display?
 
 &emsp; :x: **INCORRECT**
 
+> Because one of the previous `if/elif` conditions was `True`, the condition `age < 40` will not run, so this message will not be displayed.
 </details>
 <details>
 <summary>
@@ -289,6 +313,7 @@ What does the code labeled "Part 4" display?
 
 &emsp; :x: **INCORRECT**
 
+> Because one of the previous `if/elif` conditions was `True`, the `else` code will not run, so this message will not be displayed.
 </details>
 <details>
 <summary>
@@ -298,6 +323,7 @@ It doesn't display anything
 
 &emsp; :x: **INCORRECT**
 
+> It would be impossible for the code not to display anything. Because there is an `else` block, something will be guaranteed to run.
 </details>
 
 #### The next few questions refer to the code below:
@@ -331,6 +357,7 @@ In "Part 1" How many `Woof!`s are printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -340,6 +367,7 @@ In "Part 1" How many `Woof!`s are printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -349,6 +377,7 @@ In "Part 1" How many `Woof!`s are printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -358,6 +387,7 @@ In "Part 1" How many `Woof!`s are printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -367,6 +397,7 @@ In "Part 1" How many `Woof!`s are printed?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> `bark_count` is initially given the value of `0`, then each time through the `while` loop it is incremented by `1`. The loop's condition `bark_count < 4` says as long as `bark_count` is less than `4` the loop will continue to run. This means that the values of `bark_count` will be `0`, `1`, `2`, `3`, `4`. When the value becomes `4`, the `while` loop will stop and the `bark_count` will no longer be incremented.
 </details>
 <details>
 <summary>
@@ -376,6 +407,7 @@ In "Part 1" How many `Woof!`s are printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 9
@@ -390,6 +422,7 @@ What does the code labeled "Part 2" display?
 
 &emsp; :x: **INCORRECT**
 
+> Although the `name` variable has the value of `"SuperDog"`, the `second_power` variable is **NOT** equal to `"advanced calculus"`, so the `if` condition is `False` and the code immediately below the `if` does not run.
 </details>
 <details>
 <summary>
@@ -399,6 +432,7 @@ What does the code labeled "Part 2" display?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> Although the `name` variable has the value of `"SuperDog"`, the `second_power` variable is **NOT** equal to `"advanced calculus"`, so the `if` condition is `False` and the code immediately below the `if` does not run. Instead the code immediately below the `else` runs.
 </details>
 <details>
 <summary>
@@ -408,4 +442,5 @@ It doesn't display anything
 
 &emsp; :x: **INCORRECT**
 
+> It would be impossible for the code not to display anything. When you have an `if/else` block of code, one or the other **MUST** run, and in this case, both `print()` something.
 </details>
