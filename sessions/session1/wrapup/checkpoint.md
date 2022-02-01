@@ -81,7 +81,7 @@ It's written in a programming language
 
 &emsp; :heavy_check_mark: **CORRECT**
 
-> Computes cannot understand human language (yet), so we must use a specialized language they can understand.
+> Computers cannot understand human language (yet), so we must use a specialized language they can understand.
 </details>
 <details>
 <summary>
@@ -91,7 +91,7 @@ It's mostly <code>1</code>s and <code>0</code>s
 
 &emsp; :x: **INCORRECT**
 
-> It's true that at some very _low-level_ computers only understand `1`s and `0`s, but, fortunately, we don't usually have to worry about that. In particular, code is a much _higher level_ way to communicate with a computer.
+> It's true that at a very _low-level_ computers only understand `1`s and `0`s, but fortunately we don't usually have to worry about that. In particular, code is a much _higher level_ way to communicate with a computer.
 </details>
 <details>
 <summary>
@@ -196,7 +196,7 @@ The human brain
 
 &emsp; :x: **INCORRECT**
 
-> Maybe one day? ...not sure that's a good thing.
+> Maybe one day? ... not sure that's a good thing.
 </details>
 
 ### Question 4
@@ -301,7 +301,7 @@ GUI
 
 &emsp; :x: **INCORRECT**
 
-> "GUI" stands for "Graphical User Interface". It is made up of windows, menus, etc... You usually use a mouse to interact with a GUI.
+> "GUI" stands for "Graphical User Interface". It is made up of windows, menus, etc... You usually use a mouse or trackpad to interact with a GUI.
 </details>
 <details>
 <summary>
@@ -311,7 +311,7 @@ Backdoor
 
 &emsp; :x: **INCORRECT**
 
-> Sometimes it's fun to pretend that the command line interface is a secret, "backdoor" known only to a select few...but it's not.
+> Sometimes it's fun to pretend that the command line interface is a secret "backdoor" known only to a select few ... but it's not.
 </details>
 <details>
 <summary>
@@ -633,7 +633,7 @@ print(name + " really enjoys " + hobby + "...for some reason.")
 
 &emsp; :x: **INCORRECT**
 
-> This is incorrect because it does not _evaluate_ the `name` or `hoby` variables. When we use variables, we don't see their _names_, we see their _values_.
+> This is incorrect because it does not _evaluate_ the `name` or `hobby` variables. When we use variables, we don't see their _names_, we see their _values_.
 </details>
 <details>
 <summary>
