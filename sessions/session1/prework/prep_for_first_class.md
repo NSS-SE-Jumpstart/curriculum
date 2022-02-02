@@ -94,4 +94,6 @@ On the first day of class we will install a few more tools, but if you'd like to
 1. **Be prepared to ask questions.** Remember your instructors don't have magic access to your mind to know what topics you need clarified. They need you to speak up. Also, remember your question is NOT dumb.
 1. Finally, and most importantly, **be prepared to be challenged, because this class will be difficult**. There will be times when you do not understand what's happening. This is **NORMAL**. It's also something many students struggle with. Not understanding something, and _admitting_ that you don't understand something, is often uncomfortable. One way to prepare for this is to begin to cultivate a [growth mindset](https://www.psychologytoday.com/us/basics/growth-mindset){:target="_blank"}.
 
-Also if you haven't read the [course introduction](course_intro.md), please do so.
+---
+
+Now you're ready for the [course introduction](course_intro.md).
