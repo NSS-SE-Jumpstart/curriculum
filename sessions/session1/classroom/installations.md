@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Installing Software Development Tools
 
 ## Windows Terminal (Windows PCs Only)
