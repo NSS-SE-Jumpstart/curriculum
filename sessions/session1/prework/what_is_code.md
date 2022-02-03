@@ -28,7 +28,7 @@ flavor = input()
 if flavor == "vanilla":
     print("Hey, vanilla is my favorite ice cream too! We should be friends!")
 else:
-    print("I guess everyone is entitled to their option.")
+    print("I guess everyone is entitled to their opinion.")
 ```
 
 Take a moment with the code above. Try not to get bogged down in the details, but see if you can get a feel for what it would do if run by a computer.
@@ -53,7 +53,7 @@ The code does the following:
 1. Finally, it checks to see if the flavor the user entered is `"vanilla"`.
 
    * If the flavor is vanilla, the code prints the message: _"Hey, vanilla is my favorite ice cream too! We should be friends!"_
-   * Otherwise, the code prints the message: _"I guess everyone is entitled to their option."_
+   * Otherwise, the code prints the message: _"I guess everyone is entitled to their opinion."_
 
 ### Demo
 
