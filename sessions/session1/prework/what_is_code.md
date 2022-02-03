@@ -26,9 +26,9 @@ print("What is your favorite ice cream flavor: chocolate, vanilla or strawberry?
 flavor = input()
 
 if flavor == "vanilla":
-    print("You are right!")
+    print("Hey, vanilla is my favorite ice cream too! We should be friends!")
 else:
-    print("Why don't you know your favorite ice cream flavor? That's weird.")
+    print("I guess everyone is entitled to their opinion.")
 ```
 
 Take a moment with the code above. Try not to get bogged down in the details, but see if you can get a feel for what it would do if run by a computer.
@@ -46,14 +46,14 @@ After you've spent some time reading the code, take a few moments and write down
 
 The code does the following:
 
-1. Prints a message to the user to ask what their favorite ice cream flavor is.
+1. It prints a message to the user to ask what their favorite ice cream flavor is.
 
-1. Waits for the user to type in their favorite ice cream. Then "saves" the word they typed in a _variable_ called `flavor`
+1. It then waits for the user to type in their favorite ice cream, and "saves" the word they typed into a container called `flavor`.
 
-1. Check to see if the flavor the user entered is `"vanilla"`
+1. Finally, it checks to see if the flavor the user entered is `"vanilla"`.
 
-   * If the flavor is vanilla, the code prints a message telling the user they chose correctly.
-   * Otherwise, the code tells the user they are wrong about their favorite ice cream flavor.
+   * If the flavor is vanilla, the code prints the message: _"Hey, vanilla is my favorite ice cream too! We should be friends!"_
+   * Otherwise, the code prints the message: _"I guess everyone is entitled to their opinion."_
 
 ### Demo
 

@@ -16,10 +16,25 @@ url: "https://se.nashss.com"
 permalink: pretty
 
 # We only want to publish session1 prework to Github Pages
-include: [index.md, sessions/session1/prework]
+include: [
+  index.md, 
+  sessions/session1/prework,
+  sessions/session1/classroom/installations.md]
 exclude: [
   README.md, Gemfile, Gemfile.lock,
-  sessions/session1/classroom/*,
+
+  sessions/session1/classroom/begin_hello_world.gif,
+  sessions/session1/classroom/end_hello_world.gif,
+  sessions/session1/classroom/exercise_madlibs.md,
+  sessions/session1/classroom/golden_girls.gif,
+  sessions/session1/classroom/hello_world.md,
+  sessions/session1/classroom/interactivity.md,
+  sessions/session1/classroom/intro_to_tools.md,
+  sessions/session1/classroom/lightning_exercises.md,
+  sessions/session1/classroom/mad_libs.svg,
+  sessions/session1/classroom/orientation.md,
+  sessions/session1/classroom/session1_lightning.svg,
+
   sessions/session1/wrapup/*,
   sessions/session2/**,
   sessions/session3/**,

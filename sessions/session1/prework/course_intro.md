@@ -16,7 +16,7 @@ Yes. This course will be all of that.
 
 ## Different
 
-This course is different from many other schooling experiences you've had. In this course we will be using the [flipped classroom](https://en.wikipedia.org/wiki/Flipped_classroom) model of instruction.
+This course is different from many other schooling experiences you've had. In this course we will be using the [flipped classroom](https://en.wikipedia.org/wiki/Flipped_classroom){:target="_blank"} model of instruction.
 
 In a traditional classroom approach, teachers use classroom time to introduce new concepts and then assign students homework to practice working with those concepts.
 
@@ -24,7 +24,7 @@ With a flipped classroom approach, students study material before class so that 
 
 ## Challenging
 
-Learning to code is [hard](https://www.youtube.com/watch?v=jzRuqT9nYXY). It just is. And this course will challenge you. A lot. Many of our students say this is the hardest thing they've ever done.
+Learning to code is [hard](https://www.youtube.com/watch?v=jzRuqT9nYXY){:target="_blank"}. It just is. And this course will challenge you. A lot. Many of our students say this is the hardest thing they've ever done.
 
 Why is learning to code so hard? Because learning is hard and because coding is hard. 
 
@@ -50,7 +50,7 @@ We promise that there is no feeling in the world quite like finally getting the 
 
 As you probably already know, this course will meet nine times over three weeks.
 
-Three of those sessions will be Saturdays. Saturday sessions will be six hours from 9am to 2pm. We will not take a lunch break, but there should always be time around noon for you to step away from your computer to grab some food.
+Three of those sessions will be Saturdays. Saturday sessions will be five hours from 9am to 2pm. We will not take a lunch break, but there should always be time around noon for you to step away from your computer to grab some food.
 
 The remaining six sessions will be on Tuesday and Wednesday evenings from 6pm to 9pm. There will not be a dinner break, so please try to eat something before class begins.
 
@@ -90,3 +90,7 @@ The first five(-ish) class sessions will be devoted to actively learning the Pyt
 #### Structure of a "Practice" Class Session
 
 Practice sessions have a much looser structure. We will start each session with Q&A time, but after that you'll be free to work on the project and get one-on-one help from instructors.
+
+---
+
+Now you're ready to move on to ask the question [What is code?](./what_is_code.md)
