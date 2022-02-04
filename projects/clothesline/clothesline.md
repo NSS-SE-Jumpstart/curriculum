@@ -528,7 +528,9 @@ clothespin = r"""
 """
 ```
 
-> **NOTE:** It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to have nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
+#### Important
+
+It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to have nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
 
 ### Phase Eighteen
 
@@ -582,6 +584,15 @@ def main():
 
 </details>
 
+## Phase Twenty
+
+Take a look at your code. Is it readable? Will you be able to understand it after a few days or weeks? Do you need to improve any variable names or right clearer comments? Would it help to pull some of the code out into a separate function?
+
+After you're satisfied with the code, You might want to add a few more words to the `secret_word_options` list so playing the game becomes more fun.
+
+## Congratulations
+
+You did it. You built a working game. Take some time to celebrate. Maybe play _Clothesline_ for a while.
 
 ## Challenge
 
@@ -590,6 +601,18 @@ One of the universal truths about software is: _software is never done_. We can 
 The remainder of this document describes some additional, _challenge_ features you might like to add to your version of the _Clothesline_ game.
 
 ### Challenge Phase One
+
+The way that your program displays the guessed letters, is far from ideal. If you look at the reference implementation, you'll notice that the letters are printed out individually with a single space in between each letter.
+
+Your challenge is to make you program behave the same way as the reference implementation.
+
+### Challenge Phase Two
+
+Your program prompts the user to enter a single letter, but what happens if the user enteres more than one letter? Does it behave the way you'd like?
+
+For this challenge, you should modify your code, to only work with the first letter the user enters. For example, if the user types "dog", your program should behave as though they only typed a "d", and should ignore the "og".
+
+### Challenge Phase Three
 
 It's time to get fancy. Oh, yes...fancy...
 
@@ -610,20 +633,23 @@ This separation between _the code_ and _the data_ is a key concept in software d
 We'll do that in the next phase.
 
 
-### Challenge Phase Two
+### Challenge Phase Four
 
 Welcome to the next phase.
 
 In this phase, you'll download a few text files containing several secret word options and you'll update your code to read from one of these files when picking a secret word.
 
-Download each of these files:
+Start by downloading this file: [easy_words.txt](./easy_words.txt).
 
-* [animals.txt](./animals.txt)
-* [fruits.txt](./fruits.txt)
-* [easy_words.txt](./easy_words.txt)
-* [hard_words.txt](./hard_words.txt)
+Next, open `easy_words.txt` in Visual Studio Code. You'll see it contains a list of words with one word on each line.
 
-Modify the `pick_secret_word` function to open the `easy_words.txt` file, read the words into a list and choose a random secret word from the list.
+Your task is to "read" the words from the file into your Python program. However, since this is a challenge, we're going to ask you to figure out how to do that. You might want to begin your search here: https://pythonspot.com/read-file/
+
+Once your feel ready, modify the `pick_secret_word` function to open the `easy_words.txt` file, read the words into a list and choose a random secret word from the list.
+
+> **NOTE:** Remember, your instructors are here to help you, but we want you to give it a try on your own first.
+
+If you stuck or you want to compare check your solution, you can find an example below:
 
 <details>
 <summary><b>&#128276; Click here to see an example implementation of <code>pick_secret_word</code> &#128276;</b></summary>
@@ -642,3 +668,11 @@ def pick_word():
 ```
 
 </details>
+
+<p></p>
+
+> **NOTE:** Here are a few more word files you may want to play with after you get `easy_words.txt` working.
+> 
+> * [animals.txt](./animals.txt)
+> * [fruits.txt](./fruits.txt)
+> * [hard_words.txt](./hard_words.txt)
