@@ -470,7 +470,7 @@ Inside the `main()` function, create a new list called `letters_guessed`. We'll 
 
 At this point, your code should be storing the letter the user enters into a variable called `letter`. Do not change this code, but add code below it to use the `append()` function to add the `letter` to the `letters_guessed` list.
 
-Now, add a `print()` function below the code that prints the `guess` variable. This code should print the word `"Guesses: "` followed by the `letters_guessed` list.
+Below the code that prints the `guess` varaible, use the `print()` function to display `"Guesses: "` followed by the `letters_guessed` list.
 
 > **NOTE:** This is a great opportunity to run the reference program to see how this feature works. When you do, you'll notice that your "Guesses" list looks a little different from the reference program. This is fine for now.
 
@@ -498,7 +498,7 @@ Update the `print_clothesline` function to print the appropriate clothesline "im
 
 Do **NOT** go to the trouble of creating all this ASCII art. [We've done it for you](./clothesline_frames.md). You're welcome.
 
-> **NOTE:** In each ASCII art string, you'll see an `r` in front of the triple quotes. This creates a "raw" string. It's not important that you understand exactly what that means, but, in short, it prevents Python from doing strange things with strings that contain backslash (`\`) characters. You will need to use raw strings for the ASCII art strings.
+> **NOTE:** In each ASCII art string, you'll see an `r` in front of the triple quotes. This creates a "raw" string. It's not important that you understand exactly what that means, but in short it prevents Python from doing strange things with strings that contain backslash (`\`) characters. You will need to use raw strings for the ASCII art strings.
 
 Here's a snippet of code that creates a `clothesline` variable with all four shirts and all eight clothespins.
 
@@ -608,9 +608,9 @@ Your challenge is to make you program behave the same way as the reference imple
 
 ### Challenge Phase Two
 
-Your program prompts the user to enter a single letter, but what happens if the user enteres more than one letter? Does it behave the way you'd like?
+Your program prompts the user to enter a single letter, but what happens if the user enters more than one letter? Does it behave the way you'd like?
 
-For this challenge, you should modify your code, to only work with the first letter the user enters. For example, if the user types "dog", your program should behave as though they only typed a "d", and should ignore the "og".
+For this challenge, you should modify your code to only work with the first letter the user enters. For example, if the user types "dog", your program should behave as though they only typed a "d", and should ignore the "og".
 
 ### Challenge Phase Three
 
@@ -645,7 +645,7 @@ Next, open `easy_words.txt` in Visual Studio Code. You'll see it contains a list
 
 Your task is to "read" the words from the file into your Python program. However, since this is a challenge, we're going to ask you to figure out how to do that. You might want to begin your search here: https://pythonspot.com/read-file/
 
-Once your feel ready, modify the `pick_secret_word` function to open the `easy_words.txt` file, read the words into a list and choose a random secret word from the list.
+Once you feel ready, modify the `pick_secret_word` function to open the `easy_words.txt` file, read the words into a list and choose a random secret word from the list.
 
 > **NOTE:** Remember, your instructors are here to help you, but we want you to give it a try on your own first.
 
