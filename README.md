@@ -6,17 +6,17 @@ In this course you'll begin your coding journey. It will be a long trip with man
 
 This course is divided into nine sessions over three weeks.
 
-| Week # | Saturday                | Tuesday                 | Wednesday               |
+|        | Saturday                | Tuesday                 | Wednesday               |
 | ------ | ----------------------- | ----------------------- | ----------------------- |
-| Week 1 | [Session 1](#session-1) | [Session 2](#session-2) | [Session 3](#session-3) |
-| Week 2 | [Session 4](#session-4) | [Session 5](#session-5) | [Session 6](#session-6) |
-| Week 3 | [Session 7](#session-7) | [Session 8](#session-8) | [Session 9](#session-9) |
+| Week 1 | [Session 1 - Feb 12, 2022](#session-1) | [Session 2 - Feb 15, 2022](#session-2) | [Session 3 - Feb 16, 2022](#session-3) |
+| Week 2 | [Session 4 - Feb 19, 2022](#session-4) | [Session 5 - Feb 22, 2022](#session-5) | [Session 6 - Feb 23, 2022](#session-6) |
+| Week 3 | [Session 7 - Feb 26, 2022](#session-7) | [Session 8 - Mar 01, 2022](#session-8) | [Session 9 - Mar 02, 2022](#session-9) |
 
 ---
 
 ## Session 1
 
-Saturday (5 hours)
+Saturday, February 12, 2022 (5 hours)
 
 ### Before Class
 
@@ -42,7 +42,7 @@ Saturday (5 hours)
 
 ## Session 2
 
-Tuesday (3 hours)
+Tuesday, February 15, 2022 (3 hours)
 
 ### Before Class
 
@@ -66,7 +66,7 @@ Tuesday (3 hours)
 
 ## Session 3
 
-Wednesday (3 hours)
+Wednesday, February 16, 2022 (3 hours)
 
 ### Before Class
 
@@ -85,7 +85,7 @@ Wednesday (3 hours)
 
 ## Session 4
 
-Saturday (5 hours)
+Saturday, February 19, 2022 (5 hours)
 
 ### Before Class
 
@@ -111,7 +111,7 @@ Saturday (5 hours)
 
 ## Session 5
 
-Tuesday (3 hours)
+Tuesday, February 22, 2022 (3 hours)
 
 ### Before Class
 
@@ -133,7 +133,7 @@ Tuesday (3 hours)
 
 ## Session 6
 
-Wednesday (5 hours)
+Wednesday, February, 23, 2022 (5 hours)
 
 ### Before Class
 
@@ -149,7 +149,7 @@ Wednesday (5 hours)
 
 ## Session 7
 
-Saturday (6 hours)
+Saturday, February 26, 2022 (5 hours)
 
 ### During Class
 
@@ -161,7 +161,7 @@ Saturday (6 hours)
 
 ## Session 8
 
-Tuesday (3 hours)
+Tuesday, March 1, 2022 (3 hours)
 
 ### During Class
 
@@ -173,7 +173,7 @@ Tuesday (3 hours)
 
 ## Session 9
 
-Wednesday (3 hours)
+Wednesday, March 2, 2022 (3 hours)
 
 ### During Class
 
