@@ -1,6 +1,6 @@
 # Jumpstart Project - Clothesline
 
-A central tenet of the NSS philosophy is the importance of hands-on learning. We know you learn better by doing than by any other means. Throughout this course you will be writing lots of code. This will include small exercises, as well as a larger project. This document describes that larger project, a game called _Clothesline_.
+A central tenet of the NSS philosophy is the importance of hands-on learning. We know you learn better by doing than by any other means. This is why we've devoted the last part of the course to a project - a game called _Clothesline_. While you will certainly learn new things while working on this project, the primary goal is reinforcing what you've already learned.
 
 ## Clothesline
 
@@ -91,6 +91,8 @@ To run the reference implementation:
 
 1. Guess a few letters, you know...if you dare.
 
+> **NOTE:** The further along you get in this project, the closer your program should become to the `clothesline_reference.py` program. It is a good idea to periodically run the reference program to help you remember how your program is supposed to work.
+
 ## The Project
 
 This project will be broken into several phases. You should complete each phase in order. Many phases - especially the earlier ones - are very short. It may be tempting to work on more than one phase at a time. **Resist this temptation.** Part of being a software engineer is being deliberate and methodical, and sometimes that means moving slowly. **Once a phase is complete do NOT move to the next until you run the program to test it.**
@@ -128,6 +130,8 @@ In this phase you need to create the "blanks" that the player will fill in when 
 For example if the secret word is "apple", the program should print five dashes, `-----`. If the word is "pear", the program should print four dashes, `----`.
 
 Create a variable called `guess` and assign it to be a string of dashes that is the same length as the `secret_word`.
+
+There are multiple ways you might accomplish creating a string with a variable number of dashes. You can use a `while` or `for` loop, or you can explore using [the `*` operator to repeat a string](https://www.kite.com/python/answers/how-to-repeat-a-string-in-python).
 
 > **NOTE:** When testing this phase, you should change the value of `secret_word` to be various words of differing lengths.
 
@@ -181,7 +185,7 @@ As you run and rerun your program, you've surely noticed how messy your terminal
 
 What can you do about it? Why not clear the terminal window each time the game starts? That way the user will only see the current iteration of the game.
 
-It turns out that clearing the screen in Python code isn't as straightforward as you might expect it to be, so just this once, we're going to provide you with the code to do it. Copy this function into your `clothesline.py` file.
+You've already countered the "magical" terminal-clearing code earlier in this course. This time, however, you should place it into a function called `clear_screen()`. Copy the function below and paste it into your `clothesline.py` file.
 
 ```python
 def clear_screen():
@@ -448,29 +452,53 @@ def update_guess(old_guess, letter,  word):
     return new_guess
 ```
 
+> **NOTE:** Do not blindly accept that this code works. It's ok to copy code from trusted sources, but you should **NEVER** add code to your project until you understand it. Carefully read this code. Does it make sense? Could you describe it to someone else? If not, ask for help.
+
 </details>
 
 ### Phase Thirteen
+
+Displaying an unlabeled row of dashes to the user isn't exactly the greatest user experience. Add a `Word:    ` label before the dashes. This will let the user know that the dashes represent the secret word.
+
+Add four spaces after the colon (`:`). That will make things look nicer once we add the feature to display the user's previously guessed letters.
+
+### Phase Fourteen
+
+As you've been testing your game, have you noticed how easy it is to forget which letters you've already guessed? How many times have you guessed the same, incorrect, letter without realizing it? Let's fix that.
+
+Inside the `main()` function, create a new list called `letters_guessed`. We'll use this to store the letters the user has entered.
+
+At this point, your code should be storing the letter the user enters into a variable called `letter`. Do not change this code, but add code below it to use the `append()` function to add the `letter` to the `letters_guessed` list.
+
+Below the code that prints the `guess` varaible, use the `print()` function to display `"Guesses: "` followed by the `letters_guessed` list.
+
+> **NOTE:** This is a great opportunity to run the reference program to see how this feature works. When you do, you'll notice that your "Guesses" list looks a little different from the reference program. This is fine for now.
+
+### Phase Fifteen
 
 Take a look at what you've built. You've almost got a working game. In fact, it does nearly everything it needs to do and, even now, it's playable.
 
 One thing it doesn't (yet) do is end when the player wins. Let's fix that.
 
-How do you know if the player has won? In the previous phase you added code to update the `guess` variable each time the user enters a correct letter. Each correct letter brings the value of the `guess` variable more inline with the value of the `secret_word` variable.  So, when has the user won the game? When the `guess` and `secret_word` variables are equal.
+How do you know if the player has won? In a previous phase you added code to update the `guess` variable each time the user enters a correct letter. Each correct letter brings the value of the `guess` variable more inline with the value of the `secret_word` variable.  So, when has the user won the game? When the `guess` and `secret_word` variables are equal.
 
 Add code to the `while` loop to ensure it loops when the user hasn't run out of chances and the `guess` variable is not equal to the `secret_word` variable. If should stop looping if the user runs out of chances or they guess every letter in the secret word.
 
-### Phase Fourteen
+### Phase Sixteen
 
 Right now your program prints a message after the user enters a letter. This message lets the user know if they guessed correctly or not. This seems unnecessary now that your are updating the `guess` variable and displaying it's value each time through the `while` loop. Remove the code that displays the message.
 
 In the previous phase you changed your program to end when a player wins or loses, but there is no "You Win" or "You Lose" message being displayed. Add code after the `while` loop that determines whether or not the user won and prints the appropriate message.
 
-### Phase Fifteen
+### Phase Seventeen
 
-It's finally time to add the clothesline to our `clothesline.py` program.
+It's finally time to add the clothesline to your `clothesline.py` program.
 
 Update the `print_clothesline` function to print the appropriate clothesline "image".  Your code should use the `incorrect_count` parameter to determine the "image" do display. For example if the value of `incorrect_count` is `0`, you should print a clothesline with four shirts and eight clothespins. If `incorrect_count` is `1`, you should print a clothesline with the last clothespin removed.
+
+Do **NOT** go to the trouble of creating all this ASCII art. [We've done it for you](./clothesline_frames.md). You're welcome.
+
+> **NOTE:** In each ASCII art string, you'll see an `r` in front of the triple quotes. This creates a "raw" string. It's not important that you understand exactly what that means, but in short it prevents Python from doing strange things with strings that contain backslash (`\`) characters. You will need to use raw strings for the ASCII art strings.
 
 Here's a snippet of code that creates a `clothesline` variable with all four shirts and all eight clothespins.
 
@@ -500,9 +528,11 @@ clothespin = r"""
 """
 ```
 
-> **NOTE:** It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to have nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
+#### Important
 
-### Phase Sixteen
+It may be tempting to try to think of a _clever_ approach to "efficiently" print the clothesline image. Do not do this. It's perfectly fine to have nine different versions of the clothesline image and to use an `if/elif/else` statement to choose the right one.
+
+### Phase Eighteen
 
 Pause a moment. Look back at what you've built. It's a lot. What do you think of it? Are you proud of it? You should be.
 
@@ -510,7 +540,7 @@ We know. We know. We're not supposed to tell you how you _should_ feel. What you
 
 Still, though, you should be proud. Seriously.
 
-### Phase Seventeen
+### Phase Nineteen
 
 The game works. It's great. As long as the secret word is "apple"...
 
@@ -554,7 +584,35 @@ def main():
 
 </details>
 
-### Phase Eighteen
+## Phase Twenty
+
+Take a look at your code. Is it readable? Will you be able to understand it after a few days or weeks? Do you need to improve any variable names or right clearer comments? Would it help to pull some of the code out into a separate function?
+
+After you're satisfied with the code, You might want to add a few more words to the `secret_word_options` list so playing the game becomes more fun.
+
+## Congratulations
+
+You did it. You built a working game. Take some time to celebrate. Maybe play _Clothesline_ for a while.
+
+## Challenge
+
+One of the universal truths about software is: _software is never done_. We can always add more and more. This is not to say that we _should_ add more, but we always _can_ add more.
+
+The remainder of this document describes some additional, _challenge_ features you might like to add to your version of the _Clothesline_ game.
+
+### Challenge Phase One
+
+The way that your program displays the guessed letters, is far from ideal. If you look at the reference implementation, you'll notice that the letters are printed out individually with a single space in between each letter.
+
+Your challenge is to make you program behave the same way as the reference implementation.
+
+### Challenge Phase Two
+
+Your program prompts the user to enter a single letter, but what happens if the user enters more than one letter? Does it behave the way you'd like?
+
+For this challenge, you should modify your code to only work with the first letter the user enters. For example, if the user types "dog", your program should behave as though they only typed a "d", and should ignore the "og".
+
+### Challenge Phase Three
 
 It's time to get fancy. Oh, yes...fancy...
 
@@ -574,20 +632,24 @@ This separation between _the code_ and _the data_ is a key concept in software d
 
 We'll do that in the next phase.
 
-### Phase Nineteen
+
+### Challenge Phase Four
 
 Welcome to the next phase.
 
 In this phase, you'll download a few text files containing several secret word options and you'll update your code to read from one of these files when picking a secret word.
 
-Download each of these files:
+Start by downloading this file: [easy_words.txt](./easy_words.txt).
 
-* [animals.txt](./animals.txt)
-* [fruits.txt](./fruits.txt)
-* [easy_words.txt](./easy_words.txt)
-* [hard_words.txt](./hard_words.txt)
+Next, open `easy_words.txt` in Visual Studio Code. You'll see it contains a list of words with one word on each line.
 
-Modify the `pick_secret_word` function to open the `easy_words.txt` file, read the words into a list and choose a random secret word from the list.
+Your task is to "read" the words from the file into your Python program. However, since this is a challenge, we're going to ask you to figure out how to do that. You might want to begin your search here: https://pythonspot.com/read-file/
+
+Once you feel ready, modify the `pick_secret_word` function to open the `easy_words.txt` file, read the words into a list and choose a random secret word from the list.
+
+> **NOTE:** Remember, your instructors are here to help you, but we want you to give it a try on your own first.
+
+If you stuck or you want to compare check your solution, you can find an example below:
 
 <details>
 <summary><b>&#128276; Click here to see an example implementation of <code>pick_secret_word</code> &#128276;</b></summary>
@@ -606,3 +668,11 @@ def pick_word():
 ```
 
 </details>
+
+<p></p>
+
+> **NOTE:** Here are a few more word files you may want to play with after you get `easy_words.txt` working.
+> 
+> * [animals.txt](./animals.txt)
+> * [fruits.txt](./fruits.txt)
+> * [hard_words.txt](./hard_words.txt)
