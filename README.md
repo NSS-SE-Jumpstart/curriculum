@@ -16,7 +16,7 @@ This course is divided into nine sessions over three weeks.
 
 ## Session 1
 
-Saturday (6 hours)
+Saturday (5 hours)
 
 ### Before Class
 
@@ -85,7 +85,7 @@ Wednesday (3 hours)
 
 ## Session 4
 
-Saturday (6 hours)
+Saturday (5 hours)
 
 ### Before Class
 
@@ -133,7 +133,7 @@ Tuesday (3 hours)
 
 ## Session 6
 
-Wednesday (6 hours)
+Wednesday (5 hours)
 
 ### Before Class
 
