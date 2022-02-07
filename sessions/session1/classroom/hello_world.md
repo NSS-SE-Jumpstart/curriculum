@@ -109,7 +109,7 @@ Let's create a folder to contain our Python files.
 1. Create a new folder called `HelloWorld` and change to it.
 
    ```sh
-   mdkir HelloWorld
+   mkdir HelloWorld
    cd HelloWorld
    ```
 
