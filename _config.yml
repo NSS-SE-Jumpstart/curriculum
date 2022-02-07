@@ -15,6 +15,8 @@ footer_content: "<a href='https://nashvillesoftwareschool.com'>Nashville Softwar
 url: "https://se.nashss.com"
 permalink: pretty
 
+ga_tracking: G-5PZ2V6XBVV
+
 # We only want to publish session1 prework to Github Pages
 include: [
   index.md, 
