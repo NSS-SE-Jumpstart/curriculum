@@ -76,6 +76,7 @@ Wednesday, February 16, 2022 (3 hours)
 
 1. Q&A / Review
 1. [Exercise - Vocabulary Words](./sessions/session3/classroom/exercise_vocabulary.md)
+1. [Optional Challenge](./sessions/session3/classroom/challenge.md)
 
 ### After Class
 
