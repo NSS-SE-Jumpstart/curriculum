@@ -107,7 +107,7 @@ Ok, let's put all of this together with some of our other tricks.
 
 <details>
 <summary>
-<b>Click here to see what the final program should look like...</b>
+<b>Click here to see what the final program should look like when you run it...</b>
 </summary>
 <img src="moving_car.svg">
 </details>
@@ -137,7 +137,7 @@ Some might say cars are cool, but bikes are where it's at! If that's you and you
 
 <details>
 <summary>
-<b>Click here to see what the final program should look like...</b>
+<b>Click here to see what the final program should look like when you run it...</b>
 </summary>
 <img src="moving_bike.svg">
 </details>
