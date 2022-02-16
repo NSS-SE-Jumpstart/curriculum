@@ -49,7 +49,7 @@ As you go through this exercise, you'll sometimes be asked to add code in one ph
 
 1. Comment out the code at the bottom of your program that prints the words and definitions. You'll come back to this later, but for now it's just distracting.
 
-> **NOTE:** To comment out multiple lines at a time in VS Code you can select the lines you'd like to comment out, then click the Edit menu, then click "Toggle Line Comment". This works to remove the comments as well.
+   > **NOTE:** To comment out multiple lines at a time in VS Code you can select the lines you'd like to comment out, then click the Edit menu, then click "Toggle Line Comment". This works to remove the comments as well.
 
 1. Add code to clear the screen after the user has entered all their words and definitions. You should copy and paste this code from the [Bouncing Ball](../../session2/classroom/exercise_ball.md) exercise.
 
