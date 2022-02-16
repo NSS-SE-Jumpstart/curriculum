@@ -128,10 +128,10 @@ Some might say cars are cool, but bikes are where it's at! If that's you and you
     bike2_1 = "    _`\<,_"
     bike2_2 = "    (+) L(+)"
     ```
-1. Write some code like you did in the `moving_car.py` program to make the variables `bike1_x` move across the screen.  *(Ignore the variables named `bike2_x` for now.)*
+1. Write some code like you did in the `moving_car.py` program to make the variables `bike1_x` move across the screen.  *(Ignore the variables named `bike2_x` for now.)* Run the code to make sure it works as expected.
 1. Update your code to alternate between printing the `bike1_x` and `bike2_x` versions of the bike, using an `if` statement to decide which version to print. You can do this one of two ways:
 
-    - **With Variables :triangular_flag_on_post:**: You can add the following before your `while` loop: `flag = "one"`. Then do something like `if flag == "one":` to print a specific version of the bike, and in the `else` clause print the other version of the bike. You'll need to update the value of the `flag` variable to `one` in the `else` clause, and to some other value in the `if` clause. 
+    - **With Variables :triangular_flag_on_post:**: You can add the following before your `while` loop: `flag = "one"`. Then inside the loop do something like `if flag == "one":` to print a specific version of the bike, and in the `else` clause print the other version of the bike. You'll need to update the value of the `flag` variable to `one` in the `else` clause, and to some other value in the first part of the `if` clause. 
     
     - **With Math :cold_sweat:**: The `%` operator in Python is the modulo operator - which returns the remainder of a division.  An even number divided by 2 will never have a remainder (or, the remainder will always be zero), so you could do something like `if counter % 2 == 0:` to print a specific version of the bike for even values of `counter`, and in the `else` clause print the other version of the bike.
 
