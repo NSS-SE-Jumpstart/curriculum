@@ -199,7 +199,7 @@ frames = [
 
 ## The Exercise
 
-1. Create a new Python file called `bouncing_ball_revisited.py` and copy the code above into it?
+1. Create a new Python file called `bouncing_ball_revisited.py` and copy the code above into it.
 1. Add code to loop over the `frames` list and display each frame.
 
     * You should include the `print()` code that clears the screen.
