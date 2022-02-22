@@ -41,7 +41,7 @@ Before we get very far with this exercise, let's do something that will make our
 1. Run the code to see what happens. Is it what you expected?
 
 <details>
-<summary>Click here after you've run your program</summary>
+<summary> :game_die: Click here after you've run your program... :game_die: </summary>
 
 3. Your code didn't do anything because you didn't call the `main()` function. Add code at the bottom of the `dice.py` file to call `main()`. When you're finished, your script should look like this:
 
@@ -62,7 +62,7 @@ Before we get very far with this exercise, let's do something that will make our
 
 </details>
 
-## Phase Five
+## Phase Four
 
 The serious nerds among you may be aware that dice are not limited to six sides. There's a wide array of different types of dice.
 
@@ -86,7 +86,7 @@ The serious nerds among you may be aware that dice are not limited to six sides.
 
 Once you've made the change, run the program a few times to make sure it's working.
 
-## Phase Six
+## Phase Five
 
 The `dice_roll` variable is for storing the human player's roll. Make that intention more clear by renaming it to `human_roll`.
 
@@ -99,7 +99,7 @@ You rolled: 12
 Computer rolled: 9
 ```
 
-## Phase Seven
+## Phase Six
 
 Calling the human player "you" is so impersonal. You should give your user a name. How about "Xena"?
 
@@ -114,13 +114,13 @@ Xena rolled: 12
 Computer rolled: 9
 ```
 
-## Phase Eight
+## Phase Seven
 
 Now, we're being rude to the computer. It doesn't want to be called "computer" any more than you want to be called "human". It wants to be called "Graptor-3000"...because that's it's name.
 
 Update your program to create a `computer_player` variable, set it's value to `"Graptor-3000"` and display it when displaying the computer's roll.
 
-## Phase Nine
+## Phase Eight
 
 At this point, your game leaves it up to the human player to read the output and determine whether or not they won. They actually have to **compare numbers!** But comparing numbers is computer-work. Let's make the computer do it.
 
@@ -130,7 +130,7 @@ At this point, your game leaves it up to the human player to read the output and
 
 1. If `determine_winner()` returns the string `"tie"`, let's do the hippie thing and say both players win. If there's a tie, your program should **NOT** print either of the winning messages described above. It should print a single message that says: `Both Xena and Graptor-3000 win!`
 
-## Phase Ten
+## Phase Nine
 
 Your game is getting closer to actually being fun. It's sort of irritating that you can only roll once though.
 
@@ -160,7 +160,7 @@ Graptor-3000 rolled: 1
 Xena wins!
 ```
 
-## Phase Eleven
+## Phase Ten
 
 It's come to our attention that some humans aren't named Xena.
 
@@ -168,7 +168,7 @@ Update the code to prompt the user to input their name and save that into the `h
 
 Make sure your code always uses the `human_player` variable when it prints the name and doesn't have any "Xena"s hanging out.
 
-## Phase Twelve
+## Phase Eleven
 
 Update the game to display the number of rounds each player won after the final round.
 
@@ -176,10 +176,10 @@ Use two variables, `human_wins` and `computer_wins` to keep track of the number 
 
 > **NOTE:** This phase requires you to change code in the `main()` function. You should not have to change any code in the `determine_winner()` function.
 
-## Phase Thirteen
+## Phase Twelve
 
 Add code to display the name of the overall winner. The overall winner is the player that wins the most rounds.
 
-## Phase Fourteen
+## Phase Thirteen
 
 Now we need to ask if our human friend would like to play again by taking an input for (Y/n).  If they put in Y, our human friend can play again, otherwise we want to ignore the input. Hint: We can use another while loop on the outside with a boolean for playing again.  Also remember ties are possible with playing again, so be sure to check for ties for the final winner. 
