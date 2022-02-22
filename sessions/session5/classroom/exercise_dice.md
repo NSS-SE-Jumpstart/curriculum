@@ -45,7 +45,7 @@ Once you've made the change, run the program a few times to make sure it's worki
 
 ## Phase Four
 
-The `dice_roll` variable is for storing the human player's roll. Make that intention more clear by renaming it to `human_roll`.
+The `die_roll` variable is for storing the human player's roll. Make that intention more clear by renaming it to `human_roll`.
 
 Now that you have a `human_roll`, It's time for a `computer_roll`. Write code to roll a second twenty-sided die and save the value of the roll into a variable called `computer_roll`. Print the result of the computer roll along side the human roll.
 
