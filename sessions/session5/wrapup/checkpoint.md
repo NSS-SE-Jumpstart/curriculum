@@ -47,7 +47,7 @@ Which of the following is a way to gain access to the `random` library in Python
 
 ### Question 2
 
-What will the following Python code print the terminal?
+What will the following Python code print to the terminal?
 
 ```python
 import random
@@ -475,7 +475,7 @@ This code would cause an error
 > 
 </details>
 
-The next few questions will refer to the `add()` function defined below:
+The next few questions will refer to the `welcome()` and `make_exciting()` functions defined below:
 
 ```python
 def welcome(name):
