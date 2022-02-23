@@ -134,7 +134,7 @@ Tuesday, February 22, 2022 (3 hours)
 
 ## Session 6
 
-Wednesday, February, 23, 2022 (5 hours)
+Wednesday, February, 23, 2022 (3 hours)
 
 ### Before Class
 
