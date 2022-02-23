@@ -110,6 +110,8 @@ Either <code>heads</code> or <code>tails</code>, but there is no way to know whi
 > 
 </details>
 
+---
+
 The next few questions will refer to the `add()` function defined below:
 
 ```python
@@ -474,6 +476,8 @@ This code would cause an error
 
 > 
 </details>
+
+---
 
 The next few questions will refer to the `welcome()` and `make_exciting()` functions defined below:
 
