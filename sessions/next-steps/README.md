@@ -27,6 +27,8 @@ customer_order = {
     "customer_drink": "mocha",
     "drink_size": "super large"
 }
+
+print(customer_order["customer_name"] + " ordered a " + customer_order["customer_drink"])
 ```
 
 **More Reading:** [Manage data with Python dictionaries](https://docs.microsoft.com/en-us/learn/modules/python-dictionaries/)
@@ -55,7 +57,7 @@ You'll note that we didn't have to include the `str()` function for our integer 
 **More Reading:** [String format in Python](https://docs.microsoft.com/en-us/learn/modules/python-strings/5-string-format)
 
 ## String Methods
-In addition to being able to easily format strings, Python includes a variety of functions to perform commonly needed tasks. For example, converting a string to all lower case, or all UPPER CASE, or checking to see if a string contains numbers, or replacing certain characters in a string. Most of these methods can be called on any string variable.
+In addition to being able to easily format strings, Python includes a variety of functions to perform commonly needed tasks. For example, converting a string to all lower case, or all UPPER CASE, or checking to see if a string contains numbers, or replacing certain characters in a string. Most of these methods can be called on any string variable. Here are just a few examples:
 
 ```python
 mystring = " Hello World, this is a fun string!  "
@@ -76,16 +78,18 @@ stripped_string = mystring.strip()
 is_this_a_number = mystring.isdigit()
 ```
 
+> **TIP:** Python has long had a philosophy of "batteries included" - meaning that there is a lot of great functionality built into the language. String manipulation is no exception to this rule - if you find yourself needing to do something with strings in Python, chances are there are some methods that will do what you need.
+
 **More Reading:** [String methods in Python](https://docs.microsoft.com/en-us/learn/modules/python-strings/3-string-methods)
 
 ## The REPL
-REPL stands for "Read Evaluate Print Loop", and is a very powerful tool for writing small bits of Python code quickly. To get into the Python REPL, simply run the command `python3` and you will see a prompt that allows you to write Python. When you are done you can type `exit()` or press `Ctrl-D`.  Here's how we could use the REPL to test out the string methods shown above:
+REPL stands for "Read-Evaluate-Print-Loop", and is a very powerful tool for writing small bits of Python code quickly. To get into the Python REPL, simply run the command `python3` by itself and you will see a prompt that allows you to write Python. When you are done you can type `exit()` or press `Ctrl-D`.  Here's how we could use the REPL to test out the string methods shown above:
 
 ![](repl.svg)
 
 Note that in this example while we are not assigning the results of the different string functions to any variable - we are just running them - we can create variables. Either way we see the output printed directly to the terminal. We can also do math in the REPL!
 
-**More Reading:** [Use the REPL](https://docs.microsoft.com/en-us/learn/modules/intro-to-python/3-repl?ns-enrollment-type=LearningPath&ns-enrollment-id=learn.languages.python-apps)
+**More Reading:** [Use the REPL](https://docs.microsoft.com/en-us/learn/modules/intro-to-python/3-repl)
 
 ## List Comprehensions
 This isn't a funny way to see if you understand lists. List comprehensions are a different syntax for creating new lists from an existing list.  Consider the following 2 snippets, they each produce the same result.
@@ -100,7 +104,7 @@ for drink in drink_menu:
     if "latte" in drink:
         latte_drinks.append(drink)
 
-# we can do the same thing like this
+# we can do the same thing like this with one line of code
 latte_drinks = [drink for drink in drink_menu if "latte" in drink]
 ```
 
@@ -109,7 +113,7 @@ latte_drinks = [drink for drink in drink_menu if "latte" in drink]
 **More Reading:** [Python List Comprehensions](https://www.w3schools.com/python/python_lists_comprehension.asp)
 
 ## Classes
-While it is likely that many of you will continue taking classes to keep on learning about programming, that's not what this point is about. At this point we have talked (or read) about strings, integers, floating point numbers, boolean, lists, dictionaries, and the `NoneType`. There are even more types that exist in Python, but what if you want to create your own type? This is where classes come in.
+While many of you will continue taking classes to keep on learning about programming, that's not what this is about. At this point we have talked (or read) about strings, integers, floating point numbers, boolean, lists, dictionaries, and the `NoneType`. There are even more types that exist in Python, but what if you want to create your own type? This is where classes come in.
 
 Classes are a way of grouping different types of data into a single variable (or "object"). Referring back to the dictionary we created for our customer order above, we might do something like this with classes:
 
