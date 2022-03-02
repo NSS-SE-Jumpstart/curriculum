@@ -1,5 +1,13 @@
 ## Overview
-So you've finished (or are moments away from finishing) the SE Jumpstart course. What should you do now? Everyone comes to this course with different goals, but if one of your goals is to continue learning more about Python and software development, here are a few things that we recommend learning about.
+So you've finished (or are moments away from finishing) the SE Jumpstart course. What should you do now? Everyone comes to this course with different goals, but if one of your goals is to continue learning more about Python and software development, here are a few things that we recommend learning about. Each item contains a brief overview, and a link to read more about it.
+
+- [Nothing](#nothing)
+- [Dictionaries](#dictionaries)
+- [String Formatting](#string-formatting)
+- [String Methods](#string-methods)
+- [The REPL](#the-repl)
+- [List Comprehensions](#list-comprehensions)
+- [Classes](#classes)
 
 ## Nothing
 Well, it's not really *nothing*, but Python does have a special datatype to handle the cases where it has to provide *something* but there isn't *anything* to provide. It's called `None` which is a `NoneType`. You might see this show up unexpectedly, and there are some situations where you may intentionally want to set the value of a variable to `None`. Knowing what it is and how to avoid it if you didn't intend to use it is valuable.
