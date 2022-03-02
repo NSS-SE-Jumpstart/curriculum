@@ -179,3 +179,13 @@ Wednesday, March 2, 2022 (3 hours)
 ### During Class
 
 1. Course Wrap-up
+
+---
+
+## Next Steps
+
+All good things must come to an end, and if you're reading this far you've completed (or are about to complete) this course. The following page has some suggestions on next steps/topics for you to research/experiment with as you continue your journey learning about programming.
+
+- [Next Steps](./sessions/next-steps/)
+
+It is a very common pattern to revisit code that you've previously written, and with the benefit of time and experience see new/better ways to do the same thing. After reading through the next steps, you may want to revisit the Clothesline project or any of the other exercises you've worked on during this course and see how you can incorporate some of these concepts into that code.
