@@ -141,6 +141,6 @@ In addition to keeping track of the types of data associated with an order (`cus
 
 The line that defines our order (`order = CustomerOrder("Mocha Joe", "mocha", "super large")`) is referred to as "instantiating an object".
 
-Classes are a key construct used in the type of programming called "object oriented programming". If you go on to the NSS Software Engineering programming, you'll be learning to program with the Java language, which uses classes for nearly everything you do.
+Classes are a key construct used in the type of programming called "object oriented programming". If you go on to the NSS Software Engineering programming, you'll be learning to program with the Java language, which uses classes for nearly everything it does.
 
 **More Reading:** [Introduction to object-oriented programming with Python](https://docs.microsoft.com/en-us/learn/modules/python-object-oriented-programming/)
