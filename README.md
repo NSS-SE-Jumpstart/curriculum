@@ -179,3 +179,11 @@ Wednesday, March 2, 2022 (3 hours)
 ### During Class
 
 1. Course Wrap-up
+
+---
+
+## Next Steps
+
+All good things must come to an end, and if you're reading this far you've completed (or are about to complete) this course. The following page has some suggestions on next steps/topics for you to research/experiment with as you continue your journey learning about programming.
+
+- [Next Steps](./sessions/next-steps/)
