@@ -83,7 +83,7 @@ is_this_a_number = mystring.isdigit()
 **More Reading:** [String methods in Python](https://docs.microsoft.com/en-us/learn/modules/python-strings/3-string-methods)
 
 ## The REPL
-REPL stands for "Read-Evaluate-Print-Loop", and is a very powerful tool for writing small bits of Python code quickly. To get into the Python REPL, simply run the command `python3` by itself and you will see a prompt that allows you to write Python. When you are done you can type `exit()` or press `Ctrl-D`.  Here's how we could use the REPL to test out the string methods shown above:
+REPL stands for "Read-Evaluate-Print-Loop", and is a very powerful tool for writing small bits of Python code quickly. To get into the Python REPL, simply run the command `python3` by itself and you will see a prompt that allows you to write Python. When you are done you can type `exit()` or `quit()` to close the REPL (alternatively on Mac or Linux you can type `Ctrl-D`, or on Windows you can type `Ctrl-Z`).  Here's how we could use the REPL to test out the string methods shown above:
 
 ![](repl.svg)
 
