@@ -1,6 +1,6 @@
 # Checkpoint
 
-For this checkpoint, refer to the [reference](../../../../reference) to check your answers.
+For this checkpoint, refer to the [reference](../../../reference) to check your answers.
 
 1. In your own words, define the following terms:
 

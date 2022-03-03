@@ -3,6 +3,7 @@
 
 ### Question 1
 
+
 What is the Python data type of `"The only thing to fear is fear itself"`?
 
 <details>
@@ -13,6 +14,7 @@ What is the Python data type of `"The only thing to fear is fear itself"`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -22,6 +24,7 @@ What is the Python data type of `"The only thing to fear is fear itself"`?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -31,6 +34,7 @@ What is the Python data type of `"The only thing to fear is fear itself"`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -40,6 +44,7 @@ What is the Python data type of `"The only thing to fear is fear itself"`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 2
@@ -54,6 +59,7 @@ What is the Python data type of `451`?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -63,6 +69,7 @@ What is the Python data type of `451`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -72,6 +79,7 @@ What is the Python data type of `451`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -81,6 +89,7 @@ What is the Python data type of `451`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 3
@@ -95,6 +104,7 @@ What is the Python data type of `3.14`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -104,6 +114,7 @@ What is the Python data type of `3.14`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -113,6 +124,7 @@ What is the Python data type of `3.14`?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -122,6 +134,7 @@ What is the Python data type of `3.14`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 4
@@ -136,6 +149,7 @@ What is the Python data type of `False`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -145,6 +159,7 @@ What is the Python data type of `False`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -154,6 +169,7 @@ What is the Python data type of `False`?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -163,6 +179,7 @@ What is the Python data type of `False`?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 
 ### Question 5
@@ -177,6 +194,7 @@ Which of the following is the way to convert the string `"64"` to an integer?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -186,6 +204,7 @@ Which of the following is the way to convert the string `"64"` to an integer?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -195,6 +214,7 @@ Which of the following is the way to convert the string `"64"` to an integer?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -204,11 +224,12 @@ Which of the following is the way to convert the string `"64"` to an integer?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 6
 
-Which of the following are true about Python `list`s? _(You may select more than one answer.)_
+Which of the following are true about Python `list`s _(You may select more than one answer.)_
 
 <details>
 <summary>
@@ -218,6 +239,7 @@ Which of the following are true about Python `list`s? _(You may select more than
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -227,6 +249,7 @@ Lists elements are accessed via a numeric index
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -236,6 +259,7 @@ List indexes start at <code>1</code>
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -245,6 +269,7 @@ A list can be empty
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -254,6 +279,7 @@ List indexes start at <code>0</code>
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -263,6 +289,7 @@ The length of a list can be less than <code>0</code>
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 #### The next few questions refer to the code below:
@@ -284,7 +311,9 @@ for name in pythons:
     if name != "John Cleese":
         print("bye!")
 ```
+
 ### Question 7
+
 
 What does the code labeled "Part 1" display?
 
@@ -296,6 +325,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -305,6 +335,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -314,6 +345,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -323,6 +355,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -332,6 +365,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -341,6 +375,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -350,6 +385,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -359,6 +395,7 @@ What does the code labeled "Part 1" display?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 8
@@ -373,6 +410,7 @@ Graham Chapman
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -382,6 +420,7 @@ John Cleese
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -391,6 +430,7 @@ Terry Gilliam
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -400,6 +440,7 @@ Eric Idle
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -409,6 +450,7 @@ Terry Jones
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -418,6 +460,7 @@ Michael Palin
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 9
@@ -432,6 +475,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -441,6 +485,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -450,6 +495,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -459,6 +505,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -468,6 +515,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -477,6 +525,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -486,6 +535,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -495,6 +545,7 @@ In the code labeled "Part 3", how many times is `Hi!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 
 ### Question 10
@@ -509,6 +560,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -518,6 +570,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -527,6 +580,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -536,6 +590,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -545,6 +600,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -554,6 +610,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :heavy_check_mark: **CORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -563,6 +620,7 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
 <details>
 <summary>
@@ -572,7 +630,10 @@ In the code labeled "Part 3", how many times is `Bye!` printed?
 
 &emsp; :x: **INCORRECT**
 
+> 
 </details>
+
+### Question 11
 
 When this Python code is run, what is displayed to the terminal?
 
@@ -588,10 +649,48 @@ warning.insert(0, "you")
 print(warning)
 ```
 
-* `['for', 'monsters' 'check', 'under', 'the', 'bed', 'you', 'should']`
-* `['for', 'monsters' 'check', 'under', 'the', 'bed', 'should', 'you']`
-* * `['you', 'should', 'check', 'under', 'the', 'bed', 'for', 'monsters']`
-* `['should', 'you', 'check', 'under', 'the', 'bed', 'for', 'monsters']`
+<details>
+<summary>
+<b>A. </b>
+<code>['for', 'monsters' 'check', 'under', 'the', 'bed', 'you', 'should']</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+> 
+</details>
+<details>
+<summary>
+<b>B. </b>
+<code>['for', 'monsters' 'check', 'under', 'the', 'bed', 'should', 'you']</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+> 
+</details>
+<details>
+<summary>
+<b>C. </b>
+<code>['you', 'should', 'check', 'under', 'the', 'bed', 'for', 'monsters']</code>
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+> 
+</details>
+<details>
+<summary>
+<b>D. </b>
+<code>['should', 'you', 'check', 'under', 'the', 'bed', 'for', 'monsters']</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+> 
+</details>
+
+### Question 12
 
 What would the following Python code print?
 
@@ -602,9 +701,43 @@ numbers[2] = 6
 print(numbers)
 ```
 
-* `[2, 4, 100, 8]`
-* * `[2, 4, 6, 8]`
-* `[2, 6, 100, 8]`
-* `[2, 6]`
-### Question 11
+<details>
+<summary>
+<b>A. </b>
+<code>[2, 4, 100, 8]</code>
+</summary>
 
+&emsp; :x: **INCORRECT**
+
+> 
+</details>
+<details>
+<summary>
+<b>B. </b>
+<code>[2, 4, 6, 8]</code>
+</summary>
+
+&emsp; :heavy_check_mark: **CORRECT**
+
+> 
+</details>
+<details>
+<summary>
+<b>C. </b>
+<code>[2, 6, 100, 8]</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+> 
+</details>
+<details>
+<summary>
+<b>D. </b>
+<code>[2, 6]</code>
+</summary>
+
+&emsp; :x: **INCORRECT**
+
+> 
+</details>

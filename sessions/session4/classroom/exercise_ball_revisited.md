@@ -199,11 +199,11 @@ frames = [
 
 ## The Exercise
 
-1. Create a new Python file called `bouncing_ball_revisited.py` and copy the code above into it?
+1. Create a new Python file called `bouncing_ball_revisited.py` and copy the code above into it.
 1. Add code to loop over the `frames` list and display each frame.
 
     * You should include the `print()` code that clears the screen.
-    * Also include the `sleep` code. Make sure you add the `input time` line to the top of the Python file.
+    * Also include the `sleep` code. Make sure you add the `import time` line to the top of the Python file.
     * Add code to print `Follow the bouncing ball...again` with each iteration of the loop.
     * You should **NOT** add code to prompt the user for which frame to start with.
 

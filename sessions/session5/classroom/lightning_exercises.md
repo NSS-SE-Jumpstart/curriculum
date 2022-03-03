@@ -24,7 +24,7 @@ We're not going to change anything here. Well actually, we're not going to chang
 
 ## Exercise 4
 
-1. Create a function called `take_order()` that contains the code to get the customers order. This function should take the `drink_menu` as a parameter, and does not return anything. Add a call to this function, and run the code to make sure it works the same way that it did before you added the function.
+1. Create a function called `take_order()` that contains the code to get the customers order. This function should take the `drink_menu` and `customer_name` as parameters, and does not return anything. Add a call to this function, and run the code to make sure it works the same way that it did before you added the function.
 
 ## Exercise 5
 
