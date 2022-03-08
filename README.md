@@ -77,6 +77,7 @@ Wednesday, Mar 16, 2022 (3 hours)
 1. Q&A / Review
 1. [Exercise - Vocabulary Words](./sessions/session3/classroom/exercise_vocabulary.md)
 1. [Optional Challenge](./sessions/session3/classroom/challenge.md)
+1. Session Wrap-up
 
 ### After Class
 
@@ -124,6 +125,7 @@ Tuesday, Mar 22, 2022 (3 hours)
 1. Q&A / Review
 1. [Lightning Exercise](./sessions/session5/classroom/lightning_exercises.md)
 1. [Exercise - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
+1. Coffee Shop Revisited
 1. Session Wrap-up
 
 ### After Class
@@ -138,19 +140,29 @@ Wednesday, Mar, 23, 2022 (3 hours)
 
 ### Before Class
 
-1. [Clothesline](./projects/clothesline/clothesline.md)
+1. N/A
 
 ### During Class
 
 1. Q&A / Review
-1. **Clothesline Project**
+1. Continue to work on function exercises
+1. **Clothesline Project Introduction**
 1. Session Wrap-up
+
+### After Class
+
+1. [Checkpoint](./sessions/session6/wrapup/checkpoint.md)
 
 ---
 
 ## Session 7
 
 Saturday, Mar 26, 2022 (5 hours)
+
+### Before Class
+
+1. [Clothesline](./projects/clothesline/clothesline.md)
+
 
 ### During Class
 
