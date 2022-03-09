@@ -121,7 +121,7 @@ It's used to create "software programs"
 
 &emsp; :heavy_check_mark: **CORRECT**
 
-> Sometimes "programs" are called "applications" or "apps". No matter what you call them, they're build with code.
+> Sometimes "programs" are called "applications" or "apps". No matter what you call them, they're built with code.
 </details>
 
 ### Question 3
