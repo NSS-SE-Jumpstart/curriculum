@@ -37,7 +37,7 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 1. Create a function called `get_books` that takes no parameters. Inside the function create an empty list variable called `books`.
 1. Use the `input` function to prompt for the title of a book and save it in a variable named `book_title`.
 1. Create a `while` loop that will run as long as `book_title` is not blank. Inside the `while` loop, `append` the `book_title` variable to the `books` list, and prompt for another book title.
-> In other words, we want to collect as many book titles as the user wants to enter. When they are done providing book titles, they'll just enter a blank line.
+    > In other words, we want to collect as many book titles as the user wants to enter. When they are done providing book titles, they'll just enter a blank line.
 1. Outside of the `while` loop, use the `return` statement to return the `books` list variable.
 1. In the `main` function, call the `get_books` function and assign the returned value to a new variable called `my_books`.
 1. Using the `print` function, print a message like "The books are: " followed by the `my_books` variable.
@@ -66,9 +66,9 @@ You should create a new Python file for these exercises. Do not overwrite the Py
     > ########################################
     > My Library: 5 books
     > ########################################
-1. Create a `for` loop with a `book_index` that uses the `range` function with `num_books`. Inside the loop, use the `book_index` to print the book title (from the `books` parameter/variable) and corresponding rating (from the `ratings` parameter/variable).
+1. Create a `for` loop with a `book_index` that uses the `range` function with `num_books`. Inside the loop, use the `book_index` to print a book title (from the `books` parameter/variable) and corresponding rating (from the `ratings` parameter/variable).
     > **TIP:** See the [Session 4 prework](../../session4/prework/for_loop.md#get-a-list-index-with-range-and-len) for a refresher on how to use `for` loops like this.
-1. In the `main` function call the `print_library` function, passing the `my_books` and `my_ratings` variables as the 2 parameters. You can remove the `print` statements that you've added in previous steps now.
+1. In the `main` function call the `print_library` function, passing the `my_books` and `my_ratings` variables as the 2 parameters. Remove the `print` statements that you've added in previous steps.
 
 <details>
 <summary>
@@ -124,11 +124,11 @@ Functions can be a bit of a mind bender, so don't worry if you're still trying t
     def get_ratings(books):
         # this function has a parameter (variable) named 'books'
     ```
-- Functions can **return** data that you can put into other variables. Printing variables or other text does not return anything (even though you can see it on the terminal). You must use the `return` statement to return a value from a function.
+- Functions can **return** data that you can put into other variables. Printing variables or other text does not return anything (even though you can see it when you run it). *You must use the `return` statement to return a value from a function.*
 
-In addition to those concepts, we saw a useful pattern for keeping our code organized.
+In addition to those concepts, we saw some useful patterns for keeping our code organized:
 
-- When you first started learning how to write code (ya know, way back like a week and a half ago), you just created a file and started writing your code at the top of the file and kept adding more. Now that you've added functions to your toolkit, it pays to keep your code tidy as you go. The pattern we've used here is one that's commonly used by software developers across many different programming languages. We start with a `main` function at the top of the file, followed by all our other functions, and then ending the file with a call to the `main` function. If you adopt this pattern now you'll be in good company.
+- When you first started learning how to write code (ya know, way back like a week and a half ago), you just created a file and started writing your code at the top of the file and kept adding more. Now that you've added functions to your toolkit, it pays to keep your code tidy as you go. The pattern we've used here is one that's commonly used by software developers across many different programming languages. Start with a `main` function at the top of the file, followed by all other functions, and then ending the file with a call to the `main` function. If you adopt this pattern now you'll be in good company.
 - You'll also notice we didn't write any functions *within* other functions. Make sure each function you write stands alone.
 - When writing code that uses functions, you should keep all of your code contained in those functions. [Importing](../prework/import_random.md) other Python libraries is a notable exception to this rule (you'll always want those at the top of your file, outside of functions), but otherwise keep your code in those functions.
 
