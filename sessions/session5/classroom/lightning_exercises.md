@@ -48,7 +48,7 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 1. Using a `for` loop, iterate through each `book_title` in the `books` parameter. Use the `input` function to prompt for a rating of that book on a scale from 1-5 and save it in a variable named `rating`. You'll need to print the name of the book so your user knows what book they are rating.
     > **TIP:** The prompt should look something like this:
     > ```
-    > How do you rate 'Dune' (1-5)?
+    > How do you rate 'Treasure Island' (1-5)?
     > ```
 1. Use the `append` function to add the `rating` variable to the `ratings` list.
 1. Outside of the `for` loop, use the `return` statement to return the `ratings` list.
@@ -74,7 +74,9 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 <summary>
 <b>Click to see what this might look like when you run it ...</b>
 </summary>
-TBD SVG
+
+![](library.svg)
+
 </details>
 
 <details>
