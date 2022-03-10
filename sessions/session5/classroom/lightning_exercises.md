@@ -11,7 +11,7 @@ You should create a new Python file for these exercises. Do not overwrite the Py
 ## Exercise 1
 
 1. Create a function called `welcome` that prints a welcome message like "Personal Library Assistant". This function should take no parameters, and will not return anything. Print a row of hashmarks (e.g. `########################################`) before and after the message.
-    > **OPTIONAL:** You can use the `*` symbol from the Session 3 [Optional Challenge](../../session3/classroom/challenge.md) to print 40 `#` characters for the hashmark row.
+    > **OPTIONAL:** You can use the `*` symbol from the Session 3 [Optional Challenge](../../session3/classroom/challenge.md#concatenating-strings-multiple-times) to print 40 `#` characters for the hashmark row.
 1. Create a function called `main` at the top of the file (before the `welcome` function). This function should take no parameters, and will not return anything. Inside this function, call the `welcome` function.
 1. Run your script now - you should not see anything happen. Let's fix that by adding a call to the `main` function at the end of the file. When you run it after adding that call you should see something like this:
     > ```
@@ -116,15 +116,16 @@ main()
 Functions can be a bit of a mind bender, so don't worry if you're still trying to understand how they work. Here's a quick refresher on some of the things you read about in the [prework](../prework/functions.md) and have now put into practice here.
 
 - *Functions are just a named container of code.* The code that you've been learning how to write without functions is the exact same code you can put in functions.
-- Function **parameters** are passed into functions. *Parameters are just like the variables that you've been using* - instead of declaring them somewhere the code, they're declared when you define them as part of the function definition. Both things named `books` in this example are a variable that can be used in the same way:
+- Function **parameters** are passed into functions. *Parameters are just like the variables that you've been using* - instead of declaring them somewhere the code, they're declared when you define them as part of the function definition. Both things named `books` in these examples are a variable that can be used in the same way:
     ```python
-    # VARIABLE:
-    # this declares a variable named 'books'
+    # VARIABLE: declaring a variable named 'books'
     books = []
+    ```
 
-    # PARAMETER:
+    ```python
+    # PARAMETER: declaring a parameter named 'books'
     def get_ratings(books):
-        # this function has a parameter (variable) named 'books'
+        # `books` is a variable that can be used in this function
     ```
 - Functions can **return** data that you can put into other variables. Printing variables or other text does not return anything (even though you can see it when you run it). *You must use the `return` statement to return a value from a function.*
 
