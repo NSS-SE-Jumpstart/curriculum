@@ -130,7 +130,7 @@ We can concatenate as many strings as we want.
 `input()` can only be used to get text from a user. This is often sufficient, but there are times when you'll want to get a number. To get a number we have to do a bit more work.
 
 ```python
-num_tigers = int(input("What's the optimal number of tigers in a public restroom? ")
+num_tigers = int(input("What's the optimal number of tigers in a public restroom? "))
 
 if num_tigers > 0:
     print("That's more tigers than I'd prefer.")
