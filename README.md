@@ -125,7 +125,7 @@ Tuesday, Mar 22, 2022 (3 hours)
 1. Q&A / Review
 1. [Lightning Exercise](./sessions/session5/classroom/lightning_exercises.md)
 1. [Exercise - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
-1. Coffee Shop Revisited
+1. [Optional Challenge](./sessions/session5/classroom/challenge.md) (Coffee Shop Revisited)
 1. Session Wrap-up
 
 ### After Class
