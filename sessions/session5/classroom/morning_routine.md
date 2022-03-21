@@ -98,10 +98,11 @@ Do you see the difference between the print and the return?  The print happens i
     ```
     </details>
 
-1. Okay.  So now that we've made these functions, lets call them in our `main()` function.  Remember that when we return anything from a function we need to store that return in a variable to be able to use or print it. 
+1. Okay.  So now that we've made these functions, lets call them in our `main()` function.
 
 <details>
-<summary> Hint: I've written code below to demonstrate what that looks like :) </summary>
+<summary> Remember that when we return anything from a function we need to store that return in a variable to be able to use or print it. 
+Hint: I've written code below to demonstrate what using a return looks like :) </summary>
 
 Example of returning and using function return:
 
@@ -127,7 +128,7 @@ Once you've made the changes, run the program to make sure it's working as inten
 
 Alright!  So we've worked with functions that don't use parameters, but what about ones that do?
 
-1. Now that we're out of bed, It's time to brush our teeth and eat some breakfast! Write some code in our main function prompting the user for what toothpaste they'll use and what breakfast they'll eat.
+1. Now that we're out of bed, It's time to brush our teeth and eat some breakfast! Write some code in our main function prompting the user to `input()` what toothpaste they'll use and another `input()` for what breakfast they'll eat.
 
 1. Perfect!  Now we want to take those variables and use them as parameters for our brushing and breakfast functions.
 
