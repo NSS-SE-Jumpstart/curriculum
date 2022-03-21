@@ -61,7 +61,7 @@ Before we get very far with this exercise, let's do something that will make our
 
 4. Now run your program again to see what happens. Is it what you expected?
 
-> **NOTE:** It may seem unnecessary to do this, but it's good practice to use functions to organize your code.
+> **NOTE:** This is another example of some patterns we saw in the lightning exercise about keeping our code organized.  Feel free to reference that again!
 
 </details>
 
@@ -69,7 +69,7 @@ Before we get very far with this exercise, let's do something that will make our
 
 Now that we've gotten a good feel on working with functions, let's get into the start of our morning.....waking up. 
 
-1. Add a new function called wake_up. It should take no parameters yet, but don't worry we'll get there. The function should, like our hello world function, print `I'm waking up!`  Next, we want to return a string saying `I'm awake now!!`.
+1. Add a new function called `wake_up`. It should take no parameters yet, but don't worry we'll get there. The function should, like our hello world function, print `I'm waking up!`  Next, we want to return a string saying `I'm awake now!!`.
 Do you see the difference between the print and the return?  The print happens in the function while we're still waking up, but the return is for after the function is finished.....so we've already woken up.
 
 <details>
@@ -77,15 +77,15 @@ Do you see the difference between the print and the return?  The print happens i
 
 Example wake_up function code:
 
-    ```python
+```python
     def wake_up():
         # print that we're waking up
         # then `return` that we woke up
-    ```
+```
 
 </details>
 
-1. Let's go through that process one more time with getting out of bed!
+1. Let's go through that process one more time with getting out of bed!  Make a function called `get_out_of_bed()` and print that we're getting out of bed while returning that we got out of bed. 
 
 <details>
 <summary> :sleeping_bed: Another example of what your code might look like... :sleeping_bed: </summary>
@@ -119,7 +119,7 @@ Example of returning and using function return:
     main()
 ```
 
-Do we see whats happening there?  Look really closely!  When we call `hello` our function prints `'Hello, World!'`, but it **returns** a string saying its our turn.  With that return we can store or pipeline that to a variable in main (that I've conveniently named our_turn), and then we can print it!  It's incredibly unseful to return things like this so they can be used whenever needed outside of our functions. 
+Do we see whats happening there?  Look really closely!  When we call `hello` our function prints `'Hello, World!'`, but it **returns** a string saying its our turn.  With that return we can store (or "pipeline") that to a variable in main (that I've conveniently named our_turn), and then we can print it!  It's incredibly unseful to return things like this so they can be used whenever needed outside of our functions. 
 
 </details>
 
@@ -129,9 +129,9 @@ Once you've made the changes, run the program to make sure it's working as inten
 
 Alright!  So we've worked with functions that don't use parameters, but what about ones that do?
 
-Now that we're out of bed, It's time to brush our teeth and eat some breakfast! Write some code in our main function prompting the user for what toothpaste they'll use and what breakfast they'll eat.
+1. Now that we're out of bed, It's time to brush our teeth and eat some breakfast! Write some code in our main function prompting the user for what toothpaste they'll use and what breakfast they'll eat.
 
-Perfect!  Now we want to take those variables and use them as parameters for our brushing and breakfast functions.
+1. Perfect!  Now we want to take those variables and use them as parameters for our brushing and breakfast functions.
 
 Here's some helper code to see what that would look like:
 
@@ -141,7 +141,7 @@ Here's some helper code to see what that would look like:
         # then `return` that our teeth are clean
 ```
 
-Try running your program a couple time with different types of toothpaste. 
+3. Try running your program a couple time with different types of toothpaste and different breakfast foods. 
 
 ## Phase Six
 
@@ -153,36 +153,6 @@ Write some code **INSIDE** a get_dressed function that prompts the user for what
 
 Make sure to return a statement saying what you are wearing and print it in `main()`
 
-## Phase Seven
-
-Awesome!  We've gotten a lot done this morning so far!  Sometimes though....we want to change our outfit after we've selected it, and we still have time so let's code for that.
-
-In our `main()` function, let's use a while loop to call the get_dressed function until we decide our outfit is cool enough!
-
-Hint: It'll be similar to that `keep_going` loop we used for the vocab exercise so don't be afraid to go back and check.
-
-## Phase Eight
-
-At this point, we've accomplished quite a bit of our morning, but instead of continuing to make functions for each thing.....let's make one that can handle everything left to do. 
-
-1. Create a function called `morning_routine()`. This function won't take any parameters but we're going to accomplish a lot inside of it. The function should use a `list` of finished morning tasks that will start empty.....but don't worry we'll add to it.
-
-1. Back in our `main()` function, we used a while loop for deciding on if our outfit was cool enough. Now, let's place a similar while loop inside of our `morning_routine()` function that says until we're done getting ready the code inside will run.  What's the code inside?  Well......
-
-1. Inside the while loop write code that prompts the user for a task they completed to get ready.  Then, append that completed task to the list we made above.  After adding the task to our list, check if we have any more tasks to do or if we're ready.
-
-1. Once we're finally ready, we can leave that while loop and return the list of our finished morning tasks.  We're almost done now...... 
-
-## Phase Nine
-
-Alright!  We've accomplished so much this morning and we're ready to face the day head on, but wait...we need to tell everyone about all we've accomplished.  We still have our finished tasks list so let's put that to use.
-
-Before we call our `morning_routine()` in our `main()` function let's print out `"Other things I accomplished this morning:"`
-
-Now below this print we want to list out all of the things we did in our finished tasks list.
-
-Now this is the final step!!  Get ready!
-
-After printing out all of our finished tasks......print `Now I'm ready to face the day!!`
+With that we are ready to face the day!
 
 And you, dear student, are ready to face the next exercise. ;)
