@@ -136,9 +136,9 @@ Alright!  So we've worked with functions that don't use parameters, but what abo
 Here's some helper code to see what that would look like:
 
 ```python
-def brush_teeth(toothpaste):
-    print("I'm brushing my teeth with " + toothpaste)
-    # then `return` that our teeth are clean
+    def brush_teeth(toothpaste):
+        print("I'm brushing my teeth with " + toothpaste)
+        # then `return` that our teeth are clean
 ```
 
 3. Try running your program a couple time with different types of toothpaste and different breakfast foods. 
