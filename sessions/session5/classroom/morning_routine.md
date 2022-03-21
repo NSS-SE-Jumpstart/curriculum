@@ -14,9 +14,9 @@ In this first phase you'll get setup by creating and running a simple Python pro
 1. Open `morning.py` in Visual Studio Code and write code to print `Hello, World!` to the terminal.
 1. Run the program to test it.
 
-```sh
-python3 morning.py
-```
+    ```sh
+    python3 morning.py
+    ```
 
 ## Phase Two
 
@@ -72,33 +72,31 @@ Now that we've gotten a good feel on working with functions, let's get into the 
 1. Add a new function called `wake_up`. It should take no parameters yet, but don't worry we'll get there. The function should, like our hello world function, print `I'm waking up!`  Next, we want to return a string saying `I'm awake now!!`.
 Do you see the difference between the print and the return?  The print happens in the function while we're still waking up, but the return is for after the function is finished.....so we've already woken up.
 
-<details>
-<summary> :sun_behind_small_cloud: Click here to see what your code might look like... :sun_behind_small_cloud: </summary>
+    <details>
+    <summary> :sun_behind_small_cloud: Click here to see what your code might look like... :sun_behind_small_cloud: </summary>
 
-Example wake_up function code:
+    Example `wake_up` function code:
 
-```python
+    ```python
     def wake_up():
         # print that we're waking up
         # then `return` that we woke up
-```
-
-</details>
+    ```
+    </details>
 
 1. Let's go through that process one more time with getting out of bed!  Make a function called `get_out_of_bed()` and print that we're getting out of bed while returning that we got out of bed. 
 
-<details>
-<summary> :sleeping_bed: Another example of what your code might look like... :sleeping_bed: </summary>
+    <details>
+    <summary> :sleeping_bed: Another example of what your code might look like... :sleeping_bed: </summary>
 
-Example wake_up function code:
+    Example `get_out_of_bed` function code:
 
-```python
+    ```python
     def get_out_of_bed():
         # print that we're getting out of bed
         # then `return` that we got out of bed
-```
-
-</details>
+    ```
+    </details>
 
 1. Okay.  So now that we've made these functions, lets call them in our `main()` function.  Remember that when we return anything from a function we need to store that return in a variable to be able to use or print it. 
 
@@ -108,15 +106,15 @@ Example wake_up function code:
 Example of returning and using function return:
 
 ```python
-    def hello():
-        print('Hello, World!')
-        return "I've said hello now it's your turn"
+def hello():
+    print('Hello, World!')
+    return "I've said hello now it's your turn"
 
-    def main():
-        our_turn = hello()
-        print(our_turn)
+def main():
+    our_turn = hello()
+    print(our_turn)
 
-    main()
+main()
 ```
 
 Do we see whats happening there?  Look really closely!  When we call `hello` our function prints `'Hello, World!'`, but it **returns** a string saying its our turn.  With that return we can store (or "pipeline") that to a variable in main (that I've conveniently named our_turn), and then we can print it!  It's incredibly unseful to return things like this so they can be used whenever needed outside of our functions. 
@@ -133,15 +131,15 @@ Alright!  So we've worked with functions that don't use parameters, but what abo
 
 1. Perfect!  Now we want to take those variables and use them as parameters for our brushing and breakfast functions.
 
-Here's some helper code to see what that would look like:
+    Here's some helper code to see what that would look like:
 
-```python
+    ```python
     def brush_teeth(toothpaste):
         print("I'm brushing my teeth with " + toothpaste)
         # then `return` that our teeth are clean
-```
+    ```
 
-3. Try running your program a couple time with different types of toothpaste and different breakfast foods. 
+1. Try running your program a couple time with different types of toothpaste and different breakfast foods. 
 
 ## Phase Six
 
