@@ -1,4 +1,4 @@
-# Exercise - Rolling Dice
+# Exercise - Morning Routine
 
 In this exercise, you'll write functions that guide the computer on how to do your average morning routine!
 
@@ -26,9 +26,11 @@ Something a little like this.
 
 ```python
 def hello():
-    #print Hello, World! 
+    print('Hello, World!')
 
-#call hello() a couple times here :)
+hello()
+hello()
+
 ```
 
 Save and run the new program. You should run it to see your computer enthusiatically greeting you!
@@ -47,7 +49,7 @@ Before we get very far with this exercise, let's do something that will make our
 
     ```python
     def hello():
-        #print Hello, World! 
+        print('Hello, World!')
 
     def main():
         hello()
@@ -70,23 +72,58 @@ Now that we've gotten a good feel on working with functions, let's get into the 
 1. Add a new function called wake_up. It should take no parameters yet, but don't worry we'll get there. The function should, like our hello world function, print `I'm waking up!`  Next, we want to return a string saying `I'm awake now!!`.
 Do you see the difference between the print and the return?  The print happens in the function while we're still waking up, but the return is for after the function is finished.....so we've already woken up.
 
+<details>
+<summary> :sun_behind_small_cloud: Click here to see what your code might look like... :sun_behind_small_cloud: </summary>
+
+Example wake_up function code:
+
     ```python
     def wake_up():
         # print that we're waking up
         # then `return` that we woke up
     ```
 
+</details>
+
 1. Let's go through that process one more time with getting out of bed!
 
+<details>
+<summary> :sleeping_bed: Another example of what your code might look like... :sleeping_bed: </summary>
+
+Example wake_up function code:
+
     ```python
-    def get_up():
-        # print that we're getting up
-        # then `return` that we got up
+    def get_out_of_bed():
+        # print that we're getting out of bed
+        # then `return` that we got out of bed
     ```
+
+</details>
 
 1. Okay.  So now that we've made these functions, lets call them in our `main()` function.  Remember that when we return anything from a function we need to store that return in a variable to be able to use or print it. 
 
-Once you've made the changes, run the program a few times to make sure it's working.
+<details>
+<summary> Hint: I've written code below to demonstrate what that looks like :) </summary>
+
+Example of returning and using function return:
+
+```python
+    def hello():
+        print('Hello, World!')
+        return "I've said hello now it's your turn"
+
+    def main():
+        our_turn = hello()
+        print(our_turn)
+
+    main()
+```
+
+Do we see whats happening there?  Look really closely!  When we call `hello` our function prints `'Hello, World!'`, but it **returns** a string saying its our turn.  With that return we can store or pipeline that to a variable in main (that I've conveniently named our_turn), and then we can print it!  It's incredibly unseful to return things like this so they can be used whenever needed outside of our functions. 
+
+</details>
+
+Once you've made the changes, run the program to make sure it's working as intended.
 
 ## Phase Five
 
@@ -100,9 +137,11 @@ Here's some helper code to see what that would look like:
 
 ```python
     def brush_teeth(toothpaste):
-        # print that we're brushing our teeth with "toothpaste"
+        print("I'm brushing my teeth with " + toothpaste)
         # then `return` that our teeth are clean
 ```
+
+Try running your program a couple time with different types of toothpaste. 
 
 ## Phase Six
 
