@@ -67,10 +67,10 @@ Before we get very far with this exercise, let's do something that will make our
 
 ## Phase Four
 
-Now that we've gotten a good feel on working with functions, let's get into the start of our morning.....waking up. 
+Now that we've gotten a good feel on working with functions, let's get into the start of our morning...waking up. 
 
 1. Add a new function called `wake_up`. It should take no parameters yet, but don't worry we'll get there. The function should, like our hello world function, print `I'm waking up!`  Next, we want to return a string saying `I'm awake now!!`.
-Do you see the difference between the print and the return?  The print happens in the function while we're still waking up, but the return is for after the function is finished.....so we've already woken up.
+Do you see the difference between the print and the return?  The print happens in the function while we're still waking up, but the return is for after the function is finished...so we've already woken up.
 
     <details>
     <summary> :sun_behind_small_cloud: Click here to see what your code might look like... :sun_behind_small_cloud: </summary>
