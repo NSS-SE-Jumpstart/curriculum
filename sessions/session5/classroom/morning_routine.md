@@ -156,4 +156,4 @@ With that we are ready to face the day!
 
 And you, dear student, are ready to face the next exercise. ;)
 
-![](library.svg)
+![](recording.svg)
