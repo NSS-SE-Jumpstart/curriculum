@@ -38,12 +38,12 @@ Save and run the new program. You should run it a few times to ensure you get di
 Before we get very far with this exercise, let's do something that will make our lives a little easier. Let's introduce a function to contain the code in our program.
 
 1. Create a function called `main()` and place the last two lines of your script inside of it. Do not put the `import random` line within the function.
-1. Run the code to see what happens. Is it what you expected?
+1. Remember when we used `main()` in the morning routine exercise?  This will be just like that!
 
 <details>
-<summary> :game_die: Click here after you've run your program... :game_die: </summary>
+<summary> :game_die: Click here to see what your code will look like... :game_die: </summary>
 
-3. Your code didn't do anything because you didn't call the `main()` function. Add code at the bottom of the `dice.py` file to call `main()`. When you're finished, your script should look like this:
+3. Add code at the bottom of the `dice.py` file to call `main()`. When you're finished, your script should look like this:
 
     ```python
     import random
@@ -58,7 +58,7 @@ Before we get very far with this exercise, let's do something that will make our
 
 4. Now run your program again to see what happens. Is it what you expected?
 
-> **NOTE:** It may seem unnecessary to do this, but it's good practice to use functions to organize your code.
+> **NOTE:** Remember it's good practice to use functions to organize your code.
 
 </details>
 

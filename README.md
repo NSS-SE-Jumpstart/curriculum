@@ -124,7 +124,7 @@ Tuesday, Mar 22, 2022 (3 hours)
 
 1. Q&A / Review
 1. [Lightning Exercise](./sessions/session5/classroom/lightning_exercises.md)
-1. [Exercise - Rolling Dice](./sessions/session5/classroom/exercise_dice.md)
+1. [Morning Routine](./sessions/session5/classroom/morning_routine.md)
 1. [Optional Challenge](./sessions/session5/classroom/challenge.md) (Coffee Shop Revisited)
 1. Session Wrap-up
 
@@ -146,6 +146,7 @@ Wednesday, Mar, 23, 2022 (3 hours)
 
 1. Q&A / Review
 1. Continue to work on function exercises
+1. [Exercise - Rolling Dice](./sessions/session6/classroom/exercise_dice.md)
 1. **Clothesline Project Introduction**
 1. Session Wrap-up
 
