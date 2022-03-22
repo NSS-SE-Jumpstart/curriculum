@@ -156,4 +156,6 @@ With that we are ready to face the day!
 
 And you, dear student, are ready to face the next exercise. ;)
 
+Here's what the final code might look like! 
+
 ![](recording.svg)
