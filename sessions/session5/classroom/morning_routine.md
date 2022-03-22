@@ -155,3 +155,5 @@ Make sure to return a statement saying what you are wearing and print it in `mai
 With that we are ready to face the day!
 
 And you, dear student, are ready to face the next exercise. ;)
+
+![](library.svg)
