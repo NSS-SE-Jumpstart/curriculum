@@ -69,7 +69,7 @@ Before we get very far with this exercise, let's do something that will make our
 
 Now that we've gotten a good feel on working with functions, let's get into the start of our morning...waking up. 
 
-1. Add a new function called `wake_up`. It should take no parameters yet, but don't worry we'll get there. The function should, like our hello world function, print `I'm waking up!`  Next, we want to return a string saying `I'm awake now!!`.
+1. Let's replace our `hello` function with a new function called `wake_up`. It should take no parameters yet, but don't worry we'll get there. The function should, like our hello world function, print `I'm waking up!`  Next, we want to return a string saying `I'm awake now!!`.
 Do you see the difference between the print and the return?  The print happens in the function while we're still waking up, but the return is for after the function is finished...so we've already woken up.
 
     <details>
@@ -118,7 +118,7 @@ def main():
 main()
 ```
 
-Do we see whats happening there?  Look really closely!  When we call `hello` our function prints `'Hello, World!'`, but it **returns** a string saying its our turn.  With that return we can store (or "pipeline") that to a variable in main (that I've conveniently named our_turn), and then we can print it!  It's incredibly unseful to return things like this so they can be used whenever needed outside of our functions. 
+Do we see whats happening there?  Look really closely!  When we call `hello` our function prints `'Hello, World!'`, but it **returns** a string saying its our turn.  With that return we can store (or "pipeline") that to a variable in main (that I've conveniently named our_turn), and then we can print it!  It's incredibly useful to return things like this so they can be used whenever needed outside of our functions. 
 
 </details>
 
