@@ -8,15 +8,15 @@ This course is divided into nine sessions over three weeks.
 
 |        | Saturday                | Tuesday                 | Wednesday               |
 | ------ | ----------------------- | ----------------------- | ----------------------- |
-| Week 1 | [Session 1 - Mar 12, 2022](#session-1) | [Session 2 - Mar 15, 2022](#session-2) | [Session 3 - Mar 16, 2022](#session-3) |
-| Week 2 | [Session 4 - Mar 19, 2022](#session-4) | [Session 5 - Mar 22, 2022](#session-5) | [Session 6 - Mar 23, 2022](#session-6) |
-| Week 3 | [Session 7 - Mar 26, 2022](#session-7) | [Session 8 - Mar 29, 2022](#session-8) | [Session 9 - Mar 30, 2022](#session-9) |
+| Week 1 | [Session 1 - May 07, 2022](#session-1) | [Session 2 - May 10, 2022](#session-2) | [Session 3 - May 11, 2022](#session-3) |
+| Week 2 | [Session 4 - May 14, 2022](#session-4) | [Session 5 - May 17, 2022](#session-5) | [Session 6 - May 18, 2022](#session-6) |
+| Week 3 | [Session 7 - May 21, 2022](#session-7) | [Session 8 - May 24, 2022](#session-8) | [Session 9 - May 25, 2022](#session-9) |
 
 ---
 
 ## Session 1
 
-Saturday, Mar 12, 2022 (5 hours)
+Saturday, May 07, 2022 (5 hours)
 
 ### Before Class
 
@@ -42,7 +42,7 @@ Saturday, Mar 12, 2022 (5 hours)
 
 ## Session 2
 
-Tuesday, Mar 15, 2022 (3 hours)
+Tuesday, May 10, 2022 (3 hours)
 
 ### Before Class
 
@@ -66,7 +66,7 @@ Tuesday, Mar 15, 2022 (3 hours)
 
 ## Session 3
 
-Wednesday, Mar 16, 2022 (3 hours)
+Wednesday, May 11, 2022 (3 hours)
 
 ### Before Class
 
@@ -87,7 +87,7 @@ Wednesday, Mar 16, 2022 (3 hours)
 
 ## Session 4
 
-Saturday, Mar 19, 2022 (5 hours)
+Saturday, May 14, 2022 (5 hours)
 
 ### Before Class
 
@@ -113,7 +113,7 @@ Saturday, Mar 19, 2022 (5 hours)
 
 ## Session 5
 
-Tuesday, Mar 22, 2022 (3 hours)
+Tuesday, May 17, 2022 (3 hours)
 
 ### Before Class
 
@@ -136,7 +136,7 @@ Tuesday, Mar 22, 2022 (3 hours)
 
 ## Session 6
 
-Wednesday, Mar, 23, 2022 (3 hours)
+Wednesday, Mar, 18, 2022 (3 hours)
 
 ### Before Class
 
@@ -158,7 +158,7 @@ Wednesday, Mar, 23, 2022 (3 hours)
 
 ## Session 7
 
-Saturday, Mar 26, 2022 (5 hours)
+Saturday, May 21, 2022 (5 hours)
 
 ### Before Class
 
@@ -175,7 +175,7 @@ Saturday, Mar 26, 2022 (5 hours)
 
 ## Session 8
 
-Tuesday, Mar 29, 2022 (3 hours)
+Tuesday, May 24, 2022 (3 hours)
 
 ### During Class
 
@@ -187,7 +187,7 @@ Tuesday, Mar 29, 2022 (3 hours)
 
 ## Session 9
 
-Wednesday, Mar 30, 2022 (3 hours)
+Wednesday, May 25, 2022 (3 hours)
 
 ### During Class
 
