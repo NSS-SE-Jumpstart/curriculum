@@ -12,7 +12,7 @@ aux_links:
   "NSS Software Engineering":
     - "https://se.nashss.com"
 footer_content: "<a href='https://nashvillesoftwareschool.com'>Nashville Software School</a>"
-url: "https://se.nashss.com"
+url: "https://se-jumpstart.nashss.com"
 permalink: pretty
 
 ga_tracking: G-5PZ2V6XBVV
@@ -46,4 +46,6 @@ exclude: [
   sessions/session7/**,
   sessions/session8/**,
   sessions/session9/**,
-  reference/*, projects/*]
+  reference/**, 
+  projects/**,
+  next-steps/**]
