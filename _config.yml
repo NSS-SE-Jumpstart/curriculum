@@ -46,6 +46,6 @@ exclude: [
   sessions/session7/**,
   sessions/session8/**,
   sessions/session9/**,
+  sessions/next-steps/**,
   reference/**, 
-  projects/**,
-  next-steps/**]
+  projects/**]
