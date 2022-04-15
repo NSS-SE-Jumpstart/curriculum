@@ -75,12 +75,6 @@ You might also want to check out Zooms's [Getting Started Guide](https://support
 
 > **NOTE:** Zoom has a mobile app that you may wish to install, but it is not required.
 
-### Course Material and GitHub Account
-
-The course material is hosted on a platform called [GitHub](https://github.com/){:target="_blank"}. GitHub is a popular service used by developers to store their code. However, most GitHub functionality is beyond the scope of this course. We'll use it as a place to host course content and to have online discussions.
-
-You will need to create a free GitHub account for this course. Follow this link to create your account: <https://github.com/signup>{:target="_blank"}
-
 ### Additional Installations
 
 On the first day of class we will install a few more tools, but if you'd like to get a jump on those installations, you can find instructions [here](../../classroom/installations).
