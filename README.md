@@ -20,9 +20,9 @@ Saturday, May 07, 2022 (5 hours)
 
 ### Before Class
 
-1. [Preparing for class](https://se.nashss.com/jumpstart/sessions/session1/prework/prep_for_first_class/)
-1. [Course Introduction](https://se.nashss.com/jumpstart/sessions/session1/prework/course_intro/)
-1. [What is code, anyway?](https://se.nashss.com/jumpstart/sessions/session1/prework/what_is_code/)
+1. [Preparing for class](https://se-jumpstart.nashss.com/sessions/session1/prework/prep_for_first_class/)
+1. [Course Introduction](https://se-jumpstart.nashss.com/sessions/session1/prework/course_intro/)
+1. [What is code, anyway?](https://se-jumpstart.nashss.com/sessions/session1/prework/what_is_code/)
 
 ### During Class
 
