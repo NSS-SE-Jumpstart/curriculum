@@ -8,15 +8,15 @@ This course is divided into nine sessions over three weeks.
 
 |        | Saturday                | Tuesday                 | Wednesday               |
 | ------ | ----------------------- | ----------------------- | ----------------------- |
-| Week 1 | [Session 1 - May 07, 2022](#session-1) | [Session 2 - May 10, 2022](#session-2) | [Session 3 - May 11, 2022](#session-3) |
-| Week 2 | [Session 4 - May 14, 2022](#session-4) | [Session 5 - May 17, 2022](#session-5) | [Session 6 - May 18, 2022](#session-6) |
-| Week 3 | [Session 7 - May 21, 2022](#session-7) | [Session 8 - May 24, 2022](#session-8) | [Session 9 - May 25, 2022](#session-9) |
+| Week 1 | [Session 1 - July 09, 2022](#session-1) | [Session 2 - July 12, 2022](#session-2) | [Session 3 - July 13, 2022](#session-3) |
+| Week 2 | [Session 4 - July 16, 2022](#session-4) | [Session 5 - July 19, 2022](#session-5) | [Session 6 - July 20, 2022](#session-6) |
+| Week 3 | [Session 7 - July 23, 2022](#session-7) | [Session 8 - July 26, 2022](#session-8) | [Session 9 - July 27, 2022](#session-9) |
 
 ---
 
 ## Session 1
 
-Saturday, May 07, 2022 (5 hours)
+Saturday, July 09, 2022 (5 hours)
 
 ### Before Class
 
@@ -42,7 +42,7 @@ Saturday, May 07, 2022 (5 hours)
 
 ## Session 2
 
-Tuesday, May 10, 2022 (3 hours)
+Tuesday, July 12, 2022 (3 hours)
 
 ### Before Class
 
@@ -66,7 +66,7 @@ Tuesday, May 10, 2022 (3 hours)
 
 ## Session 3
 
-Wednesday, May 11, 2022 (3 hours)
+Wednesday, July 13, 2022 (3 hours)
 
 ### Before Class
 
@@ -87,7 +87,7 @@ Wednesday, May 11, 2022 (3 hours)
 
 ## Session 4
 
-Saturday, May 14, 2022 (5 hours)
+Saturday, July 16, 2022 (5 hours)
 
 ### Before Class
 
@@ -113,7 +113,7 @@ Saturday, May 14, 2022 (5 hours)
 
 ## Session 5
 
-Tuesday, May 17, 2022 (3 hours)
+Tuesday, July 19, 2022 (3 hours)
 
 ### Before Class
 
@@ -135,7 +135,7 @@ Tuesday, May 17, 2022 (3 hours)
 
 ## Session 6
 
-Wednesday, Mar, 18, 2022 (3 hours)
+Wednesday, Mar, 20, 2022 (3 hours)
 
 ### Before Class
 
@@ -157,7 +157,7 @@ Wednesday, Mar, 18, 2022 (3 hours)
 
 ## Session 7
 
-Saturday, May 21, 2022 (5 hours)
+Saturday, July 23, 2022 (5 hours)
 
 ### Before Class
 
@@ -174,7 +174,7 @@ Saturday, May 21, 2022 (5 hours)
 
 ## Session 8
 
-Tuesday, May 24, 2022 (3 hours)
+Tuesday, July 26, 2022 (3 hours)
 
 ### During Class
 
@@ -186,7 +186,7 @@ Tuesday, May 24, 2022 (3 hours)
 
 ## Session 9
 
-Wednesday, May 25, 2022 (3 hours)
+Wednesday, July 27, 2022 (3 hours)
 
 ### During Class
 
@@ -200,4 +200,4 @@ All good things must come to an end, and if you're reading this far you've compl
 
 - [Next Steps](./sessions/next-steps/)
 
-It is a very common pattern to revisit code that you've previously written, and with the benefit of time and experience see new/better ways to do the same thing. After reading through the next steps, you may want to revisit the Clothesline project or any of the other exercises you've worked on during this course and see how you can incorporate some of these concepts into that code.
+It is a very common pattern to revisit code that you've previously written, and with the benefit of time and experience see new/better ways to do the same thing. After reading through the next steps, you July want to revisit the Clothesline project or any of the other exercises you've worked on during this course and see how you can incorporate some of these concepts into that code.
