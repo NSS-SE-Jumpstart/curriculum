@@ -22,7 +22,7 @@ Write code to print `"CAR SALE!"` and  run it to test that it works.
 
 ## Exercise 3
 
-In this exercise, you'll force the user to enter at least something for their name, and you won't except an empty string.
+In this exercise, you'll force the user to enter at least something for their name, and you won't accept an empty string.
 
 1. Use an `if` statement to determine if the name is equal to (`==`) an empty string (`""`). If it is, prompt the user to enter their name again (one time).
 1. Display a message that greets the user by their name.
