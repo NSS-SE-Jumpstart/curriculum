@@ -1,6 +1,6 @@
 # Challenge Exercise
 
-This is an optional challenge exercise that you can try if you have completed the [Dice Exercise](./exercise_dice.md) early. It picks up with what we did togther in the Session 4 [Lightning Exercise](../../session4/classroom/lightning_exercises.md), so you'll want to make a copy of the Python file you wrote for that to use as the starting point for this exercise.
+This is an optional challenge exercise that helps reinforce function with something we've already done. It picks up with what we did togther in the Session 4 [Lightning Exercise](../../session4/classroom/lightning_exercises.md), so you'll want to make a copy of the Python file you wrote for that to use as the starting point for this exercise.
 
 ---
 
