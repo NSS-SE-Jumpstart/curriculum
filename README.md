@@ -135,7 +135,7 @@ Tuesday, July 19, 2022 (3 hours)
 
 ## Session 6
 
-Wednesday, Mar, 20, 2022 (3 hours)
+Wednesday, July 20, 2022 (3 hours)
 
 ### Before Class
 
